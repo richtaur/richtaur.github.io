@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html class="day" xmlns="http://www.w3.org/1999/xhtml">
+<html class="day" lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>A little bit about Matt Hackett</title>
+	<title>Hey guys it's Matt Hackett!</title>
 	<link rel="icon" href="img/favicon.gif" type="image/ico">
 	<link rel="openid.delegate" href="http://richtaur.myopenid.com/">
 	<link rel="openid.server" href="http://www.myopenid.com/server">
 	<link rel="shortcut icon" href="img/favicon.gif">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<meta name="description" content="Info about Matt Hackett, HTML5 game developer.">
+	<meta name="description" content="Matt Hackett's website. He's an HTML5 game developer and stuff.">
 	<meta name="keywords" content="richtaur, matt hackett, game developer, silicon valley, video games, foosball, sharks, yahoo, raptr, lost decade games, retro, onslaught!, html5, javascript">
 </head>
 <body>
@@ -61,25 +61,25 @@
 
 <ol class="list-detailed">
 	<li>
-		I make <strong>HTML5 games</strong> under the name <a href="http://www.lostdecadegames.com/">Lost Decade Games</a>.
+		I'm <strong>Studio Director</strong> at
+		<a href="http://www.lostdecadegames.com/">Lost Decade Games</a>,
+		where I work on <strong>HTML5 games</strong> fulltime.
 	</li>
 	<li>
-		I've been a professional <strong>web developer</strong> since 2003, working for such companies as
-		<a href="http://schoolcenter.com/">SchoolCenter</a>,
+		I was a <strong>web developer</strong> from 2003 to 2011, working at places like
 		<a href="http://www.yahoo.com/">Yahoo!</a> and
 		<a href="http://raptr.com/">Raptr</a>.
 	</li>
-	<li>I contributed <strong>60 seconds worth of music</strong> to Capcom's <a href="http://www.ocremix.org/info/OC_ReMix:_Super_Street_Fighter_II_Turbo_HD_Remix_Official_Soundtrack">Street Fighter 2 HD Remix</a></li> 
-	<li>I've written one <a href="http://www.gamesradar.com/ds/the-dark-spire/review/the-dark-spire/a-20090518145357896028/g-20081218172959531054">professional game review</a>.</li> 
-	<li>I'm a <a href="http://www.flickr.com/photos/matthackett/3488395022/">San Jose foosball champion</a>.</li> 
-	<li>I was an extra in a <a href="http://www.imdb.com/title/tt0297024/">really shitty movie</a>.</li> 
+	<li>I contributed <strong>60 seconds worth of music</strong> to Capcom's <a href="http://www.ocremix.org/info/OC_ReMix:_Super_Street_Fighter_II_Turbo_HD_Remix_Official_Soundtrack">Street Fighter 2 HD Remix</a>.</li>
+	<li>I've written one <a href="http://www.gamesradar.com/ds/the-dark-spire/review/the-dark-spire/a-20090518145357896028/g-20081218172959531054">professional game review</a>.</li>
+	<li>I'm a <a href="http://www.flickr.com/photos/matthackett/3488395022/">San Jose foosball champion</a>.</li>
+	<li>I was an extra in a <a href="http://www.imdb.com/title/tt0297024/">really shitty movie</a>.</li>
 	<li>
-		I was raised in the midwest (USA) and
-		graduated from Southern Illinois University
+		I graduated from Southern Illinois University (USA)
 		with a <strong>Bachelor of Arts in Radio &amp; Television</strong>
-		(minor in Marketing). Weird right?
+		and a minor in Marketing. Weird right?
 	</li>
-	<li>I was born the day <a href="http://en.wikipedia.org/wiki/John_Lennon">John Lennon</a> died.</li> 
+	<li>I was born the day <a href="http://en.wikipedia.org/wiki/John_Lennon">John Lennon</a> died.</li>
 </ol>
 
 <p class="primary">
@@ -93,10 +93,10 @@
 </p>
 						</div><!-- /.post -->
 <!-- end content -->
-	
+
 		</div></div>
 		<div><div>
-	
+
 					</div>
 				</div><!-- /.bd -->
 			</div>
@@ -139,8 +139,8 @@
 		</div><!-- /.module -->
 
 		<iframe
-			frameborder="0"
 			id="raptr-badge"
+			frameborder="0"
 			src="http://raptr.com/badges/last-most/richtaur"
 			scrolling="no"
 		></iframe>
