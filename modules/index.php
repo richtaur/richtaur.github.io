@@ -71,13 +71,13 @@
 		<a href="http://raptr.com/">Raptr</a>.
 	</li>
 	<li>I contributed <strong>60 seconds worth of music</strong> to Capcom's <a href="http://www.ocremix.org/info/OC_ReMix:_Super_Street_Fighter_II_Turbo_HD_Remix_Official_Soundtrack">Street Fighter 2 HD Remix</a>.</li>
-	<li>I've written one <a href="http://www.gamesradar.com/ds/the-dark-spire/review/the-dark-spire/a-20090518145357896028/g-20081218172959531054">professional game review</a>.</li>
-	<li>I'm a <a href="http://www.flickr.com/photos/matthackett/3488395022/">San Jose foosball champion</a>.</li>
-	<li>I was an extra in a <a href="http://www.imdb.com/title/tt0297024/">really shitty movie</a>.</li>
+	<li>I've written one <strong>professional game review</strong> (of <a href="http://www.gamesradar.com/ds/the-dark-spire/review/the-dark-spire/a-20090518145357896028/g-20081218172959531054">Dark Spire</a> for DS).</li>
+	<li>In 2009, <a href="http://www.flickr.com/photos/matthackett/3488395022/">three friends and I</a> won first place at a <a href="http://www.vifa.com/">VIFA</a>-recognized foosball tournament.</li>
+	<li>In my teens I was cast as an extra in a painfully bad movie called <a href="http://www.imdb.com/title/tt0297024/">Betaville</a>.</li>
 	<li>
-		I graduated from Southern Illinois University (USA)
-		with a <strong>Bachelor of Arts in Radio &amp; Television</strong>
-		and a minor in Marketing. Weird right?
+		I graduated from <a href="http://www.siu.edu/">Southern Illinois University</a>
+		with a <strong>Bachelor of Arts in Mass Communication</strong>
+		(and a minor in <strong>Marketing</strong>).
 	</li>
 	<li>I was born the day <a href="http://en.wikipedia.org/wiki/John_Lennon">John Lennon</a> died.</li>
 </ol>
@@ -130,7 +130,7 @@
 						</p>
 						<p>
 							You can read about my wacky adventures in game development on the
-							often-updated
+							occasionally updated
 							<a href="http://blog.lostdecadegames.com/">Lost Decade Games blog</a>.
 						</p>
 					</div>

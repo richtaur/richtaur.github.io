@@ -3,4 +3,4 @@
 # twitter
 #*/5 * * * * /home/richter/code/php/simplexml/exec.php /home/www/richtaur.com/htdocs/js/twitter.json http://twitter.com/statuses/user_timeline/14965072.rss
 # yahoo weather
-30 * * * * /home/richter/code/php/rss/exec.php /home/www/richtaur.com/htdocs/js/yweather.json http://weather.yahooapis.com/forecastrss?p=95112
+30 * * * * /home/richter/code/php/rss/exec.php /home/www/richtaur.com/htdocs/js/yweather.json http://weather.yahooapis.com/forecastrss?p=94041
