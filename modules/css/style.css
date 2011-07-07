@@ -1,0 +1,737 @@
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+/* /YUI reset */
+
+html {
+	min-height: 100%;
+}
+
+/* time: night */
+html.night {
+	background: #000033 url(../img/bg_night.gif) repeat-x; /* midnight blue */
+	color: #000033;
+}
+html.night body {
+	opacity: 0.9;
+}
+html.night #extra-2 { background: url(../img/stars.png); opacity: 0.8; }
+html.night a { color: #0000aa; /* dark blue */ }
+html.night a:hover { color: #000; }
+
+/* time: sunrising */
+html.sunrising {
+	background: #000033 url(../img/bg_sunrising.gif) repeat-x; /* midnight blue */
+	color: #1c1c1c;
+}
+html.sunrising a { color: #3940d0; /* darker blue */ }
+html.sunrising a:hover { color: #378ad0; /* blue */ }
+
+/* time: sunrise */
+html.sunrise {
+	background: #00db37 url(../img/bg_sunrise.gif) repeat-x; /* green */
+	color: #1c1c1c;
+}
+html.sunrise a { color: #d07d39; /* orange */ }
+html.sunrise a:hover { color: #00db37; /* green */ }
+
+/* time: day */
+html.day {
+	background: #378ad0 url(../img/bg_day.jpg) repeat-x; /* blue */
+	color: #1c1c1c;
+}
+html.day a { color: #378ad0; /* blue */ }
+html.day a:hover { color: #3940d0; /* darker blue */ }
+
+/* time: sunsetting */
+html.sunsetting {
+	background: #378ad0 url(../img/bg_sunsetting.gif) repeat-x; /* blue */
+	color: #1c1c1c;
+}
+html.sunsetting a { color: #d07d39; /* orange */ }
+html.sunsetting a:hover { color: #3940d0; /* darker blue */ }
+
+/* time: sunset */
+html.sunset {
+	background: #002aa8 url(../img/bg_sunset.gif) repeat-x; /* blue */
+	color: #1c1c1c;
+}
+html.sunset a { color: #d07d39; /* orange */ }
+html.sunset a:hover { color: #0000aa; /* darker blue */ }
+
+body {
+	font-size: 15px;
+	font-family: "Lucida Grand", Helvetica, Arial, Serif;
+	overflow-x: hidden; /* for #tooltip */
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+acronym { cursor: help; }
+em { font-style: italic; }
+small { font-weight: normal; }
+strong { font-weight: bold; }
+
+.module > div > .bd > div p {
+	margin-top: 1em;
+}
+
+.module > div > .bd > div p:first-child {
+	margin-top: 0;
+}
+
+.btn span {
+	display: none;
+}
+
+.btns {
+	float: right;
+}
+
+.btns li {
+	display: inline;
+}
+
+.btns li button {
+	border: 0;
+	display: block;
+	float: right;
+	margin-left: 5px;
+	width: 15px;
+	height: 15px;
+
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.btns li button.close { background: #d03940; } /* red */
+.btns li button.disabled { background: #7d7d7d; } /* grey */
+.btns li button.maximize { background: #39d07d; } /* green */
+.btns li button.search { background: #3940d0; } /* blue */
+.btns li button.toggle { background: #d07d39; } /* orange */
+
+.clone .btns li button.close,
+.clone .btns li button.toggle,
+.minned .btns li button.maximize {
+	background: #7d7d7d; /* grey */
+}
+
+.btns li button span {
+	display: none;
+}
+
+.clone {
+	overflow-y: auto;
+	position: fixed !important;
+	z-index: 98 !important; /* well above anything except #tooltip */
+}
+
+.clone .bd > div {
+	overflow: auto;
+}
+
+.cloud {
+	background-image: url(../img/clouds.png);
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.cloud.size-1 {
+	width: 32px;
+	height: 24px;
+}
+
+.cloud.size-2 {
+	background-position: 0 -24px;
+	width: 48px;
+	height: 24px;
+}
+
+.cloud.size-3 {
+	background-position: 0 -48px;
+	width: 64px;
+	height: 24px;
+}
+
+.cloud.size-4 {
+	background-position: 0 -72px;
+	width: 64px;
+	height: 36px;
+}
+
+.time-toggle {
+	cursor: pointer;
+}
+
+.con {
+	margin: auto;
+	width: 900px;
+}
+
+.module {
+	background: rgba(0, 0, 0, 0.5);
+	position: relative;
+	z-index: 2;
+
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.module > div {
+	margin-bottom: 25px;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.module .hd h2 {
+	color: #fffef1;
+	font-weight: bold;
+	padding: 5px;
+
+	border-top-right-radius: 8px;
+}
+
+.module .hd h2 a {
+	color: #fffef1;
+	text-decoration: none;
+}
+
+.module .hd h2 a:hover {
+	text-decoration: underline !important;
+}
+
+.module .hd h2 small {
+	font-size: 9px;
+}
+
+.minned .bd {
+	display: none;
+}
+
+.module .bd {
+	background: #fffef1;
+
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.module .bd > div {
+	overflow: hidden;
+	padding: 10px;
+}
+
+.img-con {
+	text-align: center;
+}
+
+.module .bd > div > a.img-con {
+	display: block;
+	text-align: center;
+}
+
+.module .bd > div p.primary {
+	background: #fffcd6;
+	border: 1px solid #e2e2e2;
+	color: #000;
+	padding: 5px;
+
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.module .bd > div p.secondary {
+	color: #494949;
+	font-size: 12px;
+}
+
+#hd {
+	height: 112px;
+	position: relative;
+	z-index: 2;
+}
+
+#hd h1 {
+	position: absolute;
+	right: 0px;
+	top: 20px;
+}
+
+#hd h1 a {
+	background: url(../img/hd.png);
+	display: block;
+	width: 302px;
+	height: 72px;
+}
+
+#hd h1 a {
+	text-indent: -999em;
+}
+
+#avatar {
+	background: url(../img/avatar.gif) no-repeat;
+	left: 50px;
+	position: absolute;
+	top: 16px;
+	width: 300px;
+	height: 96px;
+}
+
+#avatar > div.playing {
+	/* 204x100 */
+	background: url(../img/bubble.png);
+	font-size: 12px;
+	padding: 20px 0 0 60px;
+	position: absolute;
+	right: 0px;
+	top: -10px;
+	text-align: center;
+	width: 144px;
+	height: 80px;
+}
+
+#avatar > div.playing strong {
+	color: #d07d39; /* orange */
+	display: block;
+	font-weight: bold;
+}
+
+#avatar > div.playing em {
+	display: block;
+	font-size: 13px;
+	padding: 5px 0;
+}
+
+#avatar > div.playing span {
+	display: block;
+	font-size: 10px;
+}
+
+#divider {
+	background: rgba(0, 0, 0, 0.5);
+	height: 20px;
+	margin-bottom: 25px;
+	padding: 6px;
+	position: relative;
+	z-index: 2;
+}
+
+#nav {
+	position: relative;
+	width: 50%;
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav li a {
+	color: #b5b4ad;
+	font-family: Verdana, Arial, Sans-Serif;
+	line-height: 48px;
+	margin-right: 10px;
+	position: relative;
+	text-decoration: none;
+	top: -22px;
+}
+
+#nav li a:hover {
+	color: #fffef1;
+}
+
+#nav li strong {
+	color: #fffef1;
+	font-size: 48px;
+	margin-right: 10px;
+	position: relative;
+	top: -14px;
+}
+
+#bd {
+	margin-bottom: 200px;
+}
+
+#bd:after,
+.module > div > .bd > div:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+#ft {
+	background: url(../img/ocean_floor.png) bottom repeat-x;
+	color: #fffef1;
+	font-size: 10px;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	position: fixed;
+	text-align: right;
+	width: 100%;
+	height: 184px;
+	z-index: 5; /* above most things */
+}
+
+#ft > .con {
+	padding-top: 150px;
+}
+
+#ft .shark {
+	background-image: url(../img/shark.gif);
+	display: block;
+	position: absolute;
+	width: 16px;
+	height: 8px;
+}
+#ft .shark.right { background-position: -16px 0; }
+
+#ft .jaws {
+	background-image: url(../img/jaws.gif);
+	display: block;
+	position: absolute;
+	width: 45px;
+	height: 23px;
+}
+#ft .jaws.right { background-position: -45px 0; }
+
+#ft .custom {
+	background: transparent;
+	display: block;
+	position: absolute;
+}
+
+#extra-1 {
+	background: url(../img/ocean_bg.gif);
+	left: 0;
+	bottom: 0;
+	height: 88px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+#extra-2 {
+	left: 0;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+#extra-2.fog { background: url(../img/fog.png); }
+
+#starfield {
+	background: #000;
+	position: fixed;
+}
+
+#starfield div {
+	background: #fff;
+	position: absolute;
+}
+
+#column-primary {
+	float: left;
+	margin-right: -300px;
+	width: 575px;
+}
+
+#column-secondary {
+	float: right;
+	margin-left: 20px;
+	width: 300px;
+}
+
+#column-secondary > .module .bd > div > ul {
+	padding-left: 1em;
+}
+
+#column-secondary > .module .bd > div > ul > li {
+	list-style: disc;
+}
+
+#raptr-badge {
+	position: relative;
+	top: -2px;
+	width: 300px;
+	height: 348px;
+	z-index: 2;
+}
+
+#tooltip {
+	background: url(../img/lakitu.png) no-repeat;
+	position: absolute;
+	z-index: 99; /* the absolute highest */
+}
+
+#tooltip p {
+	background: rgba(0, 0, 0, 0.5);
+	border: 1px solid #fffef1;
+	color: #fffef1;
+	font-size: 12px;
+	margin: 20px 0 0 20px;
+	max-width: 200px;
+	padding: 5px;
+
+	border-radius: 8px;
+}
+
+.post .hd {
+	background: #e2e2e2;
+	margin-bottom: 1em;
+	padding: 5px;
+	position: relative;
+
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.post .hd h3 {
+	margin-right: 100px;
+}
+
+.post .hd h3 > a {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.post .hd h3 > a:hover {
+	text-decoration: underline;
+}
+
+.post .hd small {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.post .hd small a {
+	color: #000033;
+	text-decoration: none;
+}
+
+.post .hd small a:hover {
+	text-decoration: underline;
+}
+
+.module .content {
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.module .content > ol {
+	margin: 1em 0 0 2em;
+}
+
+.module .content > ol > li {
+	list-style-type: decimal;
+	margin-bottom: 1em;
+}
+
+.module .content > ul {
+	margin: 1em 0 0 1em;
+}
+
+.module .content > ul > li {
+	list-style: disc;
+	margin-bottom: 1em;
+}
+
+.module .bd > div .post > p:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.module .bd > div .post p.secondary {
+	border-top: 1px solid #e2e2e2;
+	margin-top: 1em;
+	padding-top: 0.5em;
+	text-align: right;
+}
+
+.module .bd > div .post p.sep {
+	border-top: 1px solid #e2e2e2;
+	margin-top: 1em;
+	padding-top: 0.5em;
+}
+
+.pagination {
+	color: #fffcd6;
+	font-size: 10px;
+	min-height: 1em;
+	padding: 5px;
+}
+
+.pagination > li.next {
+	float: right;
+}
+
+.pagination > li.prev {
+	float: left;
+}
+
+.pagination > li a {
+	color: #fffcd6;
+	text-decoration: none;
+}
+
+.pagination > li a:hover {
+	color: #fffcd6;
+	text-decoration: underline;
+}
+
+.minned .pagination {
+	display: none;
+}
+
+ul.tight {
+	margin-left: 1em;
+}
+
+ul.standard {
+	margin: 1em 0 0 1em;
+}
+
+ul.standard > li {
+	list-style: disc;
+}
+
+/* individual modules */
+#mod-ldg .bd > div > p > a.img-con {
+	float: right;
+	margin-left: 1em;
+}
+
+#mod-twitter .bd > div > p > a.img-con {
+	float: right;
+}
+
+#mod-twitter .bd > div > p:first-child {
+	font-style: italic;
+}
+
+/* favicons */
+.icon-43things { background-image: url(http://www.43things.com/favicon.ico); }
+.icon-blogger { background-image: url(http://www.blogger.com/favicon.ico); }
+.icon-brightkite { background-image: url(http://brightkite.com/favicon.ico); }
+.icon-claimid { background-image: url(http://claimid.com/favicon.ico); }
+.icon-delicious { background-image: url(http://delicious.com/favicon.ico); }
+.icon-digg { background-image: url(http://digg.com/favicon.ico); }
+.icon-dirtybeta { background-image: url(http://dirtybeta.com/favicon.ico); }
+.icon-facebook { background-image: url(http://facebook.com/favicon.ico); }
+.icon-flickr { background-image: url(http://www.flickr.com/favicon.ico); }
+.icon-gamesradar { background-image: url(http://gamesradar.com/favicon.ico); }
+.icon-gawker { background-image: url(http://gawker.com/favicon.ico); }
+.icon-github { background-image: url(http://github.com/favicon.ico); }
+.icon-goodrec { background-image: url(http://www.goodrec.com/site_media/../img/new_favicon.ico); }
+.icon-last { background-image: url(http://last.fm/favicon.ico); }
+.icon-linkedin { background-image: url(http://www.linkedin.com/favicon.ico); }
+.icon-xbox { background-image: url(http://live.xbox.com/xweb/lib/images/xbox/favicon.ico); }
+.icon-meetup { background-image: url(http://www.meetup.com/favicon.ico); }
+.icon-mybloglog { background-image: url(http://mybloglog.com/favicon.ico); }
+.icon-netvibes { background-image: url(http://netvibes.com/favicon.ico); }
+.icon-ycombinator { background-image: url(http://ycombinator.com/favicon.ico); }
+.icon-yahoo { background-image: url(http://www.yahoo.com/favicon.ico); }
+.icon-raptr { background-image: url(http://raptr.com/favicon.ico); }
+.icon-gamerdna { background-image: url(http://www.gamerdna.com/favicon.ico); }
+.icon-richtaur { background-image: url(http://chi.mp/favicon.ico); }
+.icon-myopenid { background-image: url(http://myopenid.com/favicon.ico); }
+.icon-listal { background-image: url(http://listal.com/favicon.ico); }
+.icon-slashdot { background-image: url(http://slashdot.org/favicon.ico); }
+.icon-stackoverflow { background-image: url(http://stackoverflow.com/favicon.ico); }
+.icon-twitter { background-image: url(http://twitter.com/favicon.ico); }
+.icon-youtube { background-image: url(http://www.youtube.com/favicon.ico); }
+
+#identities > li {
+	height: 20px;
+}
+
+#identities > li a {
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+#experience .post > p {
+	line-height: 20px;
+}
+
+#projects > ul {
+	margin-top: 1em;
+}
+
+#projects > ul > li {
+	background: #e2e2e2;
+	float: left;
+	margin: 0 10px 10px 0;
+	text-align: center;
+	width: 260px;
+	height: 230px;
+
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+#projects > ul > li h4 {
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 5px;
+
+}
+
+#projects > ul > li a.img-con img {
+	border: 1px solid #000;
+	opacity: 0.75;
+}
+
+#projects > ul > li a.img-con img:hover {
+	opacity: 1;
+}
+
+#projects > ul > li p {
+	font-size: 10px;
+	margin: 0;
+	padding: 5px;
+}
+
+/* legacy support for old richter theme */
+.module .bd > div .list-detailed {
+	margin: 1em 0 0 2em;
+}
+
+.module .bd > div ol.list-detailed > li {
+	list-style: decimal;
+}
+
+.module .bd > div ul.list-detailed > li {
+	list-style: disc;
+}
+
+.module .bd > div .list-detailed > li {
+	margin-bottom: 1em;
+}
+
+img.after {
+	float: right;
+	padding-left: 1em;
+}
+
+img.before {
+	float: left;
+	padding-right: 1em;
+}
+/* /legacy support for old richter theme */
