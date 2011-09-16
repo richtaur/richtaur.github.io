@@ -1,6 +1,0 @@
-# raptr now playing
-*/5 * * * * /home/richter/code/php/content/exec.php /home/www/richtaur.com/htdocs/js/now_playing.json 'http://raptr.com/op_tooltip.php?type=user&id=a6634cf81f0f92deb715b5f4ebbe3d78'
-# twitter
-#*/5 * * * * /home/richter/code/php/simplexml/exec.php /home/www/richtaur.com/htdocs/js/twitter.json http://twitter.com/statuses/user_timeline/14965072.rss
-# yahoo weather
-30 * * * * /home/richter/code/php/rss/exec.php /home/www/richtaur.com/htdocs/js/yweather.json http://weather.yahooapis.com/forecastrss?p=94041
