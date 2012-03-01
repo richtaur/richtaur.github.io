@@ -61,9 +61,9 @@
 
 <ol class="list-detailed">
 	<li>
-		I'm <strong>Studio Director</strong> at
+		I'm <strong>co-founder</strong> of
 		<a href="http://www.lostdecadegames.com/">Lost Decade Games</a>,
-		where I work on <strong>HTML5 games</strong> fulltime.
+		an independent game company where I work on <strong>HTML5 games</strong> fulltime.
 	</li>
 	<li>
 		I was a <strong>web developer</strong> from 2003 to 2011, working at places like
@@ -119,18 +119,16 @@
 				<div class="bd">
 					<div>
 						<p>
-							<a class="img-con" href="http://play.lostdecadegames.com/onslaught_arena/demo">
+							<a class="img-con" href="http://play.lostdecadegames.com/onslaught_arena/">
 								<img alt="Onslaught! Arena" src="img/onslaught_arena.png">
 							</a>
-							Play the
-							<a href="http://play.lostdecadegames.com/onslaught_arena/demo">demo</a>
-							of my first game
+							<a href="http://play.lostdecadegames.com/onslaught_arena/">Play</a>
+							my first game
 							<a href="http://www.lostdecadegames.com/onslaught_arena">Onslaught! Arena</a>
 							in your browser for free.
 						</p>
 						<p>
-							You can read about my wacky adventures in game development on the
-							occasionally updated
+							You can read about my wacky adventures in indie-HTML5 game development on the
 							<a href="http://blog.lostdecadegames.com/">Lost Decade Games blog</a>.
 						</p>
 					</div>
