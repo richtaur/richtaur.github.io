@@ -1,0 +1,161 @@
+/* General */
+
+/* Reset */
+html, body, h1, h2, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	background: #FFF;
+	color: #FFF;
+	text-align: center;
+}
+
+body {
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	text-align: left;
+
+	position: relative;
+	margin: 15px auto;
+	margin-top: 30px;
+	width: 754px;
+}
+
+#hd, #ft {
+	background: #1B5709;
+}
+
+#hd {
+	height: 32px;
+	line-height: 32px;
+}
+
+#hd h1 {
+	font-family: Verdana, Sans-Serif;
+	font-size: 18px;
+	font-weight: 400;
+
+	margin: 0 10px;
+}
+
+h2, form {
+	background: #C44242;
+}
+
+h2 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 700;
+	height: 30px;
+	line-height: 30px;
+	margin: 1px 0;
+	text-indent: 28px;
+}
+
+h2 span {
+	cursor: pointer;
+	color: #EDC6C6;
+}
+
+#stage {
+	background: #000;
+	text-align: center;
+
+	position: absolute;
+	right: 0px;
+	width: 360px;
+	height: 318px;
+}
+
+#bd ul {
+	background: #E2DFB8;
+
+	display: block;
+	min-height: 318px;
+	width: 391px;
+}
+
+#bd ul li {
+	height: 29px;
+}
+
+#bd ul li a {
+	/* icon 25px 50% */
+	background: #FAFAD9;
+	border: 1px solid #FFF;
+	color: #476EC7;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+
+	display: block;
+	margin-bottom: 1px;
+	padding: 5px 5px 4px 50px;
+	width: 331px;
+}
+
+#bd ul li a:hover {
+	/* icon 30px 50% */
+	background: #FBFBF5;
+	color: #c03625;
+}
+
+#bd form {
+	text-align: right;
+
+	height: 31px;
+}
+
+#bd form input[type=text] {
+	border: 1px inset #999;
+	color: #000;
+	font-size: 16px;
+
+	position: relative;
+	top: 4px;
+	padding-left: 3px;
+	width: 255px;
+	height: 18px;
+}
+
+#ft {
+	border-top: 1px solid #FFF;
+	font-size: 11px;
+	text-transform: uppercase;
+
+	padding: 5px 0;
+}
+
+#ft strong {
+	cursor: pointer;
+	margin-left: 10px;
+	padding-left: 12px;
+	padding-right: 7px;
+}
+
+#ft ul {
+	display: inline;
+}
+
+#ft ul li {
+	display: inline;
+}
+
+#ft ul li a {
+	border-left: 1px solid #FFF;
+	color: #FFF;
+	text-decoration: none;
+
+	padding: 0 7px;
+}
+
+#ft ul li:first-child a {
+	border: 0;
+}
+
+#ft ul li a:hover {
+	color: #FF9;
+	text-decoration: underline;
+}
