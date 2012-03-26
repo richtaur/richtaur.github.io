@@ -65,6 +65,11 @@ h2 span {
 	height: 318px;
 }
 
+#stage iframe {
+	width: 360px;
+	height: 318px;
+}
+
 #bd ul {
 	background: #E2DFB8;
 
