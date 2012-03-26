@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Related Searches</title>
+	<title>Related Searches: Matt Hackett</title>
 	<link rel="icon" href="img/favicon.gif" type="image/ico">
 	<link rel="openid.delegate" href="http://richtaur.myopenid.com/">
 	<link rel="openid.server" href="http://www.myopenid.com/server">
 	<link rel="shortcut icon" href="img/favicon.gif">
 	<link href="css/related_searches.css" rel="stylesheet" type="text/css">
-	<meta name="description" content="Matt Hackett, HTML5 game developer: Related Searches">
+	<meta name="description" content="Related Searches: Matt Hackett, HTML5 game developer: Related Searches">
 	<meta name="keywords" content="richtaur, matt hackett, lost decade games, html5 games, javascript, indie">
 </head>
 <body>
@@ -19,24 +19,27 @@
 
 <div id="bd">
 	<h2><span>Related Searches</span></h2>
-	<div id="stage">Loading…</div>
+	<div id="stage">
+		<img alt="Female Student" src="img/female_student.jpg">
+	</div>
 	<ul>
-		<li><a href="mailto:richtaur@gmail.com">Contact</a></li>
-		<li><a href="https://twitter.com/#!/richtaur">Twitter</a></li>
+		<li><a href="https://twitter.com/#!/richtaur">@richtaur</a></li>
 		<li><a href="http://www.ci.mtnview.ca.us/">Local Weather</a></li>
-		<li><a href="http://www.lostdecadegames.com/">Lost Decade Games</a></li>
-		<li><a href="http://raptr.com/">Web Development</a></li>
-		<li><a href="http://www.gamesradar.com/ds/the-dark-spire/review/the-dark-spire/a-20090518145357896028/g-20081218172959531054">Dark Spire (DS) Review</a></li>
 		<li><a href="http://www.flickr.com/photos/matthackett/3488395022/">Foosball Tournament</a></li>
-		<li><a href="http://www.siu.edu/">Mass Communication</a></li>
-		<li><a href="http://www.ocremix.org/info/OC_ReMix:_Super_Street_Fighter_II_Turbo_HD_Remix_Official_Soundtrack">Street Fighter 2 HD Remix</a></li>
+
 		<li><a href="http://www.andreaabney.com/">Stinky Beef</a></li>
-		<li><a href="http://marylhackett.com/">Awesome Mom</a></li>
+		<li><a href="http://www.flickr.com/photos/matthackett/3872442947/in/photostream">This</a></li>
+		<li><a href="https://twitter.com/#!/richtaur/media/slideshow?url=pic.twitter.com%2Fg40gnj6L">That</a></li>
+
+		<li><a href="http://playbombada.appspot.com/static/app.htm">Play Bombada</a></li>
+		<li><a href="http://m.lostdecadegames.com/onslaught_defense/">Play Onslaught! Defense</a></li>
+		<li><a href="https://github.com/richtaur">GitHub</a></li>
+		<li><a href="http://www.lostdecadegames.com/">Lost Decade Games</a></li>
 	</ul>
 
 	<form>
 		<input type="text">
-		<input type="submit" value="Search">
+		<input src="img/button.gif" type="image" alt="If you happen to be searching for a very small text-based adventure game, you're in a very specific type of luck!">
 	</form>
 </div>
 
@@ -71,6 +74,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 </script>
 <!-- /Google Analytics -->
+
+<!--
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/related_searches.js"></script>
+-->
 
 </body>
 </html>
