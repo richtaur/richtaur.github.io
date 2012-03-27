@@ -26,10 +26,9 @@
 	<ul>
 		<!-- Personal -->
 		<li><a href="https://twitter.com/#!/richtaur">@richtaur</a></li>
+		<!--
 		<li><a href="http://www.ci.mtnview.ca.us/">Local Weather</a></li>
-		<li data-image-src="http://farm4.staticflickr.com/3360/3488395022_60e972b46d.jpg">
-			<a href="http://www.flickr.com/photos/matthackett/3488395022/">Foosball Tournament</a>
-		</li>
+		-->
 		<li><a href="http://www.andreaabney.com/">Stinky Beef</a></li>
 		<li data-image-src="http://farm3.staticflickr.com/2652/3872442947_6cae57e1b5.jpg">
 			<a href="http://www.flickr.com/photos/matthackett/3872442947/in/photostream">This</a>
@@ -37,21 +36,25 @@
 		<li data-image-src="https://p.twimg.com/AnAcYGOCMAE1MQj.jpg">
 			<a href="https://twitter.com/#!/richtaur/media/slideshow?url=pic.twitter.com%2Fg40gnj6L">That</a>
 		</li>
+		<li data-image-src="http://farm4.staticflickr.com/3360/3488395022_60e972b46d.jpg">
+			<a href="http://www.flickr.com/photos/matthackett/3488395022/">Foosball Tournament</a>
+		</li>
 
 		<!-- "Professional" -->
+		<li><a href="https://github.com/richtaur">GitHub</a></li>
 		<li>
 			<a href="http://playbombada.appspot.com/static/app.htm">Play Bombada</a>
 		</li>
 		<li data-iframe-src="http://m.lostdecadegames.com/onslaught_defense/">
 			<a href="http://m.lostdecadegames.com/onslaught_defense/">Play Onslaught! Defense</a>
 		</li>
-		<li><a href="https://github.com/richtaur">GitHub</a></li>
 		<li><a href="http://www.lostdecadegames.com/">Lost Decade Games</a></li>
+		<li><a href="http://www.lostdecadegames.com/lostcast/">Lostcast: HTML5 Games Podcast</a></li>
 		<li><a href="2010/">2010 Version</a></li>
 	</ul>
 
-	<form>
-		<input type="text">
+	<form action="https://www.google.com/search">
+		<input name="q" type="text">
 		<input src="img/button.gif" type="image" alt="If you happen to be searching for a very small text-based adventure game, you're in a very specific type of luck!">
 	</form>
 </div>
@@ -88,9 +91,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </script>
 <!-- /Google Analytics -->
 
+<!--
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="js/related_searches.js"></script>
-<script src="js/search.js"></script>
+-->
 
 </body>
 </html>
