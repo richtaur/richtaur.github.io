@@ -20,8 +20,8 @@
 <div id="bd">
 	<h2><span>Related Searches</span></h2>
 	<div id="stage">
-		<img alt="Female Student" src="img/female_student.jpg">
-		<iframe frameborder="0" src="about:blank" width="360" height="318"></iframe>
+		<img alt="Campus or somewhere" src="img/campus_or_somewhere.jpg">
+		<img alt="Female student" src="img/female_student.png">
 	</div>
 	<ul>
 		<li><a href="mailto:richtaur@gmail.com">Contact</a></li>
@@ -38,9 +38,6 @@
 		-->
 		<li><a href="http://www.andreaabney.com/">Stinky Beef</a></li>
 		<li><a href="http://www.flickr.com/photos/matthackett/5043734810/">Mojito and Lunchbox</a></li>
-		<li data-image-src="https://p.twimg.com/AnAcYGOCMAE1MQj.jpg">
-			<a href="https://twitter.com/#!/richtaur/media/slideshow?url=pic.twitter.com%2Fg40gnj6L">That</a>
-		</li>
 		<li>
 			<a href="http://playbombada.appspot.com/static/app.htm">Play Bombada</a>
 		</li>

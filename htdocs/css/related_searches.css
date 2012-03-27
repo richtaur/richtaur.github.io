@@ -58,6 +58,7 @@ h2 span {
 
 #stage {
 	background: #000;
+	text-align: center;
 
 	position: absolute;
 	right: 0px;
@@ -65,9 +66,16 @@ h2 span {
 	height: 318px;
 }
 
-#stage iframe {
-	width: 360px;
-	height: 318px;
+#stage img {
+	position: relative;
+	z-index: 2;
+}
+
+#stage img:first-child {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
 }
 
 #bd ul {
