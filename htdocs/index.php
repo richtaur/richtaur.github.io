@@ -21,18 +21,15 @@
 	<h2><span>Related Searches</span></h2>
 	<div id="stage">
 		<img alt="Campus or somewhere" src="img/campus_or_somewhere.jpg">
-		<img alt="Female student" src="img/female_student.png">
+		<img alt="richtaur" src="img/richtaur.png">
 	</div>
 	<ul>
+		<li><a href="https://twitter.com/richtaur">@richtaur</a></li>
 		<li><a href="mailto:richtaur@gmail.com">Contact</a></li>
-		<li><a href="http://www.lostdecadegames.com/">Lost Decade Games</a></li>
-		<li><a href="https://twitter.com/#!/richtaur">@richtaur</a></li>
-		<li><a href="http://www.lostdecadegames.com/lostcast/">Lostcast: HTML5 Games Podcast</a></li>
-		<li data-iframe-src="http://m.lostdecadegames.com/onslaught_defense/">
-			<a href="http://m.lostdecadegames.com/onslaught_defense/">Play Onslaught! Defense</a>
-		</li>
 		<li><a href="https://github.com/richtaur">GitHub</a></li>
-
+		<li><a href="http://www.lostdecadegames.com/">Lost Decade Games</a></li>
+		<li><a href="http://www.lostdecadegames.com/lostcast/">Lostcast: HTML5 Games Podcast</a></li>
+		<li><a href="http://www.lavablade.com/">Play Lava Blade</a></li>
 		<!--
 		<li><a href="http://www.ci.mtnview.ca.us/">Local Weather</a></li>
 		-->
