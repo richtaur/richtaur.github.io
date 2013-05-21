@@ -20,8 +20,7 @@
 <div id="bd">
 	<h2><span>Related Searches</span></h2>
 	<div id="stage">
-		<img alt="Campus or somewhere" src="img/campus_or_somewhere.jpg">
-		<img alt="richtaur" src="img/richtaur.png">
+		<img alt="Why" src="img/dorkus.jpg">
 	</div>
 	<ul>
 		<li><a href="https://twitter.com/richtaur">@richtaur</a></li>
