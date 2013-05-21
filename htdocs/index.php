@@ -54,7 +54,7 @@
 	<ul>
 		<li><a href="https://twitter.com/#!/geoffblair">Geoff Blair</a></li>
 		<li><a href="http://jmflava.com/">Joshua Morse</a></li>
-		<li><a href="http://www.html5gamedevs.com/">HTML5 Game Developers</a></li>
+		<li><a href="http://www.lostdecadegames.com/">Lost Decade Games</a></li>
 	</ul>
 </div>
 
