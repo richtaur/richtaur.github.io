@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>Related Searches: Matt Hackett</title>
-	<link rel="icon" href="img/favicon.gif" type="image/ico">
+	<link rel="icon" href="img/favicon.ico" type="image/ico">
 	<link rel="openid.delegate" href="http://richtaur.myopenid.com/">
 	<link rel="openid.server" href="http://www.myopenid.com/server">
-	<link rel="shortcut icon" href="img/favicon.gif">
+	<link rel="shortcut icon" href="img/favicon.ico">
 	<link href="css/related_searches.css" rel="stylesheet" type="text/css">
 	<meta name="description" content="Related Searches: Matt Hackett, HTML5 game developer: Related Searches">
 	<meta name="keywords" content="richtaur, matt hackett, lost decade games, html5 games, javascript, indie">
@@ -24,23 +24,21 @@
 	</div>
 	<ul>
 		<li><a href="https://twitter.com/richtaur">@richtaur</a></li>
-		<li><a href="mailto:richtaur@gmail.com">Contact</a></li>
-		<li><a href="https://github.com/richtaur">GitHub</a></li>
-		<li><a href="http://www.lostdecadegames.com/">Lost Decade Games</a></li>
-		<li><a href="http://www.lostdecadegames.com/lostcast/">Lostcast: HTML5 Games Podcast</a></li>
-		<li><a href="http://www.lavablade.com/">Play Lava Blade</a></li>
-		<!--
-		<li><a href="http://www.ci.mtnview.ca.us/">Local Weather</a></li>
-		-->
 		<li><a href="http://www.andreaabney.com/">Stinky Beef</a></li>
-		<li><a href="http://www.flickr.com/photos/matthackett/5043734810/">Mojito and Lunchbox</a></li>
-		<li>
-			<a href="http://playbombada.appspot.com/static/app.htm">Play Bombada</a>
-		</li>
+		<li><a href="http://www.flickr.com/photos/matthackett/5043734810/">Cats</a></li>
 		<li data-image-src="http://farm4.staticflickr.com/3360/3488395022_60e972b46d.jpg">
 			<a href="http://www.flickr.com/photos/matthackett/3488395022/">Foosball Tournament</a>
 		</li>
-		<li><a href="2010/">2010 Version</a></li>
+		<li><a href="https://github.com/richtaur">GitHub</a></li>
+		<li><a href="mailto:richtaur@gmail.com">Contact</a></li>
+		<li><a href="https://twitter.com/LostDecadeGames">@LostDecadeGames</a></li>
+		<li><a href="http://www.lostdecadegames.com/">Lost Decade Games</a></li>
+		<li><a href="http://www.wizardslizard.com/">A Wizard's Lizard</a></li>
+		<li><a href="http://www.lostdecadegames.com/lostcast/">Lostcast</a></li>
+		<!--
+		<li><a href="http://www.ci.mtnview.ca.us/">Local Weather</a></li>
+		-->
+		<li><a href="2010/">2010</a></li>
 	</ul>
 
 	<form action="https://www.google.com/search">
