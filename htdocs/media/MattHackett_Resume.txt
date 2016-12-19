@@ -1,0 +1,33 @@
+﻿Matt Hackett
+HTML5 Game Developer
+matt@lostdecadegames.com | Los Angeles, CA
+
+My passion is developing creative games using state-of-the-art tech like HTML5. I’m a programmer, game designer, and technical artist who enjoys wearing many hats.
+
+---
+
+Game Developer and Co-Founder, Lost Decade Games
+2010-present
+
+Designed and developed over a dozen HTML5 games published across Steam, Google Play, iOS App Store, and more. These games include the award-winning shoot ‘em up Onslaught! Arena and A Wizard’s Lizard, which has sold more than 50,000 copies.
+
+---
+
+Game Developer, Game Closure
+2011-2012
+
+Was employee #1 and helped Game Closure raise $12 million in funding. Designed and developed mobile HTML5 games and a 2D JavaScript game engine.
+
+---
+
+Senior Front-end Engineer, Raptr
+2009-2011
+
+Implemented Raptr’s front-end rewrite in PHP using cutting-edge tech like Big Pipe, CSS3, and modular JavaScript applications. My engineering efforts helped Raptr acquire more than 6 million registered users and $15 million in funding.
+
+---
+
+Front-end Engineer, Yahoo!
+2007-2009
+
+Rewrote the front-end for Yahoo! Widgets, a platform for desktop games and applications written in JavaScript. Developed the front-end for the Yahoo! Application Platform, a suite of developer tools used to create games and applications for the web.
