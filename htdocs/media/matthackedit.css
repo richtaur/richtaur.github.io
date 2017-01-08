@@ -53,7 +53,7 @@ body {
 }
 
 #title {
-	background: url(avatar.png) left center no-repeat;
+	background: url(images/avatar.png) left center no-repeat;
 	padding-left: 80px;
 }
 
@@ -118,7 +118,24 @@ body {
 }
 
 .game h3 {
+	background: center left no-repeat;
+	font-size: 32px;
+	min-height: 64px;
+	line-height: 64px;
 	margin-bottom: 1em;
+	padding-left: 80px;
+}
+
+.game h3.awl {
+	background-image: url(images/awl.png);
+}
+
+.game h3.awl2 {
+	background-image: url(images/awl2.png);
+}
+
+.game h3.igs {
+	background-image: url(images/igs.png);
 }
 
 .game p {
