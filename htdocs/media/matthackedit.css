@@ -57,6 +57,16 @@ body {
 	padding-left: 80px;
 }
 
+.status {
+	background: rgb(109, 170, 44); /* green */
+	border-radius: 0.75em;
+	color: rgb(222, 238, 214); /* white */
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.5em;
+}
+
 .email {
 	font-size: 200%;
 }
@@ -110,11 +120,13 @@ body {
 
 .game.last {
 	border-bottom: none;
+	margin-bottom: 2em;
 }
 
 .game iframe {
 	border-radius: 0.75em;
 	float: right;
+	margin-left: 1em;
 }
 
 .game h3 {
