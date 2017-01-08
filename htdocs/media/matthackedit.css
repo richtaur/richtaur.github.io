@@ -8,7 +8,6 @@ html, body, h1, h2, h3, p, ul, li {
 }
 
 h1 {
-	//font-family: "Merriweather", Sans-Serif;
 	font-size: 250%;
 }
 
@@ -29,7 +28,6 @@ a:hover {
 }
 
 body {
-	//background: rgb(222, 238, 214); /* white */
 	color: rgb(20, 12, 28); /* black */
 	padding: 40px;
 }
@@ -52,6 +50,11 @@ body {
 
 #intro {
 	padding-right: 348px;
+}
+
+#title {
+	background: url(avatar.png) left center no-repeat;
+	padding-left: 80px;
 }
 
 .email {
@@ -88,7 +91,7 @@ body {
 .resume ul li a {
 	background: rgb(133, 149, 161); /* silver */
 	border-radius: 0.75em;
-	color: white;
+	color: rgb(222, 238, 214); /* white */
 	margin-right: 1em;
 	padding: 0.5em;
 	text-decoration: none;
@@ -96,7 +99,7 @@ body {
 
 .resume ul li a:hover {
 	background: rgb(78, 74, 78); /* gray */
-	color: white;
+	color: rgb(222, 238, 214); /* white */
 }
 
 .game {
