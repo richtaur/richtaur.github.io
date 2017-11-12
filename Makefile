@@ -1,5 +1,5 @@
 default: node_modules
-	rm -rf build/
+	rm -rf build
 	node index.js
 
 serve:
