@@ -26,8 +26,7 @@ a:hover {
 }
 
 body {
-	background: rgb(109, 194, 202); /* teal */
-	background-repeat: repeat-x;
+	//background: rgb(109, 194, 202); /* teal */
 	color: rgb(20, 12, 28); /* black */
 	text-align: center;
 }
@@ -48,12 +47,10 @@ body {
 h1 {
 	margin-bottom: 1em;
 
-	/*background: url(/media/images/mimic.png) right center no-repeat;*/
 	height: 200px;
 }
 
 h1 a {
-	/*background: url(/media/images/title.png);*/
 	display: block;
 	text-indent: -9999em;
 	width: 750px;
@@ -85,22 +82,22 @@ div.post {
 	text-align: left;
 	min-height: 200px;
 
-	background: rgb(222, 238, 214); /* white */
+	//background: rgb(222, 238, 214); /* white */
 	border-radius: 4em;
 	min-height: 216px;
 	padding: 2em;
 }
 
 div.post img {
-	border-radius: 4em;
-	border: 10px solid rgb(109, 194, 202); /* teal */
+	//border-radius: 4em;
+	//border: 10px solid rgb(109, 194, 202); /* teal */
 	float: left;
 	margin-right: 2em;
 	margin-bottom: 2em;
 }
 
 div.post img:hover {
-	border: 10px solid rgb(89, 125, 206); /* blue */
+	//border: 10px solid rgb(89, 125, 206); /* blue */
 }
 
 div.post .date {
@@ -109,25 +106,6 @@ div.post .date {
 
 .post-contents {
 	margin-bottom: 1em;
-}
-
-.tags {
-	margin-bottom: 1em;
-}
-
-.tags li {
-	display: inline;
-}
-
-.urls-header {
-	margin-bottom: 1em;
-}
-
-.urls-header strong {
-	color: rgb(48, 52, 109); /* dark blue */
-}
-
-.urls {
 }
 
 #nav {
@@ -142,35 +120,4 @@ div.post .date {
 
 #nav .next {
 	float: right;
-}
-
-#footer {
-	height: 300px;
-}
-
-#island {
-	/*background: url(/media/images/island.png);*/
-	margin: auto;
-	position: relative;
-	width: 700px;
-	height: 400px;
-	z-index: 2;
-}
-
-#water {
-	background: rgb(89, 125, 206); /* blue */
-	color: rgb(48, 52, 109); /* dark blue */
-	padding-top: 160px;
-	padding-bottom: 2em;
-	position: relative;
-	top: -146px;
-	z-index: 1;
-}
-
-#water a {
-	color: rgb(48, 52, 109); /* dark blue */
-}
-
-#water a:hover {
-	color: rgb(109, 194, 202); /* teal */
 }
