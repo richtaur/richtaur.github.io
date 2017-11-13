@@ -1,10 +1,8 @@
 {{> header}}
 
 <div class="post">
-	<a href="{{this.contentURLs.[0]}}">
-		<img alt="{{title}}" src="/media/posts/{{this.image}}">
-	</a>
-	<h2><a href="{{this.contentURLs.[0]}}">{{this.title}}</a></h2>
+	<img alt="{{title}}" src="/media/posts/{{this.image}}">
+	<h2>{{this.title}}</h2>
 	<p class="date">Added {{formatDate this.date}}</p>
 
 	<div class="post-contents">
@@ -18,17 +16,6 @@
 	{{/each}}
 	</ul>
 	-->
-
-	<p class="urls-header">
-		by <strong>{{this.contentAuthor}}</strong>
-		on {{formatDate this.contentDate}}:
-	</p>
-
-	<ul class="urls">
-	{{#each this.contentURLs}}
-		<li><a href="{{this}}">{{extractDomain this}}</a></li>
-	{{/each}}
-	</ul>
 </div>
 
 <div id="nav">
