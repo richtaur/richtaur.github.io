@@ -26,40 +26,27 @@ a:hover {
 }
 
 body {
-	//background: rgb(109, 194, 202); /* teal */
 	color: rgb(20, 12, 28); /* black */
 	text-align: center;
 }
 
 #header {
-	margin: 2em auto;
-	width: 1000px;
 }
 
 #header p a {
-	color: rgb(48, 52, 109); /* dark blue */
 }
 
 #header p a:hover {
-	color: rgb(20, 12, 28); /* black */
 }
 
 h1 {
 	margin-bottom: 1em;
-
-	height: 200px;
 }
 
 h1 a {
-	display: block;
-	text-indent: -9999em;
-	width: 750px;
-	height: 200px;
 }
 
 #contents {
-	margin: auto;
-	width: 1000px;
 }
 
 .date {
@@ -67,37 +54,27 @@ h1 a {
 	font-size: 75%;
 }
 
-.subtitle {
-	color: rgb(89, 125, 206); /* blue */
-	margin-bottom: 1em;
-}
-
 h2.post {
-	color: rgb(48, 52, 109); /* dark blue */
 	font-size: 400%;
 }
 
 div.post {
 	margin-bottom: 2em;
 	text-align: left;
-	min-height: 200px;
 
-	//background: rgb(222, 238, 214); /* white */
-	border-radius: 4em;
 	min-height: 216px;
 	padding: 2em;
 }
 
 div.post img {
-	//border-radius: 4em;
-	//border: 10px solid rgb(109, 194, 202); /* teal */
+	/*
 	float: left;
 	margin-right: 2em;
 	margin-bottom: 2em;
+	*/
 }
 
 div.post img:hover {
-	//border: 10px solid rgb(89, 125, 206); /* blue */
 }
 
 div.post .date {

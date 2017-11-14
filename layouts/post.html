@@ -1,9 +1,9 @@
 {{> header}}
 
 <div class="post">
-	<img alt="{{title}}" src="/media/posts/{{this.image}}">
+	<img alt="{{title}}" src="/media/{{this.image}}">
 	<h2>{{this.title}}</h2>
-	<p class="date">Added {{formatDate this.date}}</p>
+	<p class="date">{{formatDate this.date}}</p>
 
 	<div class="post-contents">
 		{{{contents}}}
