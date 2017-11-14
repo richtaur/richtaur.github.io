@@ -1,6 +1,6 @@
 default: node_modules
 	rm -rf htdocs
-	node index.js
+	node build.js
 
 serve:
 	http-server htdocs -p 8081
