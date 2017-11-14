@@ -5,5 +5,3 @@ image: hello-world.png
 tags: [art]
 layout: post.html
 ---
-
-Nothing to say here.
