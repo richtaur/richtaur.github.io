@@ -102,3 +102,7 @@ div.post .date {
 #nav .next {
 	float: right;
 }
+
+#footer {
+	margin-bottom: 2em;
+}
