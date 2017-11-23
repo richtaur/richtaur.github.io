@@ -7,7 +7,9 @@
 		<p class="date">
 			{{formatDate this.date}}
 		</p>
-		<img alt="{{this.title}}" src="./media/images/{{this.path}}/thumbnail.jpg">
+		<a href="{{this.path}}">
+			<img alt="{{this.title}}" src="./media/images/{{this.path}}/thumbnail.jpg">
+		</a>
 
 		<div class="post-contents">
 			{{{this.summary}}}
