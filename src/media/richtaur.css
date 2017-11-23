@@ -32,6 +32,7 @@ body {
 }
 
 #header {
+	margin-bottom: 4em;
 }
 
 #header p a {
@@ -50,11 +51,27 @@ h1 a {
 #contents {
 	margin: auto;
 	text-align: center;
+	width: 600px;
 }
 
 .date {
 	color: rgb(78, 74, 78); /* gray */
 	font-size: 75%;
+	margin-bottom: 2em;
+}
+
+.list-item {
+	margin: auto;
+	min-height: 144px;
+	text-align: left;
+	margin-bottom: 4em;
+}
+
+.list-item .thumbnail {
+	float: left;
+	margin-right: 2em;
+	width: 256px;
+	height: 144px;
 }
 
 h2.post {
@@ -63,35 +80,22 @@ h2.post {
 
 div.post {
 	margin: auto;
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 	text-align: left;
-
-	padding: 2em;
-	width: 400px;
-}
-
-div.post img {
-	/*
-	float: left;
-	margin-right: 2em;
-	margin-bottom: 2em;
-	*/
-}
-
-div.post img:hover {
 }
 
 div.post .date {
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 
 .post-contents {
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 
 #nav {
-	clear: both;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;
 	min-height: 1em;
 }
 

@@ -2,16 +2,16 @@
 
 {{#each this.posts}}
 
-	<div class="post">
+	<div class="list-item">
+		<a class="thumbnail" href="{{this.path}}">
+			<img alt="{{this.title}}" src="./media/images/{{this.path}}/_thumbnail.jpg">
+		</a>
 		<h2><a href="{{this.path}}">{{this.title}}</a></h2>
 		<p class="date">
 			{{formatDate this.date}}
 		</p>
-		<a href="{{this.path}}">
-			<img alt="{{this.title}}" src="./media/images/{{this.path}}/_thumbnail.jpg">
-		</a>
 
-		<div class="post-contents">
+		<div>
 			{{{this.summary}}}
 		</div>
 	</div>
