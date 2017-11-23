@@ -3,17 +3,15 @@
 {{#each this.posts}}
 
 	<div class="post">
-		<img alt="{{this.title}}" src="./media/images/{{this.image}}">
-		<!--
 		<h2><a href="{{this.path}}">{{this.title}}</a></h2>
 		<p class="date">
 			{{formatDate this.date}}
 		</p>
+		<img alt="{{this.title}}" src="./media/images/{{this.image}}">
 
 		<div class="post-contents">
-			{{{contents}}}
+			{{{this.summary}}}
 		</div>
-		-->
 	</div>
 
 {{/each}}
