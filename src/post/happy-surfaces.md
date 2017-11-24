@@ -8,7 +8,11 @@ tags: [art, process]
 
 In the penultimate Lostcast, yada yada
 
-image: go
+![Happy Surfaces structure sketch](/media/images/post/happy-surfaces/happy_surfaces_structure_sketch.jpg)
+
+![Happy Surfaces structure render](/media/images/post/happy-surfaces/happy_surfaces_structure_render.jpg)
+
+![Happy Surfaces sketch](/media/images/post/happy-surfaces/happy_surfaces_sketch.jpg)
 
 More content here
 
