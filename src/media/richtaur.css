@@ -88,6 +88,11 @@ div.post .date {
 	margin-bottom: 2em;
 }
 
+div.post h2 {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
 div.post p {
 	margin-bottom: 1em;
 }
