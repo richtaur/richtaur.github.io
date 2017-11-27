@@ -32,7 +32,7 @@ handlebars.registerHelper("formatDateRSS", function (date) {
 
 // Helper: image
 handlebars.registerHelper("image", function (path) {
-	return URL + "media/posts/" + path;
+	return URL + "media/images/" + path;
 });
 
 // Helper: link

@@ -16,8 +16,8 @@
 			<updated>{{formatDateRSS this.date}}</updated>
 			<id>{{link this.path}}</id>
 			<content type="html">
-				{{this.contents}}
-				&lt;img alt="{{this.title}}" src="{{image this.image}}" width="364" height="200"&gt;
+				{{this.summary}}
+				&lt;img alt="{{this.title}}" src="{{image this.path}}/_thumbnail.jpg" width="256" height="144"&gt;
 			</content>
 		</entry>
 	{{/each}}
