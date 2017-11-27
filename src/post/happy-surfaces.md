@@ -32,4 +32,4 @@ A **turkey leg**, one of my favorite foods to eat. A **Kirby**, the easiest Nint
 
 ## Conclusion
 
-This approach worked great for me and I'll be using it again. Next time I want to make the structure itself more interesting. The surfaces would make great tree branches, so maybe I'll give that a shot. Stay tuned!
+This approach worked great for me and I'll be using it again. Next time I want to make the structure itself more interesting. The surfaces would make ideal tree branches, so maybe I'll give that a shot. Stay tuned!
