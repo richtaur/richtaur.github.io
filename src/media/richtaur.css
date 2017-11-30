@@ -7,12 +7,12 @@ html, body, h1, h2, p, ul, li {
 	padding: 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: "Merriweather", Sans-Serif;
 	font-size: 200%;
 }
 
-h2 {
+h2, h3 {
 	color: rgb(89, 125, 206); /* blue */
 	font-size: 200%;
 	line-height: 1.25em;
@@ -89,6 +89,10 @@ div.post .date {
 }
 
 div.post h2 {
+	margin-top: 1em;
+}
+
+div.post h3 {
 	margin-bottom: 1em;
 	margin-top: 1em;
 }

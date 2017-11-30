@@ -30,6 +30,6 @@ Pieces like this have given me a hard time in the past. For example, the [promot
 
 A **turkey leg**, one of my favorite foods to eat. A **Kirby**, the easiest Nintendo character to draw. A **smiling face**, because hidden faces are delightful to find. **A repeating pattern**, because I read they can make a composition more satisfying to look at. Lastly, I **signed** the damn thing because I don't normally and should more often.
 
-## Conclusion
+### Conclusion
 
 This approach worked great for me and I'll be using it again. Next time I want to make the structure itself more interesting. The surfaces would make ideal tree branches, so maybe I'll give that a shot. Stay tuned!
