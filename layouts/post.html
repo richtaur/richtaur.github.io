@@ -11,15 +11,15 @@
 </div>
 
 <div id="nav">
-	{{#if this.previous.path}}
+	{{#if this.next.path}}
 	<p class="prev">
-		<a href="../../{{this.previous.path}}">&lt; {{this.previous.title}}</a>
+		<a href="../../{{this.next.path}}">&lt; {{this.next.title}}</a>
 	</p>
 	{{/if}}
 
-	{{#if this.next.path }}
+	{{#if this.previous.path }}
 	<p class="next">
-		<a href="../../{{this.next.path}}">{{this.next.title}} &gt;</a>
+		<a href="../../{{this.previous.path}}">{{this.previous.title}} &gt;</a>
 	</p>
 	{{/if}}
 </div>
