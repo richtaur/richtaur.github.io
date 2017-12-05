@@ -66,13 +66,13 @@ body {
 }
 
 .list-item .thumbnail {
-  -webkit-transition: -webkit-transform .2s ease-in-out;
-  transition: transform .2s ease-in-out;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .list-item .thumbnail:hover {
-  -webkit-transform: rotate(-15deg);
-  transform: rotate(-15deg);
+  -webkit-transform: rotate(-8deg);
+  transform: rotate(-8deg);
 }
 
 h2.post {
