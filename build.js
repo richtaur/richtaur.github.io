@@ -51,7 +51,7 @@ handlebars.registerPartial("footer", footerContents)
 Metalsmith(__dirname)
 	.metadata({
 		siteName: "richtaur",
-		description: "game developer",
+		description: "Articles and drawings by Matt Hackett, a game developer in California.",
 		url: URL,
 		date: new Date()
 	})
