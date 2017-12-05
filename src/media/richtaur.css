@@ -32,20 +32,11 @@ body {
 }
 
 #header {
+	background: url(images/richtaur64.jpg) no-repeat left center;
+	margin: auto;
 	margin-bottom: 4em;
-}
-
-#header p a {
-}
-
-#header p a:hover {
-}
-
-h1 {
 	margin-top: 1em;
-}
-
-h1 a {
+	width: 300px;
 }
 
 #contents {
