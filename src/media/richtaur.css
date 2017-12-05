@@ -65,6 +65,16 @@ body {
 	height: 144px;
 }
 
+.list-item .thumbnail {
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+}
+
+.list-item .thumbnail:hover {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+
 h2.post {
 	font-size: 400%;
 }
