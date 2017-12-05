@@ -106,6 +106,14 @@ div.post p {
 	margin-bottom: 2em;
 }
 
+.content-focus {
+	text-align: center;
+}
+
+.content-focus p {
+	margin: auto;
+}
+
 #nav {
 	margin-bottom: 2em;
 	margin-left: auto;
