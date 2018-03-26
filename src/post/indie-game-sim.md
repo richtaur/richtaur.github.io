@@ -139,7 +139,7 @@ In my early career, I was a web developer for companies like **Yahoo!** and [Rap
 As mentioned earlier, successful developers have suggested games need viral hooks to give them lift. Players will be creating their own games in **Indie Game Sim** and surely some of them will want to [share their creations][12].
 
 <div class="content-focus">
-  ![](/media/images/post/indie-game-sim/image17.gif)
+  ![](https://i.imgur.com/Afz9jzQ.gif)
 </div>
 
 Since **Indie Game Sim** is built in HTML5, it was pretty easy to make a web-based version that would allow for players to share their games with each other using a simple GET parameter. The downside is that the generated URLs are large, but fortunately shorteners like [tinyurl.com][13] solve that problem for us. Here’s an example game I made:
