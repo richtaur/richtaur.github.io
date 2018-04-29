@@ -5,9 +5,6 @@ default: node_modules
 serve:
 	http-server htdocs -p 8081
 
-node_modules: package.json
-	npm install
-
 deploy:
 	aws s3 sync htdocs s3://www.richtaur.com \
 		--cache-control max-age=86400 \
