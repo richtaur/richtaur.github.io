@@ -2,6 +2,14 @@ default: node_modules
 	rm -rf htdocs
 	node build.js
 
+# make post title="from-sketch-to-line"
+post:
+	echo "$(title)"
+	cp docs/post-template.md src/post/$(title).md
+	mkdir src/media/images/post/$(title)
+	cp src/media/images/post/indie-game-sim/_title.png src/media/images/post/$(title)/
+	cp src/media/images/post/indie-game-sim/_thumbnail.jpg src/media/images/post/$(title)/
+
 serve:
 	http-server htdocs -p 8081
 
