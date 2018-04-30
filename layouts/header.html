@@ -26,4 +26,8 @@
 			<p>games and art</p>
 		</div>
 
-		<div id="contents">
+		{{# if this.large}}
+			<div class="contents" id="contents-large">
+		{{else}}
+			<div class="contents" id="contents">
+		{{/if}}

@@ -45,6 +45,12 @@ body {
 	width: 600px;
 }
 
+#contents-large {
+	margin: auto;
+	text-align: center;
+	width: 1000px;
+}
+
 .date {
 	color: rgb(78, 74, 78); /* gray */
 	font-size: 75%;
