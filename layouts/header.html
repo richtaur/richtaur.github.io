@@ -5,19 +5,26 @@
 		<meta name="author" content="Matt Hackett">
 		<meta name="twitter:site" content="@richtaur">
 		<meta name="twitter:card" content="summary">
+		<meta property="og:type" content="website">
 
 		{{# if this.title}}
 		<title>{{this.title}} | {{siteName}}</title>
 		<meta name="twitter:title" content="{{this.title}} | {{siteName}}">
+		<meta property="og:title" content="{{this.title}} | {{siteName}}">
 		<meta name="description" content="{{this.summary}}">
 		<meta name="twitter:description" content="{{this.summary}}">
+		<meta property="og:description" content="{{this.summary}}">
 		<meta name="twitter:image" content="{{this.url}}media/images/{{this.path}}/_title.png">
+		<meta property="og:image" content="{{this.url}}media/images/{{this.path}}/_title.png">
 		{{else}}
 		<title>{{siteName}}</title>
 		<meta name="twitter:title" content="{{siteName}}">
+		<meta property="og:title" content="{{siteName}}">
 		<meta name="description" content="{{description}}">
 		<meta name="twitter:description" content="{{description}}">
+		<meta property="og:description" content="{{description}}">
 		<meta name="twitter:image" content="https://i.imgur.com/KbQ8x7A.png">
+		<meta property="og:image" content="https://i.imgur.com/KbQ8x7A.png">
 		{{/if}}
 
 		<link href="/media/richtaur.css" rel="stylesheet">
