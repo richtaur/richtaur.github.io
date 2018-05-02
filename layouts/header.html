@@ -4,19 +4,18 @@
 		<meta charset="UTF-8">
 		<meta name="author" content="Matt Hackett">
 		<meta name="twitter:site" content="@richtaur">
+		<meta name="twitter:card" content="summary">
 
 		{{# if this.title}}
 		<title>{{this.title}} | {{siteName}}</title>
 		<meta name="twitter:title" content="{{this.title}} | {{siteName}}">
 		<meta name="description" content="{{this.summary}}">
-		<meta name="twitter:card" content="{{this.summary}}">
 		<meta name="twitter:description" content="{{this.summary}}">
 		<meta name="twitter:image" content="{{this.url}}media/images/{{this.path}}/_title.png">
 		{{else}}
 		<title>{{siteName}}</title>
 		<meta name="twitter:title" content="{{siteName}}">
 		<meta name="description" content="{{description}}">
-		<meta name="twitter:card" content="{{description}}">
 		<meta name="twitter:description" content="{{description}}">
 		<meta name="twitter:image" content="https://i.imgur.com/KbQ8x7A.png">
 		{{/if}}
