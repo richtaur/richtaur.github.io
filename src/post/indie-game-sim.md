@@ -5,6 +5,7 @@ layout: post.html
 summary: A solo developer's struggle with creativity.
 tags: [postmortem]
 width: 640
+image: _title.png
 ---
 
 ![Indie Game Sim](/media/images/post/indie-game-sim/_title.png)
