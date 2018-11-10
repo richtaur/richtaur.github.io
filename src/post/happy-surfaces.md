@@ -6,6 +6,7 @@ summary: An art tip about using 3d surfaces to ease the drawing process.
 tags: [art, process]
 width: 600
 image: _title.png
+thumbnail: _thumbnail.jpg
 ---
 
 ![Happy Surfaces](/media/images/post/happy-surfaces/_title.png)

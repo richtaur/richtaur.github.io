@@ -6,6 +6,7 @@ summary: A solo developer's struggle with creativity.
 tags: [postmortem]
 width: 640
 image: _title.png
+thumbnail: _thumbnail.jpg
 ---
 
 ![Indie Game Sim](/media/images/post/indie-game-sim/_title.png)

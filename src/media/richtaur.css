@@ -88,33 +88,39 @@ body {
 }
 
 .list-item {
-	margin: auto;
-	min-height: 144px;
-	text-align: left;
 	margin-bottom: 4em;
 }
 
-.list-item .thumbnail {
-	float: left;
-	margin-right: 2em;
+.list-item-thumbnail {
+	margin-bottom: 4em;
+	min-height: 144px;
+}
+
+.thumbnail {
+	float: right;
+	margin-left: 1em;
 	width: 256px;
 	height: 144px;
 }
 
-.list-item .thumbnail {
+.thumbnail {
   -webkit-transition: -webkit-transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
 }
 
-.list-item .thumbnail:hover {
-  -webkit-transform: rotate(-8deg);
-  transform: rotate(-8deg);
+.thumbnail:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .post {
 	margin: 2em 4em;
 	width: 512px;
-	//width: 600px;
+}
+
+.list-items {
+	margin: 2em 4em;
+	width: 640px;
 }
 
 .contents-600 .post {

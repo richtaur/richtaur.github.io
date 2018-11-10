@@ -1,11 +1,21 @@
 {{> header}}
 
+<div class="list-items">
+
 {{#each this.posts}}
 
+	{{# if this.thumbnail}}
+	<div class="list-item-thumbnail">
+	{{else}}
 	<div class="list-item">
-		<a class="thumbnail" href="{{this.path}}">
-			<img alt="{{this.title}}" src="./media/images/{{this.path}}/_thumbnail.jpg">
-		</a>
+	{{/if}}
+
+		{{# if this.thumbnail}}
+			<a class="thumbnail" href="{{this.path}}">
+				<img alt="{{this.title}}" src="./media/images/{{this.path}}/{{this.thumbnail}}">
+			</a>
+		{{/if}}
+
 		<h2><a href="{{this.path}}">{{this.title}}</a></h2>
 		<p class="date">
 			{{formatDate this.date}}
@@ -17,5 +27,7 @@
 	</div>
 
 {{/each}}
+
+</div>
 
 {{> footer}}
