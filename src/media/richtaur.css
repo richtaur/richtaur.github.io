@@ -12,8 +12,11 @@ h1, h2, h3 {
 	font-size: 200%;
 }
 
+h1 a {
+	margin-left: 1em;
+}
+
 h2, h3 {
-	color: rgb(89, 125, 206); /* blue */
 	font-size: 150%;
 	line-height: 1.25em;
 }
@@ -42,14 +45,29 @@ body {
 
 #sidebar-content {
 	clear: both;
+	padding: 2em;
+	text-align: left;
+}
+
+#sidebar-content h2 {
+	margin-bottom: 0.5em;
+}
+
+#sidebar-content ul {
+	margin-bottom: 2em;
+}
+
+#sidebar-content ul li {
+	line-height: 1.5em;
 }
 
 #header {
 	background: url(images/richtaur64.jpg) no-repeat left center;
-	margin: auto;
-	margin-bottom: 4em;
-	margin-top: 1em;
-	width: 300px;
+	margin: 2em;
+}
+
+#header p {
+	margin-left: 1em;
 }
 
 #contents {
