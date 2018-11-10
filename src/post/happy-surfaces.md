@@ -4,6 +4,7 @@ date: 2017-11-27
 layout: post.html
 summary: An art tip about using 3d surfaces to ease the drawing process.
 tags: [art, process]
+width: 600
 ---
 
 Sometimes when I'm drawing I have a difficult time filling the space. A blank page (or canvas) can be intimidating and without something to guide me I often get lost or stumble along the way.

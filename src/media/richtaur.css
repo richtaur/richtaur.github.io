@@ -79,11 +79,6 @@ body {
 	width: calc(100% - 320px);
 }
 
-#contents-large {
-	margin: auto;
-	width: 1000px;
-}
-
 .post .date {
 	border-top: 1px solid rgb(20, 12, 28); /* black */
 	//color: rgb(78, 74, 78); /* gray */
@@ -116,8 +111,22 @@ body {
   transform: rotate(-8deg);
 }
 
-div.post {
+.post {
 	margin: 2em 4em;
+	width: 512px;
+	//width: 600px;
+}
+
+.contents-600 .post {
+	width: 600px;
+}
+
+.contents-640 .post {
+	width: 640px;
+}
+
+.contents-1000 .post {
+	width: 1000px;
 }
 
 div.post h2 {
@@ -142,7 +151,7 @@ div.post p {
 }
 
 #nav {
-	margin: 0 4em 0;
+	margin-top: 2em;
 	min-height: 160px;
 	padding-top: 1.5em;
 }

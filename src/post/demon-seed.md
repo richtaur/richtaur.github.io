@@ -4,6 +4,7 @@ date: 2017-12-04
 layout: post.html
 summary: Making the pixel art cover for Joshua Morse's new single Demon Seed.
 tags: [art]
+width: 600
 ---
 
 This is the cover to [Demon Seed](https://joshuamorse.bandcamp.com/album/single-demon-seed-castlevania-3-arrangement), a HOT new Castlevania 3 remix by one of my favorite musicians, [Joshua Morse](http://jmflava.com/#/welcome).

@@ -13,20 +13,20 @@
 	<div class="date">
 		<span>{{formatDate this.date}}</span>
 	</div>
-</div>
 
-<div id="nav">
-	{{#if this.next.path}}
-	<p class="prev">
-		<a href="../../{{this.next.path}}">&lt; {{this.next.title}}</a>
-	</p>
-	{{/if}}
+	<div id="nav">
+		{{#if this.next.path}}
+		<p class="prev">
+			<a href="../../{{this.next.path}}">&lt; {{this.next.title}}</a>
+		</p>
+		{{/if}}
 
-	{{#if this.previous.path }}
-	<p class="next">
-		<a href="../../{{this.previous.path}}">{{this.previous.title}} &gt;</a>
-	</p>
-	{{/if}}
+		{{#if this.previous.path }}
+		<p class="next">
+			<a href="../../{{this.previous.path}}">{{this.previous.title}} &gt;</a>
+		</p>
+		{{/if}}
+	</div>
 </div>
 
 {{> footer}}

@@ -1,9 +1,10 @@
 ---
-title: Making an Indie Game About Indie Game Making
+title: Indie Game Sim
 date: 2018-03-25
 layout: post.html
 summary: A solo developer's struggle with creativity.
 tags: [postmortem]
+width: 640
 ---
 
 Everyone who makes games has their own unique perspective on the process, but we can generally all agree that it’s nebulous and fraught with peril. Sometimes even the question of “which game concept should I work on?” seems impossible to answer. Fortunately, there are some guiding lights.
