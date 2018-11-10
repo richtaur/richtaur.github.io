@@ -7,6 +7,8 @@ tags: [art, process]
 width: 600
 ---
 
+![Happy Surfaces](/media/images/post/happy-surfaces/_title.png)
+
 Sometimes when I'm drawing I have a difficult time filling the space. A blank page (or canvas) can be intimidating and without something to guide me I often get lost or stumble along the way.
 
 Recently I tried an approach where I began with an **arbitrary 3d structure** before sketching out the scene. This structure helped me figure out perspective, ensured a decent composition, and gave me a kind of visual progress bar as I went.

@@ -7,6 +7,8 @@ tags: [art]
 width: 600
 ---
 
+![Demon Seed](/media/images/post/demon-seed/_title.png)
+
 This is the cover to [Demon Seed](https://joshuamorse.bandcamp.com/album/single-demon-seed-castlevania-3-arrangement), a HOT new Castlevania 3 remix by one of my favorite musicians, [Joshua Morse](http://jmflava.com/#/welcome).
 
 When I make art for Joshua, I'm always intimidated because my design needs to "sit on the same shelf" as his amazing music. To make it the best it can be, I take as much time as I can and put the design through its paces.

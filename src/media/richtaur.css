@@ -146,10 +146,6 @@ div.post p {
 	margin-bottom: 2em;
 }
 
-.content-focus p {
-	margin: auto;
-}
-
 #nav {
 	margin-top: 2em;
 	min-height: 160px;
@@ -160,7 +156,7 @@ div.post p {
 	background: rgb(210, 125, 44); /* orange */
 	border-radius: 1em;
 	color: white;
-	padding: 1em;
+	padding: 0.5em 1em;
 	text-decoration: none;
 }
 

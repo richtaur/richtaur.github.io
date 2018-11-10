@@ -7,6 +7,8 @@ tags: [postmortem]
 width: 640
 ---
 
+![Indie Game Sim](/media/images/post/indie-game-sim/_title.png)
+
 Everyone who makes games has their own unique perspective on the process, but we can generally all agree that it’s nebulous and fraught with peril. Sometimes even the question of “which game concept should I work on?” seems impossible to answer. Fortunately, there are some guiding lights.
 
 There’s [Derek Yu’s triple threat][1]: Games I want to make, games I want to have made, and games I’m good at making.

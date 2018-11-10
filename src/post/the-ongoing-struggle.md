@@ -6,3 +6,5 @@ summary: A rough comic about the struggle between playing games VS making them.
 tags: [art, comic]
 width: 1000
 ---
+
+![The Ongoing Struggle](/media/images/post/the-ongoing-struggle/_title.png)
