@@ -13,25 +13,33 @@ h1, h2, h3 {
 }
 
 h1 a {
+	color: rgb(20, 12, 28); /* black */
 	margin-left: 1em;
+	text-decoration: none;
 }
 
+h1 a:hover {
+	color: rgb(210, 125, 44); /* orange */
+}
+
+/*
 h2, h3 {
 	font-size: 150%;
 	line-height: 1.25em;
 }
+*/
 
 a {
-	color: rgb(89, 125, 206); /* blue */
+	color: rgb(210, 125, 44); /* orange */
 }
 
 a:hover {
-	color: rgb(48, 52, 109); /* dark blue */
+	//color: rgb(48, 52, 109); /* dark blue */
+	color: rgb(89, 125, 206); /* blue */
 }
 
 body {
 	color: rgb(20, 12, 28); /* black */
-	text-align: center;
 }
 
 #sidebar {
@@ -63,7 +71,9 @@ body {
 
 #header {
 	background: url(images/richtaur64.jpg) no-repeat left center;
-	margin: 2em;
+	margin: 0 2em;
+	padding: 2em 0;
+	text-align: center;
 }
 
 #header p {
@@ -77,7 +87,6 @@ body {
 
 #contents-large {
 	margin: auto;
-	text-align: center;
 	width: 1000px;
 }
 
@@ -111,22 +120,12 @@ body {
   transform: rotate(-8deg);
 }
 
-h2.post {
-	font-size: 400%;
-}
-
 div.post {
-	margin: auto;
-	margin-bottom: 4em;
-	text-align: left;
+	margin: 2em;
 }
 
 div.post .date {
 	margin-bottom: 2em;
-}
-
-div.post h2 {
-	margin-top: 1em;
 }
 
 div.post h3 {
@@ -140,10 +139,6 @@ div.post p {
 
 .post-contents {
 	margin-bottom: 2em;
-}
-
-.content-focus {
-	text-align: center;
 }
 
 .content-focus p {
