@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>richtaur</title>
+	<link href="http://www.richtaur.com/rss.xml" rel="self"/>
+	<link href="http://www.richtaur.com/"/>
+	<updated>2018-11-10T15:12:05-08:00</updated>
+	<id>http://www.richtaur.com/</id>
+	<author>
+		<name>Matt Hackett</name>
+		<email>richtaur@gmail.com</email>
+	</author>
+		<entry>
+			<title>Making an Indie Game About Indie Game Making</title>
+			<link href="http://www.richtaur.com/post/indie-game-sim"/>
+			<updated>2018-03-24T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/indie-game-sim</id>
+			<content type="html">
+				A solo developer&#x27;s struggle with creativity.
+				&lt;img alt="Making an Indie Game About Indie Game Making" src="http://www.richtaur.com/media/images/post/indie-game-sim/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Demon Seed Pixel Art Process</title>
+			<link href="http://www.richtaur.com/post/demon-seed"/>
+			<updated>2017-12-03T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/demon-seed</id>
+			<content type="html">
+				Making the pixel art cover for Joshua Morse&#x27;s new single Demon Seed.
+				&lt;img alt="Demon Seed Pixel Art Process" src="http://www.richtaur.com/media/images/post/demon-seed/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>The Ongoing Struggle</title>
+			<link href="http://www.richtaur.com/post/the-ongoing-struggle"/>
+			<updated>2017-11-29T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/the-ongoing-struggle</id>
+			<content type="html">
+				A rough comic about the struggle between playing games VS making them.
+				&lt;img alt="The Ongoing Struggle" src="http://www.richtaur.com/media/images/post/the-ongoing-struggle/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Happy Surfaces</title>
+			<link href="http://www.richtaur.com/post/happy-surfaces"/>
+			<updated>2017-11-26T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/happy-surfaces</id>
+			<content type="html">
+				An art tip about using 3d surfaces to ease the drawing process.
+				&lt;img alt="Happy Surfaces" src="http://www.richtaur.com/media/images/post/happy-surfaces/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Hello World</title>
+			<link href="http://www.richtaur.com/post/hello-world"/>
+			<updated>2017-11-12T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/hello-world</id>
+			<content type="html">
+				Just a quick doodle of me waving to the planet. Hi!
+				&lt;img alt="Hello World" src="http://www.richtaur.com/media/images/post/hello-world/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+</feed>
