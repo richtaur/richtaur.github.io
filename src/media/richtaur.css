@@ -1,4 +1,5 @@
 html, body, h1, h2, p, ul, li {
+	color: rgb(20, 12, 28); /* black */
 	font-family: "Open Sans", Sans-Serif;
 	font-size: 16px;
 
@@ -18,21 +19,12 @@ h1 a {
 	text-decoration: none;
 }
 
-h1 a:hover {
-	color: rgb(210, 125, 44); /* orange */
-}
-
 a {
 	color: rgb(210, 125, 44); /* orange */
 }
 
 a:hover {
-	//color: rgb(48, 52, 109); /* dark blue */
 	color: rgb(89, 125, 206); /* blue */
-}
-
-body {
-	color: rgb(20, 12, 28); /* black */
 }
 
 #sidebar {
@@ -81,7 +73,6 @@ body {
 
 .post .date {
 	border-top: 1px solid rgb(20, 12, 28); /* black */
-	//color: rgb(78, 74, 78); /* gray */
 	font-size: 75%;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -135,16 +126,16 @@ body {
 	width: 1000px;
 }
 
-div.post h2 {
+.post h2 {
 	margin-bottom: 1em;
 }
 
-div.post h3 {
+.post h3 {
 	margin-bottom: 1em;
 	margin-top: 1em;
 }
 
-div.post p {
+.post p {
 	margin-bottom: 1em;
 }
 
