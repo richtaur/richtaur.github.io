@@ -14,7 +14,7 @@ Everyone who makes games has their own unique perspective on the process, but we
 
 There’s [Derek Yu’s triple threat][1]: Games I want to make, games I want to have made, and games I’m good at making.
 
-<div class="content-focus">
+<div>
   ![Demon Seed sketch 1](/media/images/post/indie-game-sim/image18.jpg)
 </div>
 
@@ -24,7 +24,7 @@ Getting to work on games is a gift, but it’s extremely challenging. Even choos
 
 In addition to the above guides, there’s the old adage “write what you love” which always rang true to me. When looking at my life for the last several years, it’s easy to see that I’m obsessed with making video games. I love it, I think about it all the time, and I realized I wanted to make a game that provided a glimpse of what making video games has been like for me.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image1.png)
 </div>
 
@@ -34,13 +34,13 @@ There are other well executed games that tackle game development, especially **G
 
 So, what kind of games do players make in this level editor? There are essentially infinite genres of games, but I needed to keep my scope small. I experimented with various genres of games, including overhead action games like **Zelda** (of course) and even shooter games like **Gradius** or **R-Type** (really showing my age here). Making your own little games is a complicated thing to ask of a player, and I felt that an overly complex design would lose many people. For these reasons I decided to focus on just one genre of game. But which one?
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image19.png)
 </div>
 
 There’s always been something special to me about the longevity of side-scrolling classics like **Castlevania** and **Sonic the Hedgehog**. Side-scrolling platformers are easy to comprehend and having gravity out of the box is fun. Many of the most beloved indie games of old and new have their roots in the original **Super Mario Bros.**, with good reason. Since there was so much new stuff going on in my “making games as a game” concept, the general familiarity with platformers felt like meeting the player halfway.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image3.png)
 </div>
 
@@ -50,7 +50,7 @@ Why make games in the first place? After shaking off an existential crisis, I co
 
 Why would players want to make games? When trying to dig deeper than the typical, “because games are awesome” answer, I somehow ended up in my hometown.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image5.png)
 </div>
 
@@ -62,7 +62,7 @@ Everyone I told about this feature was interested in it, but unfortunately it wa
 
 When the town was cut, the reason to make games disappeared. The “why make games?” question came up again and after more existential cold sweats, I continued. This time I was less interested in the past and more interested in how I’d answer the question today.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image14.png)
 </div>
 
@@ -72,19 +72,19 @@ It seems as though most independent desktop game developers make the bulk of the
 
 I like Steam, too. Aside from being my primary games library these days, it also has great developer tools. Publishing games, watching stats, reading reviews — they all feel exciting to me. This led me to integrate a retro version of Steam called Vault (a play on Valve, the company that runs Steam). This provided a place for the player to unlock content and make money, as well as a platform for me to design my own games to challenge the player. Beating the games I’ve designed and built into **Indie Game Sim** is the way players unlock new game entities such as cannons, spike traps, and teleporters.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image22.png)
 </div>
 
 In the Vault market, you can set your game’s price and publish to an increasingly large fantasy audience. Your competitors’ games are in the market alongside yours. You can buy them, beat them, and unlock the new things their games introduce. This mirrors reality a bit, as one way to learn more about game development is to play other games and study them.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image11.png)
 </div>
 
 You can browse reviews where players will say nice things or spit on your work, just like on Steam! Many reviews are kind and encouraging, while others might seem negative, unfair, or downright mean. Do they seem too harsh? Many of the reviews are real, copy/pasted directly from reviews of my own games on Steam.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image12.png)
 </div>
 
@@ -92,7 +92,7 @@ You can browse reviews where players will say nice things or spit on your work, 
 
 These days, it’s [not enough][6] to simply make a decent game (maybe it’s never been enough). More experienced developers than I have suggested integrating a [strange][7] attractor into your game. Others encourage you to [make your game design more personal][8].
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image13.png)
 </div>
 
@@ -100,7 +100,7 @@ For most of my career, I’ve felt that my work has been too derivative. My exha
 
 As listeners of my [podcast][9] know, I’m a very self-deprecating person. I recognize that I’ve been privileged and lucky to have accomplished more than others have. While I’m proud of my achievements, there’s a voice in my head doubting my every move. Maybe it’s [imposter syndrome][10] or just relentless ambition. Either way, the cynical voice in my mind is always there, unimpressed with what I’ve made and mocking me endlessly.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image9.png)
 </div>
 
@@ -108,19 +108,19 @@ When trying to find what might be unique about **Indie Game Sim**, I landed on t
 
 This little monster, or “the darkness” (because I don’t want to give away its actual name) follows you around **Indie Game Sim** mocking you and relishing in your failures. It also provides player unlocks that vary depending on your dialog choices. The characters in the games you create subtly reveal the decisions you made when confronting the monster.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image2.png)
 </div>
 
 I didn’t realize until late in development that this creature was probably, at least in part, a manifestation of my own depression. 2014 was a good year for **LDG**, but its failures in 2015 had blindsided me. Sitting alone in a bathrobe all day in the dark lamenting your bad decisions … that’s a sign of depression? Who knew?!
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image16.png)
 </div>
 
 It’s not all bad. Working this game out of my system has had health benefits for sure. The darkness in the game may annoy some, but others might relate to it. Fairly often, I’ll see other creative types writing about their own self-doubt and feelings of failure. It’s comforting to see I’m not the only one, and maybe others will enjoy defeating the video game version of their inner demons.
 
-<div class="content-focus">
+<div>
   ![Adorable art by @leonieyue](/media/images/post/indie-game-sim/image8.png)
 </div>
 
@@ -130,7 +130,7 @@ General feedback I’m seeing fits **Indie Game Sim** into a neat box:
 
 Which is a fair enough generalization, I guess, but my hope is that the narrative you create by interacting with the monster will be the unique hook. Something I can bring to the table, something only I would have made.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image4.png)
 </div>
 
@@ -142,7 +142,7 @@ In my early career, I was a web developer for companies like **Yahoo!** and [Rap
 
 As mentioned earlier, successful developers have suggested games need viral hooks to give them lift. Players will be creating their own games in **Indie Game Sim** and surely some of them will want to [share their creations][12].
 
-<div class="content-focus">
+<div>
   ![](https://i.imgur.com/Afz9jzQ.gif)
 </div>
 
@@ -152,7 +152,7 @@ http://tinyurl.com/hvegac3
 
 This isn’t a perfect feature. In an ideal world we’d have an online database that would allow for easier and more feature-rich sharing. Eventually I’d like to investigate using Steamworks to share games. However, the current URL-sharing approach works as a dead simple way to share creations and I’m happy that I finally worked my web dev experience into one of my games. It’s a desktop Steam game that uses the web to give it lift.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image10.png)
 </div>
 
@@ -160,7 +160,7 @@ This isn’t a perfect feature. In an ideal world we’d have an online database
 
 At first there was no final boss. Players unlocked all the content, bought all the game dev tools, and then the darkness showed up. He congratulated you, teased you a little bit, and sent you sailing into the sunset. Not good enough!
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image15.png)
 </div>
 
@@ -168,7 +168,7 @@ Like many good ideas, the final boss encounter came from a conversation with [Ge
 
 How is the spoiler about the gameplay? If you know what the final boss encounter is, it changes how you play the entire game. The player’s first experience with the final boss might be the game’s most original feature and it was lovingly added near the end.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image20.png)
 </div>
 
@@ -180,7 +180,7 @@ This will sound corny but since my wife and I aren’t having children, my best 
 
 To many people birthdays have a kind of melancholy feel to them. While it’s often a fun and celebratory day, sometimes there’s a lingering voice in our minds reminding us that we are one year older and another closer to the end. This feeling is front and center to me, and for most of my life I’ve had a difficult time enjoying birthdays. Releasing a game is a stressful thing so when the timing worked out anyway, I decided to launch on my birthday as it’s usually a rough day anyway.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image7.png)
 </div>
 
@@ -190,7 +190,7 @@ Coincidentally, I was born the day my father turned 35, the same age I was when 
 
 Thank you for reading.
 
-<div class="content-focus">
+<div>
   ![](/media/images/post/indie-game-sim/image21.png)
 </div>
 
