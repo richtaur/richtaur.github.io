@@ -2,13 +2,16 @@
 
 <div class="post">
 	<h2>{{this.title}}</h2>
-	<p class="date">{{formatDate this.date}}</p>
 	<div class="content-focus">
 		<img alt="{{title}}" src="/media/images/{{this.path}}/_title.png">
 	</div>
 
 	<div class="post-contents">
 		{{{contents}}}
+	</div>
+
+	<div class="date">
+		<span>{{formatDate this.date}}</span>
 	</div>
 </div>
 

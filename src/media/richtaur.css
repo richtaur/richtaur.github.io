@@ -22,13 +22,6 @@ h1 a:hover {
 	color: rgb(210, 125, 44); /* orange */
 }
 
-/*
-h2, h3 {
-	font-size: 150%;
-	line-height: 1.25em;
-}
-*/
-
 a {
 	color: rgb(210, 125, 44); /* orange */
 }
@@ -91,9 +84,11 @@ body {
 }
 
 .date {
-	color: rgb(78, 74, 78); /* gray */
+	border-top: 1px solid rgb(20, 12, 28); /* black */
+	//color: rgb(78, 74, 78); /* gray */
 	font-size: 75%;
-	margin-bottom: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .list-item {
@@ -124,8 +119,8 @@ div.post {
 	margin: 2em;
 }
 
-div.post .date {
-	margin-bottom: 2em;
+div.post h2 {
+	margin-bottom: 1em;
 }
 
 div.post h3 {
@@ -146,10 +141,21 @@ div.post p {
 }
 
 #nav {
-	margin-bottom: 2em;
-	margin-left: auto;
-	margin-right: auto;
-	min-height: 1em;
+	margin: 0 2em 0;
+	min-height: 160px;
+	padding-top: 1.5em;
+}
+
+#nav a {
+	background: rgb(210, 125, 44); /* orange */
+	border-radius: 1em;
+	color: white;
+	padding: 1em;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	background: rgb(89, 125, 206); /* blue */
 }
 
 #nav .prev {
