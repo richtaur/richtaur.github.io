@@ -31,6 +31,19 @@ body {
 	text-align: center;
 }
 
+#sidebar {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 320px;
+	border-right: 2px solid black;
+}
+
+#sidebar-content {
+	clear: both;
+}
+
 #header {
 	background: url(images/richtaur64.jpg) no-repeat left center;
 	margin: auto;
@@ -40,9 +53,8 @@ body {
 }
 
 #contents {
-	margin: auto;
-	text-align: center;
-	width: 600px;
+	margin-left: 320px;
+	width: calc(100% - 320px);
 }
 
 #contents-large {
@@ -133,8 +145,4 @@ div.post p {
 
 #nav .next {
 	float: right;
-}
-
-#footer {
-	margin-bottom: 2em;
 }
