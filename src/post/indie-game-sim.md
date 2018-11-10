@@ -139,7 +139,7 @@ Which is a fair enough generalization, I guess, but my hope is that the narrativ
 
 What else would I make that similar developers might not make?
 
-In my early career, I was a web developer for companies like **Yahoo!** and [Raptr][11]. Since moving into games, I’ve drifted a bit away from that and towards desktop applications. I’ve sometimes lamented how I haven’t quite been able to figure out how to merge the two together, to use my web dev skills to enhance my desktop game creations.
+In my early career, I was a web developer for companies like **Yahoo!** and Raptr. Since moving into games, I’ve drifted a bit away from that and towards desktop applications. I’ve sometimes lamented how I haven’t quite been able to figure out how to merge the two together, to use my web dev skills to enhance my desktop game creations.
 
 As mentioned earlier, successful developers have suggested games need viral hooks to give them lift. Players will be creating their own games in **Indie Game Sim** and surely some of them will want to [share their creations][12].
 
@@ -205,7 +205,6 @@ Thank you for reading.
 [8]: http://www.gamasutra.com/view/news/117521/Opinion_Indie_Game_Design_Dos_and_Donts_A_Manifesto.php
 [9]: http://www.lostdecadegames.com/lostcast/
 [10]: http://tommyrefenes.tumblr.com/post/141157110167/impostor-syndrome
-[11]: http://raptr.com/richtaur/wall
 [12]: http://www.reddit.com/r/IndieGameSim/
 [13]: http://tinyurl.com/
 [14]: http://twitter.com/geoffblair

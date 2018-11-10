@@ -158,17 +158,6 @@ richtaur = (function() {
 
 		};
 
-		var getPlaying = function() {
-
-			$.ajax({
-				dataType : 'json',
-				type : 'get',
-				url : '/now_playing.json',
-				complete : setPlaying
-			});
-
-		};
-
 		var poll = function() {
 			if (numClouds < maxClouds) add();
 		};
@@ -209,7 +198,7 @@ richtaur = (function() {
 				$('#avatar > div').addClass('playing').html([
 					'<strong>Now Playing:</strong>',
 					'<em>' + data.response.content.base.playstatus.gametitle + '</em>',
-					'<span>via <a href="http://raptr.com/richtaur">raptr.com/richtaur</a></span>'
+					'<span>via raptr.com/richtaur</span>'
 				].join('')).show();
 			} else {
 				$('#avatar > div').removeClass('playing').hide();
@@ -265,7 +254,6 @@ richtaur = (function() {
 				// Get weather and time updates
 				setInterval(poll, POLL_INTERVAL);
 				setInterval(get, 60000); /* 10 minutes */
-				setInterval(getPlaying, 30000); // 5 minutes
 
 			},
 			full : function() {
@@ -318,7 +306,7 @@ richtaur = (function() {
 					x = doc.w;
 					y = rand(0, MAX_Y);
 				}
-				
+
 			}
 
 			return false;
@@ -471,7 +459,7 @@ richtaur = (function() {
 		var show = function() {
 
 			var offset = visible.offset();
-				
+
 			if ((current.left == offset.left) && (current.right == offset.right)) return;
 
 			busy = true;
@@ -559,9 +547,9 @@ richtaur = (function() {
 
 	};
 
-	var rand = function(from, to) { 
-		return (from + Math.floor((to - from + 1) * Math.random())); 
-	}; 
+	var rand = function(from, to) {
+		return (from + Math.floor((to - from + 1) * Math.random()));
+	};
 
 	var init = function() {
 
@@ -658,7 +646,7 @@ richtaur = (function() {
         el.animate({
           background : 'grey'
         });
-      
+
         break;
 
       case 'maximize':

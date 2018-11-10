@@ -460,14 +460,6 @@ strong { font-weight: bold; }
 	list-style: disc;
 }
 
-#raptr-badge {
-	position: relative;
-	top: -2px;
-	width: 300px;
-	height: 348px;
-	z-index: 2;
-}
-
 #tooltip {
 	background: url(../img/lakitu.png) no-repeat;
 	position: absolute;
@@ -646,7 +638,6 @@ ul.standard > li {
 .icon-netvibes { background-image: url(http://netvibes.com/favicon.ico); }
 .icon-ycombinator { background-image: url(http://ycombinator.com/favicon.ico); }
 .icon-yahoo { background-image: url(http://www.yahoo.com/favicon.ico); }
-.icon-raptr { background-image: url(http://raptr.com/favicon.ico); }
 .icon-gamerdna { background-image: url(http://www.gamerdna.com/favicon.ico); }
 .icon-richtaur { background-image: url(http://chi.mp/favicon.ico); }
 .icon-myopenid { background-image: url(http://myopenid.com/favicon.ico); }
