@@ -9,3 +9,7 @@ The personal website of Matt Hackett, a game developer in California.
 `npm install`
 `make`
 `make serve`
+
+## Publish
+
+`make deploy`
