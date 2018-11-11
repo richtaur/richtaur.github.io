@@ -2,7 +2,7 @@
 title: Redesign 2018
 date: 2018-11-10
 layout: post.html
-summary: richtaur.com has a new redesign.
+summary: richtaur.com has a new design.
 tags: [update]
 ---
 
