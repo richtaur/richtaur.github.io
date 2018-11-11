@@ -8,12 +8,16 @@ tags: [update]
 
 Why redesign **richtaur.com**?
 
-In 2017, I thought it would be a good idea to require all posts to have their own title and thumbnails images. While I do prefer visual interest, *requiring* an image ended up making me post less often.
+In the [2017](/2017/) design, I couldn't publish a new post to this site without a title and thumbnail image. That design was meant to both create a more visually interesting website, as well as forcing me to draw more often.
 
-Requiring an image probably came from a desire to force myself to draw more. But tangling that up with my ability to write wasn't a good idea. **Multitasking is the enemy of the modern creator**.
+However, the image requirement ended up being a bottleneck that resulted in fewer posts.
 
-When cutting the requirement for images, the design needed to change to make words first class citizens. My hope is that this will create fertile soil in which to write with freedom.
+This website is meant to house my creative output, which starts with words. If the design doesn't encourage that and make it easy, then it's not doing what it was designed to do. It doesn't really solve its problem.
 
-Here's to untethered creativity and keeping it simple.
+This ineffective design may have came from trying to solve too many problems at once. In trying to solve multiple problems, I ended up not really solving the problem.
+
+The design needed to change to make words first class citizens. Images that used to be required are now optional, celebrated here with only lonely words. My hope is that this will create fertile soil in which to write with freedom.
+
+So here's to untethered creativity and keeping it simple.
 
 *(Fun fact: most of this site's incarnations from previous years can be found in the new sidebar, dating all the way back to 2010.)*
