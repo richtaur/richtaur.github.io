@@ -12,12 +12,12 @@ In the [2017](/2017/) design, I couldn't publish a new post to this site without
 
 However, the image requirement ended up being a bottleneck that resulted in fewer posts.
 
-This website is meant to house my creative output, which starts with words. If the design doesn't encourage that and make it easy, then it's not doing what it was designed to do. It doesn't really solve its problem.
+This website is meant to house my creative output, which starts with words. If the design doesn't encourage that and make it easy, then it's not doing what it was designed to do -- it doesn't really solve its problem.
 
-This ineffective design may have came from trying to solve too many problems at once. In trying to solve multiple problems, I ended up not really solving the problem.
+This ineffective design may be the result of trying to solve too many problems at once. In "fixing" multiple problems, I ended up not really fixing any problem.
 
 The design needed to change to make words first class citizens. Images that used to be required are now optional, celebrated here with only lonely words. My hope is that this will create fertile soil in which to write with freedom.
 
-So here's to untethered creativity and keeping it simple.
+So here's to untethered creativity and to keeping it simple.
 
-*(Fun fact: most of this site's incarnations from previous years can be found in the new sidebar, dating all the way back to 2010.)*
+*(Fun fact: most of this site's incarnations from previous years can be found in the new sidebar, dating all the way back to [2010](/2010/).)*
