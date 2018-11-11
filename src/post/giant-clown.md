@@ -1,6 +1,6 @@
 ---
 title: Giant Clown Process
-date: 2018-11-12
+date: 2018-11-11
 layout: post.html
 summary: Drawing is fun because you get to see what weird things are in your head.
 tags: [art]
