@@ -9,5 +9,3 @@ thumbnail: _thumbnail.jpg
 ---
 
 ![Hello World](/media/images/post/hello-world/_title.png)
-
-This is obligatory. With every new thing I make, I can't help but start with a tropey Hello World. Hi!
