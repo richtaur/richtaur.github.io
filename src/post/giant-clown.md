@@ -44,9 +44,9 @@ Due to its loose nature, the doodle is almost always missing a key detail. With 
   </a>
 </div>
 
-Most doodles make it to adolescence and are abandoned, which is fine. Usually they are too ambitious or aren't satisfying enough.
+Most [doodles](https://twitter.com/richtaur/status/1043337080229658626) make it to adolescence and are abandoned, which is fine. Usually they are too ambitious or aren't satisfying enough.
 
-For whatever reason, this one survived longer than most. Maybe because it was conceived on Halloween.
+For whatever reason, this one held my attention longer than most.
 
 <div>
   <a href="/media/images/post/giant-clown/fullsize/clown_process.jpg">
