@@ -145,8 +145,8 @@ a:hover {
 
 #nav {
 	margin-top: 2em;
-	min-height: 160px;
 	padding-top: 1.5em;
+	padding-bottom: 3em;
 }
 
 #nav a {
