@@ -4,6 +4,7 @@ date: 2018-11-12
 layout: post.html
 summary: Drawing is fun because you get to see what weird things are in your head.
 tags: [art]
+thumbnail: thumbnail.jpg
 ---
 
 <a href="/media/images/post/giant-clown/fullsize/clown_4.jpg">
@@ -18,9 +19,7 @@ Drawing can be the most fun when you don't know what you're going to draw.
   </a>
 </div>
 
-Sometimes I like to make random marks until a vision emerges, like a mirage in the desert.
-
-[Pareidolia](https://en.wikipedia.org/wiki/Pareidolia) can be a useful tool.
+Sometimes I like to make random marks until [a vision emerges](https://en.wikipedia.org/wiki/Pareidolia), like a mirage in the desert.
 
 <div>
   <a href="/media/images/post/giant-clown/fullsize/clown_2.jpg">
@@ -28,7 +27,7 @@ Sometimes I like to make random marks until a vision emerges, like a mirage in t
   </a>
 </div>
 
-Sometimes the marks reveal specific forms. Sometimes they make only suggestions.
+Some marks reveal specific forms. Some make only suggestions.
 
 <div>
   <a href="/media/images/post/giant-clown/fullsize/clown_3.jpg">
@@ -44,9 +43,9 @@ Due to its loose nature, the doodle is almost always missing a key detail. With 
   </a>
 </div>
 
-Most doodles make it to adolescence and are abandoned, which is fine. Usually those are too ambitious or aren't satisfying enough.
+Most doodles make it to adolescence and are abandoned, which is fine. Usually they are too ambitious or aren't satisfying enough.
 
-For whatever reason, this one survived longer than most. Maybe because it was Halloween.
+For whatever reason, this one survived longer than most. Maybe because it was conceived on Halloween.
 
 <div>
   <a href="/media/images/post/giant-clown/fullsize/clown_process.jpg">
