@@ -10,7 +10,7 @@ Why redesign **richtaur.com**?
 
 In the [2017](/2017/) design, I couldn't publish a new post to this site without a title and thumbnail image. That design was meant to both create a more visually interesting website, as well as forcing me to draw more often.
 
-However, the image requirement ended up being a bottleneck that resulted in fewer posts.
+However, this image requirement put a bottleneck on my creativity.
 
 This website is meant to house my creative output, which starts with words. If the design doesn't encourage that and make it easy, then it's not doing what it was designed to do -- it doesn't really solve its problem.
 
@@ -20,4 +20,4 @@ The design needed to change to make words first class citizens. Images that used
 
 So here's to untethered creativity and to keeping it simple.
 
-*(Fun fact: most of this site's incarnations from previous years can be found in the new sidebar, dating all the way back to [2010](/2010/).)*
+*(Fun fact: most of this site's designs from previous years can be found in the new sidebar, dating all the way back to [2010](/2010/).)*
