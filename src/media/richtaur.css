@@ -82,6 +82,10 @@ a:hover {
 	margin-bottom: 4em;
 }
 
+.list-item h2, .list-item-thumbnail h2 {
+	margin-bottom: 0.5em;
+}
+
 .list-item-thumbnail {
 	margin-bottom: 4em;
 	min-height: 144px;
@@ -141,6 +145,47 @@ a:hover {
 
 .post-contents {
 	margin-bottom: 2em;
+}
+
+.share {
+	text-align: center;
+}
+
+.share a {
+	display: inline-block;
+	margin: auto;
+	margin-right: 16px;
+	text-indent: -9999em;
+	width: 24px;
+	height: 24px;
+}
+
+.share a:last-child {
+	margin-right: 0;
+}
+
+.share a.tw {
+	background: url(images/share24.png);
+}
+
+.share a.tw:hover {
+	background-position: -24px 0;
+}
+
+.share a.fb {
+	background: url(images/share24.png) 0 -24px;
+}
+
+.share a.fb:hover {
+	background: url(images/share24.png) -24px -24px;
+}
+
+.share a.in {
+	background: url(images/share24.png) 0 -48px;
+}
+
+.share a.in:hover {
+	background: url(images/share24.png) -24px -48px;
 }
 
 #nav {

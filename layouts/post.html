@@ -11,6 +11,12 @@
 		<span>{{formatDate this.date}}</span>
 	</div>
 
+	<div class="share">
+		<a class="tw" href="http://twitter.com/intent/tweet?status={{this.title}}+{{this.url}}{{this.path}}/">Twitter</a>
+		<a class="fb" href="http://www.facebook.com/sharer/sharer.php?u={{this.url}}{{this.path}}/&title={{this.title}}">Facebook</a>
+		<a class="in" href="http://www.linkedin.com/shareArticle?url={{this.url}}{{this.path}}/&title={{this.title}}&source={{this.url}}&mini=true">linkedin</a>
+	</div>
+
 	<div id="nav">
 		{{#if this.next.path}}
 		<p class="prev">
