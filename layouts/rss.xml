@@ -18,7 +18,7 @@
 			<content type="html">
 				{{this.summary}}
 				{{# if this.thumbnail}}
-				&lt;img alt="{{this.title}}" src="{{image this.path}}/{{this.thumbnail}}.jpg" width="256" height="144"&gt;
+				&lt;img alt="{{this.title}}" src="{{image this.path}}/{{this.thumbnail}}" width="256" height="144"&gt;
 				{{/if}}
 			</content>
 		</entry>
