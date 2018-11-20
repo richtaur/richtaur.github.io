@@ -150,6 +150,10 @@ a:hover {
 	margin-bottom: 2em;
 }
 
+.post-contents blockquote {
+	font-style: italic;
+}
+
 .share {
 	margin-top: 4px;
 	text-align: center;
