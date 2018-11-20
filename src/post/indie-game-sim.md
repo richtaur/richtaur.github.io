@@ -29,7 +29,7 @@ In addition to the above guides, there’s the old adage “write what you love�
   ![](/media/images/post/indie-game-sim/image1.png)
 </div>
 
-### A Game About Game Development
+## A Game About Game Development
 
 There are other well executed games that tackle game development, especially **Game Dev Story** and [Game Dev Tycoon][4], both simulation games. For this project I wanted players to get their hands dirty by doing some game design. That meant including a level editor of sorts where players could make their own little 2D games by placing tiles and entities individually. My starting point would be a gamified level editor.
 
@@ -45,7 +45,7 @@ There’s always been something special to me about the longevity of side-scroll
   ![](/media/images/post/indie-game-sim/image3.png)
 </div>
 
-### The Meta Game
+## The Meta Game
 
 Why make games in the first place? After shaking off an existential crisis, I continued.
 
@@ -67,7 +67,7 @@ When the town was cut, the reason to make games disappeared. The “why make gam
   ![](/media/images/post/indie-game-sim/image14.png)
 </div>
 
-### The Vault Market
+## The Vault Market
 
 It seems as though most independent desktop game developers make the bulk of their first-party sales on Steam. Some of those developers live and breathe Steam. They are obsessed with maximizing their Steam sales, Steam discovery, Steam wishlists, Steam reviews, Steam Steam Steam. Many indies are super into Steam.
 
@@ -89,7 +89,7 @@ You can browse reviews where players will say nice things or spit on your work, 
   ![](/media/images/post/indie-game-sim/image12.png)
 </div>
 
-### Something Original
+## Something Original
 
 These days, it’s [not enough][6] to simply make a decent game (maybe it’s never been enough). More experienced developers than I have suggested integrating a [strange][7] attractor into your game. Others encourage you to [make your game design more personal][8].
 
@@ -135,7 +135,7 @@ Which is a fair enough generalization, I guess, but my hope is that the narrativ
   ![](/media/images/post/indie-game-sim/image4.png)
 </div>
 
-### Uploading Games
+## Uploading Games
 
 What else would I make that similar developers might not make?
 
@@ -157,7 +157,7 @@ This isn’t a perfect feature. In an ideal world we’d have an online database
   ![](/media/images/post/indie-game-sim/image10.png)
 </div>
 
-### Creating the Final Boss
+## Creating the Final Boss
 
 At first there was no final boss. Players unlocked all the content, bought all the game dev tools, and then the darkness showed up. He congratulated you, teased you a little bit, and sent you sailing into the sunset. Not good enough!
 
@@ -173,7 +173,7 @@ How is the spoiler about the gameplay? If you know what the final boss encounter
   ![](/media/images/post/indie-game-sim/image20.png)
 </div>
 
-### Summary
+## Summary
 
 Game development means a lot to me. As a kid, video games blew my impressionable young face right off. When I discovered you could make games yourself, I was floored. I’m still on the floor, decades later. Whether it’s any good or not, I finally made a game about something I care for deeply.
 

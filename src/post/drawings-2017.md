@@ -1,5 +1,5 @@
 ---
-title: A Dozen Sketchbook Pages from Late 2017
+title: 12 Pages From Late 2017
 date: 2018-11-17
 layout: post.html
 summary: I've been meaning to share these for about a year now.
