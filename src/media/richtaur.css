@@ -1,9 +1,8 @@
-html, body, h1, h2, p, ul {
+html, body, h1, h2, p, ol, ul {
 	color: rgb(20, 12, 28); /* black */
 	font-family: "Open Sans", Sans-Serif;
 	font-size: 16px;
 
-	list-style: none;
 	margin: 0;
 	padding: 0;
 }
@@ -52,6 +51,7 @@ a:hover {
 }
 
 #sidebar-content ul {
+	list-style: none;
 	margin-bottom: 2em;
 }
 
@@ -125,17 +125,10 @@ a:hover {
 	width: 640px;
 }
 
-.contents-600 .post {
-	width: 600px;
-}
-
-.contents-640 .post {
-	width: 640px;
-}
-
-.contents-1000 .post {
-	width: 1000px;
-}
+.contents-600 .post { width: 600px; }
+.contents-640 .post { width: 640px; }
+.contents-800 .post { width: 800px; }
+.contents-1000 .post { width: 1000px; }
 
 .post h2 {
 	margin-bottom: 1em;
@@ -146,8 +139,12 @@ a:hover {
 	margin-top: 1em;
 }
 
-.post p {
+.post p, .post ol, .post ul {
 	margin-bottom: 1em;
+}
+
+.post ol, .post ul {
+	margin-left: 4em;
 }
 
 .post-contents {
@@ -225,4 +222,9 @@ a:hover {
 
 #nav .next {
 	float: right;
+}
+
+.image-left img {
+	float: left;
+	margin-right: 2em;
 }
