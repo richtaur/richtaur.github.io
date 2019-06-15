@@ -3,7 +3,7 @@ title: My Game Design Principles
 date: 2019-06-09
 layout: post.html
 summary: The principles that guide my personal game design.
-tags: [art]
+tags: [article]
 ---
 
 There are countless decisions to make when developing games. For personal projects, I realized I kept falling in the same traps and could benefit from some **guiding principles** to help avoid them. Some early decisions in particular (eg. 2D or 3D? Gamepad or touch input?) I’ve determined can completely derail a personal project of mine.
@@ -87,11 +87,19 @@ Don’t have features that only exist behind the curtains. If there’s some mag
 
 As [Sid Meier][sid] points out, one of three entities can be having the fun: the player, the designer, or the computer. Let the player have the fun.
 
+## Singular capability
+
+Each entity in a game should do just one thing (at least to start). Don’t overcomplicate it by adding too much functionality. [Read on.](/post/singular-capability/)
+
 ## Summary
 
 These principles are a work-in-progress and are intended to help guide my personal game projects towards an attainable finish line. Rules can be broken of course, so if you see me deviating from these principles, trust that it was only after much deliberation (and maybe a little lying to myself).
 
 Love/hate these principles? Questions about ‘em? Got your own? Let me know on [Twitter](https://twitter.com/richtaur).
+
+## Changelog
+
+6.15.2019: Added [Singular Capability](/post/singular-capability/)
 
 [awl]: https://store.steampowered.com/app/280040/A_Wizards_Lizard/
 [sid]: https://www.gamasutra.com/view/news/114402/Analysis_Sid_Meiers_Key_Design_Lessons.php
