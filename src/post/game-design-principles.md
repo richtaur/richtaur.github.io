@@ -91,6 +91,10 @@ As [Sid Meier][sid] points out, one of three entities can be having the fun: the
 
 Each entity in a game should do just one thing (at least to start). Don’t overcomplicate it by adding too much functionality. [Read on.](/post/singular-capability/)
 
+## Lock before key
+
+Present the player with the **lock** before the **key** to open it. [Read on.](/post/lock-before-key/)
+
 ## Summary
 
 These principles are a work-in-progress and are intended to help guide my personal game projects towards an attainable finish line. Rules can be broken of course, so if you see me deviating from these principles, trust that it was only after much deliberation (and maybe a little lying to myself).
@@ -99,7 +103,8 @@ Love/hate these principles? Questions about ‘em? Got your own? Let me know on 
 
 ## Changelog
 
-6.15.2019: Added [Singular Capability](/post/singular-capability/)
+* 6.15.2019: Added [Singular Capability](/post/singular-capability/)
+* 6.18.2019: Added [Lock Before Key](/post/lock-before-key/)
 
 [awl]: https://store.steampowered.com/app/280040/A_Wizards_Lizard/
 [sid]: https://www.gamasutra.com/view/news/114402/Analysis_Sid_Meiers_Key_Design_Lessons.php
