@@ -11,7 +11,7 @@ post:
 	cp src/media/images/post/indie-game-sim/_thumbnail.jpg src/media/images/post/$(title)/
 
 serve:
-	http-server htdocs -p 8081
+	http-server htdocs -p 8088
 
 deploy:
 	aws s3 sync htdocs s3://www.richtaur.com \
