@@ -2,7 +2,7 @@
 title: Food Doodles
 date: 2018-12-11
 layout: post.html
-summary: Starving while waiting for Andrea to get the fuck ready for lunch.
+summary: Starving while waiting for Andrea to get ready for lunch.
 tags: [art]
 width: 600
 image: food.jpg
