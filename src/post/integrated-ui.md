@@ -2,7 +2,7 @@
 title: Integrated UI
 date: 2019-06-28
 layout: post.html
-summary: "Game design principle: integrated UI."
+summary: "Game design principle: try to integrate your user interface."
 tags: [article]
 image: witch_bats.png
 thumbnail: thumb.jpg

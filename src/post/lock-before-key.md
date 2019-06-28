@@ -2,7 +2,7 @@
 title: Lock Before Key
 date: 2019-06-18
 layout: post.html
-summary: "Game design principle: lock before key."
+summary: "Game design principle: put the obstacle in front of the player before the tool to overcome it."
 tags: [article]
 ---
 

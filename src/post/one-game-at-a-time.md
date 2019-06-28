@@ -2,7 +2,7 @@
 title: Make One Game at a Time
 date: 2019-06-22
 layout: post.html
-summary: "Game design principle: make one game at a time."
+summary: "Game design principle: don't kid yourself into building multiple games simultaneously."
 tags: [article]
 ---
 
