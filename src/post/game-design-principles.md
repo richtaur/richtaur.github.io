@@ -26,9 +26,9 @@ I don't really enjoy optimizing; it feels like paying for past mistakes.
 
 Game components utilize each other instead of building on top of them. Think in-game explosion entities over band-aiding some explosion system into the game.
 
-## Diegetic
+## Diegetic UI
 
-When possible, prefer in-game elements instead of overlaid interfaces. Think having a core unit to protect instead of a player health bar, or the spinal cord health bar in **Dead Space**.
+When possible, attempt to represent data with in-game interfaces instead of overlaying UI. A great example is the spinal cord health bar in **Dead Space**.
 
 ## No modes
 
@@ -99,6 +99,10 @@ Present the player with the **lock** before the **key** to open it. [Read on.](/
 
 Be realistic with yourself: how many games are hidden within the game you're making? Does (nearly) everything happen within one primary game simulation? If not, you're actually making multiple games and have potentially magnitudes more work to do. [Read on.](/post/one-game-at-a-time/)
 
+## Integrated UI
+
+Video games often need a user interface (UI) displayed, like a health bar or a score shown on the screen somewhere. When possible, consider integrating any UI directly into the game. (Think picking up a shop item in **Spelunky** instead of selecting an item in a popup window.) [Read on.](/post/integrated-ui/)
+
 ## Summary
 
 These principles are a work-in-progress and are intended to help guide my personal game projects towards an attainable finish line. Rules can be broken of course, so if you see me deviating from these principles, trust that it was only after much deliberation (and maybe a little lying to myself).
@@ -107,9 +111,10 @@ Love/hate these principles? Questions about ‘em? Got your own? Let me know on 
 
 ## Changelog
 
-* 6.15.2019: Added [Singular Capability](/post/singular-capability/)
-* 6.18.2019: Added [Lock Before Key](/post/lock-before-key/)
+* 6.28.2019: Added [Integrated UI](/post/integrated-ui/)
 * 6.22.2019: Added [Make One Game at a Time](/post/one-game-at-a-time/)
+* 6.18.2019: Added [Lock Before Key](/post/lock-before-key/)
+* 6.15.2019: Added [Singular Capability](/post/singular-capability/)
 
 [awl]: https://store.steampowered.com/app/280040/A_Wizards_Lizard/
 [sid]: https://www.gamasutra.com/view/news/114402/Analysis_Sid_Meiers_Key_Design_Lessons.php
