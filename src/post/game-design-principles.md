@@ -103,6 +103,10 @@ Be realistic with yourself: how many games are hidden within the game you're mak
 
 Video games often need a user interface (UI) displayed, like a health bar or a score shown on the screen somewhere. When possible, consider integrating any UI directly into the game. (Think picking up a shop item in **Spelunky** instead of selecting an item in a popup window.) [Read on.](/post/integrated-ui/)
 
+## Low fidelity
+
+When you're short on time or resources, consider a low fidelity approach to empower you to move more quickly. [Read on.](/post/low-fidelity/)
+
 ## Summary
 
 These principles are a work-in-progress and are intended to help guide my personal game projects towards an attainable finish line. Rules can be broken of course, so if you see me deviating from these principles, trust that it was only after much deliberation (and maybe a little lying to myself).
@@ -111,6 +115,7 @@ Love/hate these principles? Questions about ‘em? Got your own? Let me know on 
 
 ## Changelog
 
+* 7.01.2019: Added [Low Fidelity](/post/low-fidelity/)
 * 6.28.2019: Added [Integrated UI](/post/integrated-ui/)
 * 6.22.2019: Added [Make One Game at a Time](/post/one-game-at-a-time/)
 * 6.18.2019: Added [Lock Before Key](/post/lock-before-key/)
