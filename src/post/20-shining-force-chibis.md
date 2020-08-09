@@ -4,6 +4,7 @@ date: 2020-08-08
 layout: post.html
 summary: How about 2/3rds of the characters from the original Shining Force game in chibi form?
 tags: [art]
+image: image.jpg
 thumbnail: thumb.jpg
 ---
 
