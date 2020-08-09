@@ -13,3 +13,7 @@ The personal website of [Matt Hackett](https://twitter.com/richtaur), a game dev
 ## Publish
 
 `make deploy`
+
+## Add a new post
+
+* Create a new file, e.g. `./src/post/example-url.md`
