@@ -27,7 +27,7 @@ Plus, the secrets! Hidden characters, powerful weapons, and costume changes! Wha
 
 As an excuse to spend more time with these great characters, I drew all of my favorites. At first I just drew Max as an experiment, but had so much fun I continued with Zylo. Then obviously I *had* to get Domingo in there ... and the momentum continued longer than I expected. Somehow this turned into easily my biggest fanart project.
 
-I wondered if I might draw *all 30 characters* but I lost steam around 20. The remaining characters are kind of duplicates: Diane looks like Hans, Amon looks like Balbarboy, Torasu looks like Lowe ...
+I wondered if I might draw *all 30 characters* but I lost steam at 20. The remaining characters are kind of duplicates: Diane looks like Hans, Amon looks like Balbarboy, Torasu looks like Lowe ...
 I might get to them eventually but in the meantime I wanted to move on to other projects. Maybe I'll circle back someday.
 
 *Next up: [Dragon Quest II](https://en.wikipedia.org/wiki/Dragon_Quest_II)! Watch this space.*
