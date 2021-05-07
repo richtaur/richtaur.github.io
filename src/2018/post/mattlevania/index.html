@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Matt Hackett">
+		<meta name="twitter:site" content="@richtaur">
+		<meta name="twitter:card" content="summary">
+		<meta property="og:type" content="website">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Mattlevania | richtaur</title>
+		<meta name="twitter:title" content="Mattlevania | richtaur">
+		<meta property="og:title" content="Mattlevania | richtaur">
+		<meta name="description" content="Matt + Castlevania &#x3D; Mattlevania.">
+		<meta name="twitter:description" content="Matt + Castlevania &#x3D; Mattlevania.">
+		<meta property="og:description" content="Matt + Castlevania &#x3D; Mattlevania.">
+
+		<meta name="twitter:image" content="http://www.richtaur.com/media/images/post/mattlevania/title.jpg">
+		<meta property="og:image" content="http://www.richtaur.com/media/images/post/mattlevania/title.jpg">
+
+		<link href="/media/richtaur.css" rel="stylesheet">
+		<link rel="alternate" type="application/rss+xml" title="RSS feed for richtaur" href="http://www.richtaur.com/rss.xml">
+		<link rel="icon" href="/favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700" rel="stylesheet">
+	</head>
+	<body>
+
+		<div id="sidebar">
+			<div id="header">
+				<h1><a href="/">richtaur</a></h1>
+				<p>game developer</p>
+			</div>
+
+			<div id="sidebar-content">
+				<h2>More Matt</h2>
+				<ul>
+					<li><a href="https://twitter.com/richtaur">@richtaur</a></li>
+					<li><a href="https://www.gamasutra.com/blogs/MattHackett/876382/">Gamasutra articles</a></li>
+					<li><a href="https://github.com/richtaur">GitHub projects</a></li>
+					<li><a href="https://www.deviantart.com/richtaur/gallery/">DeviantArt Gallery</a></li>
+					<li><a href="http://www.lostdecadegames.com/lostcast/">Podcast</a></li>
+					<li><a href="/rss.xml">RSS</a></li>
+				</ul>
+
+				<h2>Designs by Year</h2>
+				<ul>
+					<li><a href="/2017/">2017</a></li>
+					<li><a href="/2016/">2016</a></li>
+					<li><a href="/2013/">2013</a></li>
+					<li><a href="/2010/">2010</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="contents" class="contents contents-1000">
+
+<div class="post">
+	<h2>Mattlevania</h2>
+
+	<div class="post-contents">
+		<div>
+  <img src="/media/images/post/mattlevania/title.jpg" alt="Mattlevania">
+</div>
+
+<p><a href="https://en.wikipedia.org/wiki/Castlevania_(1986_video_game)">Castlevania</a> is one of my favorite video game franchises. The gothic theme, fun gameplay, <a href="https://joshuamorse.bandcamp.com/album/vlad">hypnotic</a> <a href="https://joshuamorse.bandcamp.com/album/vlad-ii">music</a>, <a href="https://www.youtube.com/watch?v=Aip2aIt0ROM&amp;t=413">vibrant colors</a>, and yes, even the static jumping mechanic has had a major influence on me since the 80s.</p>
+<p>I’ve always wanted to make my own game that felt like Castlevania, but so far all I have to show for it is a series of unfinished prototypes. To break that pattern I thought I’d talk about a recent attempt using <a href="https://unity3d.com/">Unity</a>.</p>
+<div>
+  <img src="/media/images/post/mattlevania/cv02.gif" alt="Mattlevania">
+</div>
+
+<p>This prototype didn’t get very far along, but I learned a lot while hacking. For instance: traditional side-scrolling platformer games don’t really use plug &#39;n play physics engines.</p>
+<p>(Of course this is a broad, sweeping generalization. Some of the games in this genre certainly do use generic physics engines. Some games utilize kind of a hybrid of their own and a physics library or another.)</p>
+<div>
+  <img src="/media/images/post/mattlevania/cv01.gif" alt="Mattlevania">
+</div>
+
+<p>But when making a game like Castlevania, it&#39;s doubtful the developers would simply use <a href="https://box2d.org/">Box2D</a> and call it a day. It&#39;s too loose.</p>
+<p>Instead, it seems like most side-scrolling platformer games use their own kind of curated physics. In Unity for example, I’d probably use the built-in <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnTriggerEnter2D.html">collision detection</a>, but not the actual <a href="https://docs.unity3d.com/Manual/Physics2DReference.html">Physics2D</a>.</p>
+<div>
+  <img src="/media/images/post/mattlevania/cv03.gif" alt="Mattlevania">
+</div>
+
+<p>For features like player jumping, gravity, knock-back ... I&#39;d probably code that myself to tightly control how it feels.</p>
+<p>It seems like velocity and collision responses would accomplish most of what a Castlevania game would need, but if I continued I&#39;d likely spend much of my time <a href="https://www.fortressofdoors.com/oil-it-or-spoil-it/">oiling</a> various areas to improve <a href="https://en.wikipedia.org/wiki/Game_feel">game feel</a>.</p>
+<div>
+  <img src="/media/images/post/mattlevania/cv05.gif" alt="Mattlevania">
+</div>
+
+<p>After some fun experiments in Mattlevania, back on the shelf it goes. Perhaps I will dust it off someday.</p>
+<p>If nothing else, Mattlevania made for my most popular tweet:</p>
+<p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">you can now kill Dracula in my flawless Castlevania remake <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://t.co/L81GWSoi1M">pic.twitter.com/L81GWSoi1M</a></p>&mdash; Matt Hackett (@richtaur) <a href="https://twitter.com/richtaur/status/869771625557880832?ref_src=twsrc%5Etfw">May 31, 2017</a></blockquote></p>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+	</div>
+
+	<div class="post-footer">
+		<ul class="share">
+			<li><a class="in" href="http://www.linkedin.com/shareArticle?url=http://www.richtaur.com/post/mattlevania/&title=Mattlevania&source=http://www.richtaur.com/&mini=true">linkedin</a></li>
+			<li><a class="fb" href="http://www.facebook.com/sharer/sharer.php?u=http://www.richtaur.com/post/mattlevania/&title=Mattlevania">Facebook</a></li>
+			<li><a class="tw" href="http://twitter.com/intent/tweet?status=Mattlevania+http://www.richtaur.com/post/mattlevania/">Twitter</a></li>
+		</ul>
+		<span class="date">Nov 23, 2018</span>
+	</div>
+
+	<div id="nav">
+		<p class="prev">
+			<a href="../../post/characters-bitmoo">&lt; Cute Character Studies</a>
+		</p>
+
+		<p class="next">
+			<a href="../../post/crocodile-banner-study">Crocodile Banner Study &gt;</a>
+		</p>
+	</div>
+</div>
+
+
+		</div>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-27284870-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-27284870-1');
+		</script>
+
+	</body>
+</html>

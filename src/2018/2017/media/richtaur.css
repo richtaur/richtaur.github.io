@@ -1,0 +1,140 @@
+html, body, h1, h2, p, ul, li {
+	font-family: "Open Sans", Sans-Serif;
+	font-size: 16px;
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	font-family: "Merriweather", Sans-Serif;
+	font-size: 200%;
+}
+
+h2, h3 {
+	color: rgb(89, 125, 206); /* blue */
+	font-size: 150%;
+	line-height: 1.25em;
+}
+
+a {
+	color: rgb(89, 125, 206); /* blue */
+}
+
+a:hover {
+	color: rgb(48, 52, 109); /* dark blue */
+}
+
+body {
+	color: rgb(20, 12, 28); /* black */
+	text-align: center;
+}
+
+#header {
+	background: url(images/richtaur64.jpg) no-repeat left center;
+	margin: auto;
+	margin-bottom: 4em;
+	margin-top: 1em;
+	width: 300px;
+}
+
+#contents {
+	margin: auto;
+	text-align: center;
+	width: 600px;
+}
+
+#contents-large {
+	margin: auto;
+	text-align: center;
+	width: 1000px;
+}
+
+.date {
+	color: rgb(78, 74, 78); /* gray */
+	font-size: 75%;
+	margin-bottom: 2em;
+}
+
+.list-item {
+	margin: auto;
+	min-height: 144px;
+	text-align: left;
+	margin-bottom: 4em;
+}
+
+.list-item .thumbnail {
+	float: left;
+	margin-right: 2em;
+	width: 256px;
+	height: 144px;
+}
+
+.list-item .thumbnail {
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.list-item .thumbnail:hover {
+  -webkit-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+
+h2.post {
+	font-size: 400%;
+}
+
+div.post {
+	margin: auto;
+	margin-bottom: 4em;
+	text-align: left;
+}
+
+div.post .date {
+	margin-bottom: 2em;
+}
+
+div.post h2 {
+	margin-top: 1em;
+}
+
+div.post h3 {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+div.post p {
+	margin-bottom: 1em;
+}
+
+.post-contents {
+	margin-bottom: 2em;
+}
+
+.content-focus {
+	text-align: center;
+}
+
+.content-focus p {
+	margin: auto;
+}
+
+#nav {
+	margin-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 1em;
+}
+
+#nav .prev {
+	float: left;
+}
+
+#nav .next {
+	float: right;
+}
+
+#footer {
+	margin-bottom: 2em;
+}

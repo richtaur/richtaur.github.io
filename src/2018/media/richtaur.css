@@ -1,0 +1,233 @@
+html, body, h1, h2, p, ol, ul {
+	color: rgb(20, 12, 28); /* black */
+	font-family: "Open Sans", Sans-Serif;
+	font-size: 16px;
+
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	font-family: "Merriweather", Sans-Serif;
+	font-size: 200%;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h1 a {
+	color: rgb(20, 12, 28); /* black */
+	display: block;
+	margin-left: 80px;
+	text-align: left;
+	text-decoration: none;
+}
+
+a {
+	color: rgb(210, 125, 44); /* orange */
+}
+
+a:hover {
+	color: rgb(89, 125, 206); /* blue */
+}
+
+#sidebar {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 320px;
+	border-right: 2px solid black;
+}
+
+#sidebar-content {
+	clear: both;
+	padding: 2em;
+	text-align: left;
+}
+
+#sidebar-content h2 {
+	font-size: 150%;
+	margin-bottom: 0.5em;
+}
+
+#sidebar-content ul {
+	list-style: none;
+	margin-bottom: 2em;
+}
+
+#sidebar-content ul li {
+	line-height: 1.5em;
+}
+
+#header {
+	background: url(images/richtaur64.jpg) no-repeat left center;
+	margin: 0 2em;
+	padding: 2em 0;
+	text-align: center;
+}
+
+#header p {
+	margin-left: 80px;
+	text-align: left;
+}
+
+#contents {
+	margin-left: 320px;
+	width: calc(100% - 320px);
+}
+
+.post-footer {
+	border-top: 1px solid rgb(20, 12, 28); /* black */
+}
+
+.post-footer .date {
+	font-size: 75%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.list-item {
+	margin-bottom: 4em;
+}
+
+.list-item h2, .list-item-thumbnail h2 {
+	margin-bottom: 0.5em;
+}
+
+.list-item-thumbnail {
+	margin-bottom: 4em;
+	min-height: 144px;
+}
+
+.thumbnail {
+	float: right;
+	margin-left: 1em;
+	width: 256px;
+	height: 144px;
+}
+
+.thumbnail {
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.thumbnail:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.post {
+	margin: 2em 4em;
+	width: 512px;
+}
+
+.list-items {
+	margin: 2em 4em;
+	width: 640px;
+}
+
+.contents-600 .post { width: 600px; }
+.contents-640 .post { width: 640px; }
+.contents-800 .post { width: 800px; }
+.contents-1000 .post { width: 1000px; }
+
+.post h2 {
+	margin-bottom: 1em;
+}
+
+.post h3 {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.post p, .post ol, .post ul {
+	margin-bottom: 1em;
+}
+
+.post ol, .post ul {
+	margin-left: 4em;
+}
+
+.post-contents {
+	margin-bottom: 2em;
+}
+
+.post-contents blockquote {
+	font-style: italic;
+}
+
+.share {
+	margin-top: 4px;
+	text-align: center;
+}
+
+.share li {
+	display: block;
+	float: right;
+	margin-left: 12px;
+}
+
+.share a {
+	display: inline-block;
+	margin: auto;
+	text-indent: -9999em;
+	width: 24px;
+	height: 24px;
+}
+
+.share a.tw {
+	background: url(images/share24.png);
+}
+
+.share a.tw:hover {
+	background-position: -24px 0;
+}
+
+.share a.fb {
+	background: url(images/share24.png) 0 -24px;
+}
+
+.share a.fb:hover {
+	background: url(images/share24.png) -24px -24px;
+}
+
+.share a.in {
+	background: url(images/share24.png) 0 -48px;
+}
+
+.share a.in:hover {
+	background: url(images/share24.png) -24px -48px;
+}
+
+#nav {
+	margin-top: 2em;
+	padding-top: 1.5em;
+	padding-bottom: 3em;
+}
+
+#nav a {
+	background: rgb(210, 125, 44); /* orange */
+	border-radius: 1em;
+	color: white;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	background: rgb(89, 125, 206); /* blue */
+}
+
+#nav .prev {
+	float: left;
+}
+
+#nav .next {
+	float: right;
+}
+
+.image-left img {
+	float: left;
+	margin-right: 2em;
+}

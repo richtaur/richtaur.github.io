@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Matt Hackett">
+		<meta name="twitter:site" content="@richtaur">
+		<meta name="twitter:card" content="summary">
+		<meta property="og:type" content="website">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>My Game Design Principles | richtaur</title>
+		<meta name="twitter:title" content="My Game Design Principles | richtaur">
+		<meta property="og:title" content="My Game Design Principles | richtaur">
+		<meta name="description" content="The principles that guide my personal game design.">
+		<meta name="twitter:description" content="The principles that guide my personal game design.">
+		<meta property="og:description" content="The principles that guide my personal game design.">
+
+		<meta name="twitter:image" content="https://i.imgur.com/KbQ8x7A.png">
+		<meta property="og:image" content="https://i.imgur.com/KbQ8x7A.png">
+
+		<link href="/media/richtaur.css" rel="stylesheet">
+		<link rel="alternate" type="application/rss+xml" title="RSS feed for richtaur" href="http://www.richtaur.com/rss.xml">
+		<link rel="icon" href="/favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700" rel="stylesheet">
+	</head>
+	<body>
+
+		<div id="sidebar">
+			<div id="header">
+				<h1><a href="/">richtaur</a></h1>
+				<p>game developer</p>
+			</div>
+
+			<div id="sidebar-content">
+				<h2>More Matt</h2>
+				<ul>
+					<li><a href="https://twitter.com/richtaur">@richtaur</a></li>
+					<li><a href="https://www.gamasutra.com/blogs/MattHackett/876382/">Gamasutra articles</a></li>
+					<li><a href="https://github.com/richtaur">GitHub projects</a></li>
+					<li><a href="https://www.deviantart.com/richtaur/gallery/">DeviantArt Gallery</a></li>
+					<li><a href="http://www.lostdecadegames.com/lostcast/">Podcast</a></li>
+					<li><a href="/rss.xml">RSS</a></li>
+				</ul>
+
+				<h2>Designs by Year</h2>
+				<ul>
+					<li><a href="/2017/">2017</a></li>
+					<li><a href="/2016/">2016</a></li>
+					<li><a href="/2013/">2013</a></li>
+					<li><a href="/2010/">2010</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="contents" class="contents">
+
+<div class="post">
+	<h2>My Game Design Principles</h2>
+
+	<div class="post-contents">
+		<p>There are countless decisions to make when developing games. For personal projects, I realized I kept falling in the same traps and could benefit from some <strong>guiding principles</strong> to help avoid them. Some early decisions in particular (eg. 2D or 3D? Gamepad or touch input?) I&#39;ve determined can completely derail a personal project of mine.</p>
+<p>Now, to be clear these are separate from any professional principles. Professional projects have so many external variables, stakeholders, platform requirements, client needs, etc. that by their nature must be flexible and specific to the project. These personal principles take a distant back seat in that context.</p>
+<p>Also, I use “game design” as an umbrella here. When working on a solo project one must wear every kind of hat: game designer, programmer, artist, content creator, you name it. Each component must be created with intent, and to me “design” works as a general term here.</p>
+<p>Without further ado, here are my game design principles in no particular order:</p>
+<h2 id="simple-technology">Simple technology</h2>
+<p>Avoids code debt, hating life. Do a lot with a little.</p>
+<h2 id="optimization-unnecessary">Optimization unnecessary</h2>
+<p>I don&#39;t really enjoy optimizing; it feels like paying for past mistakes.</p>
+<h2 id="native-implementation">Native implementation</h2>
+<p>Game components utilize each other instead of building on top of them. Think in-game explosion entities over band-aiding some explosion system into the game.</p>
+<h2 id="diegetic-ui">Diegetic UI</h2>
+<p>When possible, attempt to represent data with in-game interfaces instead of overlaying UI. A great example is the spinal cord health bar in <strong>Dead Space</strong>.</p>
+<h2 id="no-modes">No modes</h2>
+<p>Avoid modes, leaning towards doing everything within the same system. Instead of a Combat Mode, can you just stay in Explore Mode or whatever and utilize that? Think the original <strong>The Legend of Zelda</strong> (exploration = combat) over <strong>Ocarina of Time</strong> (ugh, target mode).</p>
+<h2 id="fertile-soil-for-art">Fertile soil for art</h2>
+<p>Avoid animation, play to my strengths. Favor 2D.</p>
+<h2 id="simple-mechanics">Simple mechanics</h2>
+<p>Avoid awkward control schemes, explaining complicated things. Think &quot;just tap to spawn a unit&quot; over &quot;up is jump, A is melee, B is projectile, A+B together is Super Power ...&quot;</p>
+<h2 id="singular-input">Singular input</h2>
+<p>Click/tap only. Avoid supporting an exhausting number of keyboards/gamepads (see: <a href="https://store.steampowered.com/app/280040/A_Wizards_Lizard/">A Wizard&#39;s Lizard</a>).</p>
+<h2 id="webby-content">Webby content</h2>
+<p>In a webby design, adding a new thing is beneficial to all. Think adding a new item to the mix in <strong>Spelunky</strong>. Avoids content crunch. (Article on &quot;webby&quot; designs coming soon, watch this space.)</p>
+<h2 id="turn-based">Turn-based</h2>
+<p>Avoids countless problems: performance, debugging, you name it.</p>
+<h2 id="organic-difficulty">Organic difficulty</h2>
+<p>Instead of UI for selecting difficulty (easy, medium, hard), bake it into the gameplay itself.
+Think gradually reducing difficulty based on failure or an opt-in hard-mode with risk/reward (e.g. enter the grotto or avoid it; pick up the eggplant or ignore it).</p>
+<h2 id="surprise-the-designer">Surprise the designer</h2>
+<p>Emergent gameplay. “Whoa, didn&#39;t expect that!” should be a reaction the designer has at some point during development.</p>
+<h2 id="cautious-randomness">Cautious randomness</h2>
+<p>Don&#39;t negatively surprise the player with unavoidable random outcomes.
+Let them prepare for it; prefer visualized randomness when possible.
+Drawing cards is good (e.g. take a look at the top 5 cards of your deck), a gun exploding in your face is bad (oops, there was a 10% chance it would blow up, no way to know).</p>
+<h2 id="base-1-first">Base 1 first</h2>
+<p>Get a solid handle of base 1 before moving on to base 10 or even 100. Think chess -- a piece is taken or not. They have 1 health. If your game can&#39;t handle that, maybe tacking on HP (e.g. 10 or 100) is not the solution. Don&#39;t hide behind the numbers. Large numbers have their place (forgiveness, etc.) but built on a solid, understood base.</p>
+<h2 id="avoid-hungry-designs">Avoid hungry designs</h2>
+<p>A hungry design is one that begs for more content. Like in <strong>Minecraft</strong>, you could add new tools, elements, monsters, all day long. With an eating mechanic, it begs for more cooking/ingredient options. It&#39;s kind of an endless pit of content, something I&#39;d never be able to finish.</p>
+<p><strong>Tetris</strong> on the other hand is not hungry (or, it is satiated). Nothing about Tetris makes players desire a hamburger or a different variety of gun etc. It feels “done” at an early stage.</p>
+<h2 id="perfect-information-systems">Perfect information systems</h2>
+<p>Don&#39;t have features that only exist behind the curtains. If there&#39;s some magic “this tile has a 50% chance to kill you” then show it. Anything the game is doing the player should be able to know about (with obvious exceptions for features like Fog of War, etc.).</p>
+<h2 id="let-the-player-have-the-fun">Let the player have the fun</h2>
+<p>As <a href="https://www.gamasutra.com/view/news/114402/Analysis_Sid_Meiers_Key_Design_Lessons.php">Sid Meier</a> points out, one of three entities can be having the fun: the player, the designer, or the computer. Let the player have the fun.</p>
+<h2 id="singular-capability">Singular capability</h2>
+<p>Each entity in a game should do just one thing (at least to start). Don&#39;t overcomplicate it by adding too much functionality. <a href="/post/singular-capability/">Read on.</a></p>
+<h2 id="lock-before-key">Lock before key</h2>
+<p>Present the player with the <strong>lock</strong> before the <strong>key</strong> to open it. <a href="/post/lock-before-key/">Read on.</a></p>
+<h2 id="make-one-game-at-a-time">Make one game at a time</h2>
+<p>Be realistic with yourself: how many games are hidden within the game you&#39;re making? Does (nearly) everything happen within one primary game simulation? If not, you&#39;re actually making multiple games and have potentially magnitudes more work to do. <a href="/post/one-game-at-a-time/">Read on.</a></p>
+<h2 id="integrated-ui">Integrated UI</h2>
+<p>Video games often need a user interface (UI) displayed, like a health bar or a score shown on the screen somewhere. When possible, consider integrating any UI directly into the game. (Think picking up a shop item in <strong>Spelunky</strong> instead of selecting an item in a popup window.) <a href="/post/integrated-ui/">Read on.</a></p>
+<h2 id="low-fidelity">Low fidelity</h2>
+<p>When you&#39;re short on time or resources, consider a low fidelity approach to empower you to move more quickly. <a href="/post/low-fidelity/">Read on.</a></p>
+<h2 id="summary">Summary</h2>
+<p>These principles are a work-in-progress and are intended to help guide my personal game projects towards an attainable finish line. Rules can be broken of course, so if you see me deviating from these principles, trust that it was only after much deliberation (and maybe a little lying to myself).</p>
+<p>Love/hate these principles? Questions about ‘em? Got your own? Let me know on <a href="https://twitter.com/richtaur">Twitter</a>.</p>
+<h2 id="changelog">Changelog</h2>
+<ul>
+<li>7.01.2019: Added <a href="/post/low-fidelity/">Low Fidelity</a></li>
+<li>6.28.2019: Added <a href="/post/integrated-ui/">Integrated UI</a></li>
+<li>6.22.2019: Added <a href="/post/one-game-at-a-time/">Make One Game at a Time</a></li>
+<li>6.18.2019: Added <a href="/post/lock-before-key/">Lock Before Key</a></li>
+<li>6.15.2019: Added <a href="/post/singular-capability/">Singular Capability</a></li>
+</ul>
+
+	</div>
+
+	<div class="post-footer">
+		<ul class="share">
+			<li><a class="in" href="http://www.linkedin.com/shareArticle?url=http://www.richtaur.com/post/game-design-principles/&title=My Game Design Principles&source=http://www.richtaur.com/&mini=true">linkedin</a></li>
+			<li><a class="fb" href="http://www.facebook.com/sharer/sharer.php?u=http://www.richtaur.com/post/game-design-principles/&title=My Game Design Principles">Facebook</a></li>
+			<li><a class="tw" href="http://twitter.com/intent/tweet?status=My Game Design Principles+http://www.richtaur.com/post/game-design-principles/">Twitter</a></li>
+		</ul>
+		<span class="date">Jun 8, 2019</span>
+	</div>
+
+	<div id="nav">
+		<p class="prev">
+			<a href="../../post/food-doodles">&lt; Food Doodles</a>
+		</p>
+
+		<p class="next">
+			<a href="../../post/singular-capability">Singular Capability &gt;</a>
+		</p>
+	</div>
+</div>
+
+
+		</div>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-27284870-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-27284870-1');
+		</script>
+
+	</body>
+</html>
