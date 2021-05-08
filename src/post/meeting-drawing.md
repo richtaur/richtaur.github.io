@@ -8,9 +8,11 @@ image: fullsize/meeting_drawing_4.jpg
 thumbnail: thumbnail.jpg
 ---
 
-<a href="/media/images/post/meeting-drawing/fullsize/meeting_drawing_5.jpg">
-  ![Meeting Drawing](/media/images/post/meeting-drawing/inline/meeting_drawing_5.jpg)
-</a>
+<div>
+  <a href="/media/images/post/meeting-drawing/fullsize/meeting_drawing_5.jpg">
+    ![Meeting Drawing](/media/images/post/meeting-drawing/inline/meeting_drawing_5.jpg)
+  </a>
+</div>
 
 This one began as a mindless doodle during a meeting. Sometimes I like to draw big circles and see where it goes.
 

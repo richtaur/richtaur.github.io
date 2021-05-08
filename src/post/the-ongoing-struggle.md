@@ -9,4 +9,6 @@ image: _title.png
 thumbnail: _thumbnail.jpg
 ---
 
-![The Ongoing Struggle](/media/images/post/the-ongoing-struggle/_title.png)
+<div>
+	![The Ongoing Struggle](/media/images/post/the-ongoing-struggle/_title.png)
+</div>

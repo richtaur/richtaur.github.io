@@ -9,7 +9,9 @@ image: _title.png
 thumbnail: _thumbnail.jpg
 ---
 
-![Happy Surfaces](/media/images/post/happy-surfaces/_title.png)
+<div>
+	![Happy Surfaces](/media/images/post/happy-surfaces/_title.png)
+</div>
 
 Sometimes when I'm drawing I have a difficult time filling the space. A blank page (or canvas) can be intimidating and without something to guide me I often get lost or stumble along the way.
 

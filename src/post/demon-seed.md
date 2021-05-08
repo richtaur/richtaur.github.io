@@ -9,7 +9,9 @@ image: _title.png
 thumbnail: _thumbnail.jpg
 ---
 
-![Demon Seed](/media/images/post/demon-seed/_title.png)
+<div>
+  ![Demon Seed](/media/images/post/demon-seed/_title.png)
+</div>
 
 This is the cover to [Demon Seed](https://joshuamorse.bandcamp.com/album/single-demon-seed-castlevania-3-arrangement), a HOT new Castlevania 3 remix by one of my favorite musicians, [Joshua Morse](http://jmflava.com/#/welcome).
 

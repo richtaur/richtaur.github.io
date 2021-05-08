@@ -76,19 +76,11 @@ a:hover {
 
 #header ul li a:hover {
 	color: black;
-	// text-decoration: underline;
 }
-
-/*
-#header p {
-	margin-left: 80px;
-	text-align: left;
-}
-*/
 
 #contents {
 	margin: auto;
-	max-width: 1000px;
+	// max-width: 600px;
 }
 
 .post-footer {
@@ -231,7 +223,8 @@ a:hover {
 	background: rgb(210, 125, 44); /* orange */
 	border-radius: 1em;
 	color: white;
-	padding: 0.5em 1em;
+	font-size: 75%;
+	padding: 0.25em 1em;
 	text-decoration: none;
 }
 

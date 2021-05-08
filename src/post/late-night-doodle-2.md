@@ -8,6 +8,8 @@ image: full.jpg
 thumbnail: thumb.jpg
 ---
 
-<a href="/media/images/post/late-night-doodle-2/full.jpg">
-  ![Sketchbook page](/media/images/post/late-night-doodle-2/inline.png)
-</a>
+<div>
+  <a href="/media/images/post/late-night-doodle-2/full.jpg">
+    ![Sketchbook page](/media/images/post/late-night-doodle-2/inline.png)
+  </a>
+</div>

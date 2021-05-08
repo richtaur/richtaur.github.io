@@ -9,9 +9,11 @@ image: _title.png
 thumbnail: _thumb.jpg
 ---
 
-<a href="https://twitter.com/richtaur">
-  ![4/365 things I made](/media/images/post/365thingsimade/_title.png)
-</a>
+<div>
+  <a href="https://twitter.com/richtaur">
+    ![4/365 things I made](/media/images/post/365thingsimade/_title.png)
+  </a>
+</div>
 
 A year or two ago, I was digging through my old folders of work-in-progress screenshots, [doodles][doodles], and [unfinished prototypes][prototypes].
 Many of these works were never shared, and I was trying to think of a way to present them together.
