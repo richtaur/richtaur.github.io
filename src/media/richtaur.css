@@ -80,7 +80,7 @@ a:hover {
 
 #contents {
 	margin: auto;
-	// max-width: 600px;
+	// max-width: 1000px;
 }
 
 .post-footer {
@@ -132,7 +132,7 @@ a:hover {
 }
 
 .post {
-	margin: 2em 4em;
+	margin: 2em auto;
 }
 
 .list-items {
@@ -140,7 +140,8 @@ a:hover {
 	max-width: 640px;
 }
 
-.contents-600 .post { width: 600px; }
+.contents .post { width: 600px; }
+// .contents-600 .post { width: 600px; }
 .contents-640 .post { width: 640px; }
 .contents-800 .post { width: 800px; }
 .contents-1000 .post { width: 1000px; }
