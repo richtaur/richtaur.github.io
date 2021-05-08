@@ -114,6 +114,10 @@ a:hover {
 	min-height: 144px;
 }
 
+.list-item-thumbnail div {
+	text-align: left;
+}
+
 .thumbnail {
 	float: right;
 	margin-left: 1em;
@@ -133,12 +137,11 @@ a:hover {
 
 .post {
 	margin: 2em 4em;
-	// width: 512px;
 }
 
 .list-items {
-	margin: 2em 4em;
-	width: 640px;
+	margin: auto;
+	max-width: 640px;
 }
 
 .contents-600 .post { width: 600px; }
