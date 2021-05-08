@@ -2,9 +2,14 @@ html, body, h1, h2, p, ol, ul {
 	color: rgb(20, 12, 28); /* black */
 	font-family: "Open Sans", Sans-Serif;
 	font-size: 16px;
+	text-align: left;
 
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	text-align: center;
 }
 
 h1, h2, h3 {
@@ -33,20 +38,57 @@ a:hover {
 }
 
 #header {
-	background: url(images/richtaur64.jpg) no-repeat left center;
-	margin: 0 2em;
-	padding: 2em 0;
+	margin: auto;
+	padding: 1.5em 0;
 	text-align: center;
 }
 
+#header div {
+	background: url(images/richtaur64.jpg) no-repeat left center;
+	margin: auto;
+	margin-bottom: 1em;
+	width: 256px;
+}
+
+#header div p {
+	margin-left: 80px;
+}
+
+#header ul {
+	background: rgb(133, 149, 161);
+	display: block;
+	text-align: center;
+}
+
+#header ul li {
+	display: inline;
+}
+
+#header ul li a {
+	color: white;
+	margin-right: 1em;
+	text-decoration: none;
+}
+
+#header ul li:last-child a {
+	margin-right: 0;
+}
+
+#header ul li a:hover {
+	color: black;
+	// text-decoration: underline;
+}
+
+/*
 #header p {
 	margin-left: 80px;
 	text-align: left;
 }
+*/
 
 #contents {
-	margin-left: 320px;
-	width: calc(100% - 320px);
+	margin: auto;
+	max-width: 1000px;
 }
 
 .post-footer {
@@ -91,7 +133,7 @@ a:hover {
 
 .post {
 	margin: 2em 4em;
-	width: 512px;
+	// width: 512px;
 }
 
 .list-items {
@@ -201,4 +243,13 @@ a:hover {
 .image-left img {
 	float: left;
 	margin-right: 2em;
+}
+
+#footer ul {
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+#footer ul li {
+	display: inline;
 }
