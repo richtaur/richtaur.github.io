@@ -1,4 +1,6 @@
 # TODO
 
-- polish footer
-- Try other fonts for post text
+- use new avatar
+- try other fonts for post text
+- fix mobile layout
+	- flexible layout, remove width requirements?

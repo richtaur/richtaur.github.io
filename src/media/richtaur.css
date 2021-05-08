@@ -260,3 +260,12 @@ a:hover {
 #footer ul li {
 	display: inline;
 }
+
+#footer ul li:after {
+	content: " \2022";
+}
+
+#footer ul li:first-child:after,
+#footer ul li:last-child:after {
+	content: "";
+}
