@@ -32,35 +32,6 @@ a:hover {
 	color: rgb(89, 125, 206); /* blue */
 }
 
-#sidebar {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	bottom: 0px;
-	width: 320px;
-	border-right: 2px solid black;
-}
-
-#sidebar-content {
-	clear: both;
-	padding: 2em;
-	text-align: left;
-}
-
-#sidebar-content h2 {
-	font-size: 150%;
-	margin-bottom: 0.5em;
-}
-
-#sidebar-content ul {
-	list-style: none;
-	margin-bottom: 2em;
-}
-
-#sidebar-content ul li {
-	line-height: 1.5em;
-}
-
 #header {
 	background: url(images/richtaur64.jpg) no-repeat left center;
 	margin: 0 2em;
