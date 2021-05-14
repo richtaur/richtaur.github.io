@@ -1,5 +1,5 @@
 # TODO
 
-- fix mobile layout
-	- flexible layout, remove width requirements?
-- try other fonts for post text
++ fix mobile layout
+	- implement flex: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- try other fonts for post text -- marial bold?

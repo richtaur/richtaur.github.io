@@ -1,3 +1,5 @@
+/* global stuff */
+
 html, body, h1, h2, p, ol, ul {
 	color: rgb(20, 12, 28); /* black */
 	font-family: "Open Sans", Sans-Serif;
@@ -9,6 +11,7 @@ html, body, h1, h2, p, ol, ul {
 }
 
 body {
+	// border: 10px solid red;
 	text-align: center;
 }
 
@@ -39,6 +42,8 @@ a {
 a:hover {
 	color: rgb(89, 125, 206); /* blue */
 }
+
+/* header */
 
 #header {
 	margin: auto;
@@ -81,7 +86,13 @@ a:hover {
 	color: black;
 }
 
+/* contents */
+
 #contents {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
 	margin: auto;
 }
 
@@ -143,7 +154,6 @@ a:hover {
 }
 
 .contents .post { width: 600px; }
-// .contents-600 .post { width: 600px; }
 .contents-640 .post { width: 640px; }
 .contents-800 .post { width: 800px; }
 .contents-1000 .post { width: 1000px; }
@@ -247,6 +257,8 @@ a:hover {
 	float: left;
 	margin-right: 2em;
 }
+
+/* footer */
 
 #footer ul {
 	margin-bottom: 2em;
