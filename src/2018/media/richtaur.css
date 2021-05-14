@@ -62,7 +62,7 @@ a:hover {
 }
 
 #header {
-	background: url(images/richtaur64.jpg) no-repeat left center;
+	background: url(./richtaur64.jpg) no-repeat left center;
 	margin: 0 2em;
 	padding: 2em 0;
 	text-align: center;

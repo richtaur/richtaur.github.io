@@ -12,8 +12,11 @@ body {
 	text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2 {
 	font-family: "Merriweather", Sans-Serif;
+}
+
+h1 {
 	font-size: 200%;
 }
 
@@ -80,7 +83,6 @@ a:hover {
 
 #contents {
 	margin: auto;
-	// max-width: 1000px;
 }
 
 .post-footer {
