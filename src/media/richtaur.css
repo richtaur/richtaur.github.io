@@ -5,6 +5,12 @@
 	src: url("EBGaramond-VariableFont_wght.ttf");
 }
 
+@media screen and (max-width:600px) {
+	img {
+		max-width: 90%;
+	}
+}
+
 html, body {
 	font-family: "Arial";
 	font-size: 20px;
@@ -147,13 +153,13 @@ a:hover {
 }
 
 .thumbnail {
-  -webkit-transition: -webkit-transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
+	-webkit-transition: -webkit-transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;
 }
 
 .thumbnail:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 */
