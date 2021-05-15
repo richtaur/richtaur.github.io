@@ -1,4 +1,4 @@
-/* Globals */
+/*50 Globals */
 
 @font-face {
 	font-family: "EB Garamond";
@@ -7,8 +7,10 @@
 
 @media screen and (max-width:600px) {
 	img {
-		// border: 3px solid red;
 		max-width: 90%;
+	}
+	.thumbnail {
+		max-width: 25%;
 	}
 }
 
@@ -117,16 +119,16 @@ a:hover {
 
 /* Home: list of posts */
 
-/*
-
 .list-items {
-	margin: auto;
-	max-width: 640px;
-	display: flex;
+	max-width: 600px;
+	/* display: flex; */
+
+	margin: 0 2em;
+	max-width: 600px;
 }
 
 .list-item {
-	margin-bottom: 4em;
+	margin-bottom: 2em;
 }
 
 .list-item h2, .list-item-thumbnail h2 {
@@ -138,7 +140,7 @@ a:hover {
 }
 
 .list-item-thumbnail {
-	margin-bottom: 4em;
+	margin-bottom: 2em;
 	min-height: 144px;
 }
 
@@ -162,8 +164,6 @@ a:hover {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
-
-*/
 
 /*
 .contents .post { width: 600px; }
