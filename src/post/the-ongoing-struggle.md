@@ -10,5 +10,7 @@ thumbnail: _thumbnail.jpg
 ---
 
 <div>
-	![The Ongoing Struggle](/media/images/post/the-ongoing-struggle/_title.png)
+  <a href="/media/images/post/the-ongoing-struggle/_title.png">
+		![The Ongoing Struggle](/media/images/post/the-ongoing-struggle/struggle_inline.jpg)
+	</a>
 </div>

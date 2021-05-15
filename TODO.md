@@ -3,9 +3,8 @@
 + fix mobile layout
 	+ center post images e.g. happy surfaces
 		+ fix remaining posts
-			- how to handle extra wide images?
-				- just shrink them down:
-					- the-ongoing-struggle
+			+ how to handle extra wide images?
+				+ just shrink them down:
 					- drawings-2017
 					- characters-bitmoo
 					- mattlevania
@@ -25,3 +24,4 @@
 - re-introduce designs by year
 
 - clean up
+	- cut content width from yaml etc.
