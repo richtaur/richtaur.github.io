@@ -1,12 +1,7 @@
 # TODO
 
 + fix mobile layout
-	+ center post images e.g. happy surfaces
-		+ fix remaining posts
-			+ how to handle extra wide images?
-				+ just shrink them down:
-					- characters-bitmoo
-					- mattlevania
+	- crocodile-banner-study
 - fix home list
 - post: move date up by title
 - #nav: no next button? retun to home
