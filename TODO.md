@@ -3,7 +3,6 @@
 + fix mobile layout
 	+ center post images e.g. happy surfaces
 		+ fix remaining posts
-			- audit .image-left e.g. crocodile-banner-study
 			- how to handle extra wide images?
 				- just shrink them down:
 					- the-ongoing-struggle

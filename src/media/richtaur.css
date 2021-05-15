@@ -7,7 +7,7 @@
 
 @media screen and (max-width:600px) {
 	img {
-		border: 3px solid red;
+		// border: 3px solid red;
 		max-width: 90%;
 	}
 }
@@ -193,7 +193,11 @@ a:hover {
 }
 
 .post ol, .post ul {
-	margin-left: 4em;
+	margin-left: 2em;
+}
+
+.post ol li, .post ul li {
+	margin-bottom: 1em;
 }
 
 .post-contents {
@@ -314,7 +318,7 @@ a:hover {
 
 /* misc */
 
-.image-left img {
-	float: left;
-	margin-right: 2em;
+.post .side-note img {
+	float: right;
+	margin-left: 1em;
 }

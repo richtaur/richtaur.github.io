@@ -25,7 +25,7 @@ It’s a delight to behold and looks simple enough that it didn't feel out of re
 
 While studying, I noticed some smart decisions:
 
-<div class="image-left">
+<div class="side-note">
   ![Chicken](/media/images/post/crocodile-banner-study/chicken.png)
 </div>
 
