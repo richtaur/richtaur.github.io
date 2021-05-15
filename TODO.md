@@ -1,13 +1,13 @@
 # TODO
 
-- post: move date up by title
 - fix home list
 
 ## HTMAVGABY
 
 - design around How to Make a Video Game All By Yourself promotion
-	- big orange or black header / footer?
-- add marial, use for headers etc.
+	- try big black header
+	- try big orange footer
+- add marial font, try for headers etc.
 
 ## Footer
 
