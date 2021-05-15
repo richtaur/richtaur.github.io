@@ -7,6 +7,7 @@
 
 @media screen and (max-width:600px) {
 	img {
+		border: 3px solid red;
 		max-width: 90%;
 	}
 }
@@ -112,10 +113,6 @@ a:hover {
 	justify-content: space-around;
 
 	margin: auto;
-}
-
-.image-container {
-	text-align: center;
 }
 
 /* Home: list of posts */

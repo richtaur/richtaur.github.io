@@ -8,4 +8,6 @@ image: _title.png
 thumbnail: _thumbnail.jpg
 ---
 
-![Hello World](/media/images/post/hello-world/_title.png)
+<div>
+	![Hello World](/media/images/post/hello-world/_title.png)
+</div>

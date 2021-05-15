@@ -9,7 +9,9 @@ image: _title.png
 thumbnail: _thumbnail.jpg
 ---
 
-![Indie Game Sim](/media/images/post/indie-game-sim/_title.png)
+<div>
+  ![Indie Game Sim](/media/images/post/indie-game-sim/_title.png)
+</div>
 
 Everyone who makes games has their own unique perspective on the process, but we can generally all agree that it’s nebulous and fraught with peril. Sometimes even the question of “which game concept should I work on?” seems impossible to answer. Fortunately, there are some guiding lights.
 
@@ -192,7 +194,7 @@ Coincidentally, I was born the day my father turned 35, the same age I was when 
 Thank you for reading.
 
 <div>
-  ![](/media/images/post/indie-game-sim/image21.png)
+  ![bye](/media/images/post/indie-game-sim/image21.png)
 </div>
 
 [1]: http://makegames.tumblr.com/post/1136623767/finishing-a-game

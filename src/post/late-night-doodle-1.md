@@ -8,9 +8,11 @@ image: full.png
 thumbnail: thumb.jpg
 ---
 
-<a href="/media/images/post/late-night-doodle-1/full.png">
-  ![Late night doodle](/media/images/post/late-night-doodle-1/inline.png)
-</a>
+<div>
+  <a href="/media/images/post/late-night-doodle-1/full.png">
+    ![Late night doodle](/media/images/post/late-night-doodle-1/inline.png)
+  </a>
+</div>
 
 There she was at a table, outside with mountains behind her. A bird plopped on her shoulder but she still felt out of place.
 

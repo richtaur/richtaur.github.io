@@ -8,9 +8,11 @@ image: fullsize/clown_4.jpg
 thumbnail: thumbnail.jpg
 ---
 
-<a href="/media/images/post/giant-clown/fullsize/clown_4.jpg">
-  ![Giant Clown](/media/images/post/giant-clown/inline/clown_4.jpg)
-</a>
+<div>
+  <a href="/media/images/post/giant-clown/fullsize/clown_4.jpg">
+    ![Giant Clown](/media/images/post/giant-clown/inline/clown_4.jpg)
+  </a>
+</div>
 
 Drawing can be the most fun when you don't know what you're going to draw.
 
