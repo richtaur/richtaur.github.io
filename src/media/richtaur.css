@@ -47,7 +47,6 @@ h2 {
 }
 
 h1 a {
-	color: rgb(20, 12, 28); /* black */
 	display: block;
 	margin-left: 80px;
 	text-align: left;
@@ -65,19 +64,24 @@ a:hover {
 /* Header */
 
 #header {
+	background: black;
+	color: white;
+
 	margin: auto;
-	padding: 1.5em 0;
+	margin-bottom: 1em;
+	padding: 1em 0;
 	text-align: center;
 }
 
 #header div {
-	background: url(images/richtaur64.jpg) no-repeat left center;
+	background: black url(images/richtaur64.jpg) no-repeat left center;
 	margin: auto;
-	margin-bottom: 1em;
+	// margin-bottom: 1em;
 	width: 256px;
 }
 
 #header div p {
+	color: white;
 	margin-left: 80px;
 }
 
