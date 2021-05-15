@@ -1,10 +1,8 @@
 # TODO
 
-+ fix mobile layout
-	- crocodile-banner-study
-- fix home list
 - post: move date up by title
-- #nav: no next button? retun to home
+- #nav: no next button? return to home
+- fix home list
 
 ## HTMAVGABY
 
