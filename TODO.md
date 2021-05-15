@@ -5,7 +5,6 @@
 		+ fix remaining posts
 			+ how to handle extra wide images?
 				+ just shrink them down:
-					- drawings-2017
 					- characters-bitmoo
 					- mattlevania
 - fix home list
