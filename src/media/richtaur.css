@@ -1,9 +1,17 @@
-/* global stuff */
+/* Globals */
+
+@font-face {
+	font-family: "EB Garamond";
+	src: url("EBGaramond-VariableFont_wght.ttf");
+}
+
+html, body {
+	font-family: "Arial";
+	font-size: 20px;
+}
 
 html, body, h1, h2, p, ol, ul {
 	color: rgb(20, 12, 28); /* black */
-	font-family: "Open Sans", Sans-Serif;
-	font-size: 16px;
 	text-align: left;
 
 	margin: 0;
@@ -15,9 +23,11 @@ body {
 	text-align: center;
 }
 
+/*
 h1, h2 {
 	font-family: "Merriweather", Sans-Serif;
 }
+*/
 
 h1 {
 	font-size: 200%;
@@ -43,7 +53,7 @@ a:hover {
 	color: rgb(89, 125, 206); /* blue */
 }
 
-/* header */
+/* Header */
 
 #header {
 	margin: auto;
@@ -86,9 +96,11 @@ a:hover {
 	color: black;
 }
 
-/* contents */
+/* Contents */
 
 #contents {
+	font-family: "EB Garamond", "Arial";
+
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
@@ -96,14 +108,14 @@ a:hover {
 	margin: auto;
 }
 
-.post-footer {
-	border-top: 1px solid rgb(20, 12, 28); /* black */
-}
+/* Home: list of posts */
 
-.post-footer .date {
-	font-size: 75%;
-	font-weight: bold;
-	text-transform: uppercase;
+/*
+
+.list-items {
+	margin: auto;
+	max-width: 640px;
+	display: flex;
 }
 
 .list-item {
@@ -144,19 +156,21 @@ a:hover {
   transform: scale(1.1);
 }
 
-.post {
-	margin: 2em auto;
-}
+*/
 
-.list-items {
-	margin: auto;
-	max-width: 640px;
-}
-
+/*
 .contents .post { width: 600px; }
 .contents-640 .post { width: 640px; }
 .contents-800 .post { width: 800px; }
 .contents-1000 .post { width: 1000px; }
+*/
+
+/* Post */
+
+.post {
+	margin: 0 2em;
+	max-width: 600px;
+}
 
 .post h2 {
 	margin-bottom: 1em;
@@ -181,6 +195,18 @@ a:hover {
 
 .post-contents blockquote {
 	font-style: italic;
+}
+
+/* Post footer */
+
+.post-footer {
+	border-top: 1px solid rgb(20, 12, 28); /* black */
+}
+
+.post-footer .date {
+	font-size: 75%;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .share {
@@ -226,6 +252,8 @@ a:hover {
 	background: url(images/share24.png) -24px -48px;
 }
 
+/* Post footer / navigation */
+
 #nav {
 	margin-top: 2em;
 	padding-top: 1.5em;
@@ -253,12 +281,11 @@ a:hover {
 	float: right;
 }
 
-.image-left img {
-	float: left;
-	margin-right: 2em;
-}
+/* Footer */
 
-/* footer */
+#footer {
+	margin-top: 1em;
+}
 
 #footer ul {
 	margin-bottom: 2em;
@@ -276,4 +303,11 @@ a:hover {
 #footer ul li:first-child:after,
 #footer ul li:last-child:after {
 	content: "";
+}
+
+/* misc */
+
+.image-left img {
+	float: left;
+	margin-right: 2em;
 }
