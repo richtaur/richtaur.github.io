@@ -23,11 +23,13 @@
 		</p>
 		{{/if}}
 
-		{{#if this.previous.path }}
 		<p class="next">
+		{{#if this.previous.path }}
 			<a href="../../{{this.previous.path}}">{{this.previous.title}} &gt;</a>
-		</p>
+		{{else}}
+			<a href="/">Home</a>
 		{{/if}}
+		</p>
 	</div>
 </div><!-- .post -->
 
