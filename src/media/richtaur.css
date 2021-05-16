@@ -15,7 +15,7 @@
 		max-width: 90%;
 	}
 	.thumbnail {
-		max-width: 25%;
+		max-width: 40%;
 	}
 }
 
@@ -160,7 +160,7 @@ a:hover {
 
 .thumbnail {
 	float: right;
-	margin-left: 1em;
+	margin-left: 0.5em;
 	width: 256px;
 	height: 144px;
 }
