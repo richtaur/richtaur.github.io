@@ -5,6 +5,11 @@
 	src: url("EBGaramond-VariableFont_wght.ttf");
 }
 
+@font-face {
+	font-family: "Marial";
+	src: url("Marial-Regular.ttf");
+}
+
 @media screen and (max-width:600px) {
 	img {
 		max-width: 90%;
@@ -28,7 +33,6 @@ html, body, h1, h2, p, ol, ul {
 }
 
 body {
-	// border: 10px solid red;
 	text-align: center;
 }
 
@@ -66,6 +70,8 @@ a:hover {
 #header {
 	background: black;
 	color: white;
+	font-family: "Marial", "Arial";
+	font-size: 1.25em;
 
 	margin: auto;
 	margin-bottom: 1em;
@@ -77,7 +83,7 @@ a:hover {
 	background: black url(images/richtaur64.jpg) no-repeat left center;
 	margin: auto;
 	// margin-bottom: 1em;
-	width: 256px;
+	width: 300px;
 }
 
 #header div p {
