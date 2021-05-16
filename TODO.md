@@ -1,9 +1,9 @@
 # TODO
 
+- fix previous / next formatting
 - try big orange footer
 - re-introduce external links
 - re-introduce designs by year
-
 - clean up
 	- cut content width from yaml etc.
 

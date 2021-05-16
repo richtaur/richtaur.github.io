@@ -276,6 +276,7 @@ a:hover {
 /* Post footer / navigation */
 
 #nav {
+	font-family: "Arial";
 	margin-top: 2em;
 	padding-top: 1.5em;
 	padding-bottom: 3em;
