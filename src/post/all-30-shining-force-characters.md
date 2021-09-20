@@ -26,6 +26,6 @@ Got back into it with Luke, whose right hand is too big, but I do not care. Amon
 
 Lastly there's Earnest, who is a forgettable centaur but for some reason I think one of the most solid drawings. It's nice to end on a high note.
 
-This is by far my biggest personal fanart project and it feels good to be DONE. By comparison, some of the other projects I want to tackle like *Dragon Quest II* and *Final Fantasy 4* seem small by comparison.
+This is by far my biggest personal fanart project and it feels good to be DONE. Some of the other projects I want to tackle like *Dragon Quest II* and *Final Fantasy 4* seem small by comparison.
 
 Thanks for looking.
