@@ -313,6 +313,13 @@ a:hover {
 	color: white;
 }
 
+#footer p {
+	font-family: "EB Garamond", "Arial";
+	font-size: 0.75em;
+	margin: auto;
+	text-align: center;
+}
+
 /* misc */
 
 .post .side-note img {
