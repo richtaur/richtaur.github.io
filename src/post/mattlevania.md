@@ -4,7 +4,6 @@ date: 2018-11-24
 layout: post.html
 summary: Matt + Castlevania = Mattlevania.
 tags: [prototype]
-width: 1000
 image: title.jpg
 thumbnail: thumb.jpg
 ---

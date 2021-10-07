@@ -4,7 +4,6 @@ date: 2020-12-31
 layout: post.html
 summary: A full year of select drawings, screenshots, and videos.
 tags: [article]
-width: 640
 image: _title.png
 thumbnail: _thumb.jpg
 ---

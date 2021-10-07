@@ -4,7 +4,6 @@ date: 2019-12-17
 layout: post.html
 summary: Deciding which sketched lines to emphasize can make a huge difference on the final piece.
 tags: [art]
-width: 600
 image: 1v4.jpg
 thumbnail: thumb.jpg
 ---

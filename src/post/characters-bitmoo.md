@@ -4,7 +4,6 @@ date: 2018-11-23
 layout: post.html
 summary: Found adorable characters by a great artist and decided to give them a whirl.
 tags: [art]
-width: 1000
 image: richtaur.jpg
 thumbnail: thumb.jpg
 ---

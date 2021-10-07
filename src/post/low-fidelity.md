@@ -3,7 +3,6 @@ title: Low Fidelity
 date: 2019-07-01
 layout: post.html
 summary: "Game design principle: use a low fidelity that enables you to move quickly."
-width: 640
 tags: [article]
 image: title.jpg
 thumbnail: thumb.jpg

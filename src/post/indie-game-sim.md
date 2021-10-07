@@ -4,7 +4,6 @@ date: 2018-03-25
 layout: post.html
 summary: A solo developer's struggle with creativity.
 tags: [postmortem]
-width: 640
 image: _title.png
 thumbnail: _thumbnail.jpg
 ---

@@ -4,7 +4,6 @@ date: 2017-11-27
 layout: post.html
 summary: An art tip about using 3d surfaces to ease the drawing process.
 tags: [art, process]
-width: 600
 image: _title.png
 thumbnail: _thumbnail.jpg
 ---

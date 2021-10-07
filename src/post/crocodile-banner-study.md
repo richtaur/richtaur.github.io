@@ -4,7 +4,6 @@ date: 2018-12-04
 layout: post.html
 summary: A study of one of Justin Chan's crocodile banners.
 tags: [art]
-width: 800
 image: dragon-slayer-inline.jpg
 thumbnail: thumb.jpg
 ---

@@ -4,7 +4,6 @@ date: 2019-06-24
 layout: post.html
 summary: An abandoned project about managing a medieval fantasy tavern.
 tags: [article]
-width: 640
 image: _title.png
 thumbnail: _thumb.jpg
 ---

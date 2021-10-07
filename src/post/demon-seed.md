@@ -4,7 +4,6 @@ date: 2017-12-04
 layout: post.html
 summary: Making the pixel art cover for Joshua Morse's new single Demon Seed.
 tags: [art]
-width: 600
 image: _title.png
 thumbnail: _thumbnail.jpg
 ---

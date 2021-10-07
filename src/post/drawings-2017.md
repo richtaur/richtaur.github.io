@@ -4,7 +4,6 @@ date: 2018-11-17
 layout: post.html
 summary: I've been meaning to share these for about a year now.
 tags: [art]
-width: 1000
 image: game-boy.png
 thumbnail: _thumbnail.jpg
 ---
