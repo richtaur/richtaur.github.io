@@ -279,25 +279,38 @@ a:hover {
 /* Footer */
 
 #footer {
-	margin-top: 1em;
-}
+	background: rgb(210, 125, 44); /* orange */
+	color: white;
+	font-family: "Marial", "Arial";
+	font-size: 1.25em;
 
-#footer ul {
-	margin-bottom: 2em;
+	margin: auto;
+	padding: 1em 0;
 	text-align: center;
 }
 
-#footer ul li {
-	display: inline;
+#footer div {
+	margin: auto;
+	padding: 0em 2em;
+	width: 600px;
 }
 
-#footer ul li:after {
-	content: " \2022";
+#footer div h2 {
+	color: white;
 }
 
-#footer ul li:first-child:after,
-#footer ul li:last-child:after {
-	content: "";
+#footer div ul {
+	font-family: "EB Garamond", "Arial";
+	font-size: 0.75em;
+	margin-bottom: 2em;
+}
+
+#footer div ul li a {
+	color: black;
+}
+
+#footer div ul li a:hover {
+	color: white;
 }
 
 /* misc */
