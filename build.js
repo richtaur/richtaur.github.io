@@ -44,6 +44,10 @@ handlebars.registerHelper("link", function (path) {
 var headerContents = fs.readFileSync("layouts/header.html", "utf8");
 handlebars.registerPartial("header", headerContents)
 
+// Partial: summary
+var summaryContents = fs.readFileSync("layouts/summary.html", "utf8");
+handlebars.registerPartial("summary", summaryContents)
+
 // Partial: footer
 var footerContents = fs.readFileSync("layouts/footer.html", "utf8");
 handlebars.registerPartial("footer", footerContents)

@@ -8,14 +8,26 @@
 	</div>
 
 	<div class="footer">
+		<span class="date">{{formatDate this.date}}</span>
 		<ul class="share">
 			<li><a class="in" href="http://www.linkedin.com/shareArticle?url={{this.url}}{{this.path}}/&title={{this.title}}&source={{this.url}}&mini=true">linkedin</a></li>
 			<li><a class="fb" href="http://www.facebook.com/sharer/sharer.php?u={{this.url}}{{this.path}}/&title={{this.title}}">Facebook</a></li>
 			<li><a class="tw" href="http://twitter.com/intent/tweet?status={{this.title}}+{{this.url}}{{this.path}}/">Twitter</a></li>
 		</ul>
-		<span class="date">{{formatDate this.date}}</span>
 	</div>
 
+<h3>More here:</h3>
+<div class="list-items">
+	{{#if this.previous.path}}
+		{{> summary this.previous}}
+	{{/if}}
+
+	{{#if this.next.path}}
+		{{> summary this.next}}
+	{{/if}}
+</div><!-- .list-items -->
+
+	<!--
 	<div id="nav">
 		{{#if this.next.path}}
 		<p class="prev">
@@ -31,6 +43,8 @@
 		{{/if}}
 		</p>
 	</div>
+	-->
+
 </div><!-- .post -->
 
 {{> footer}}

@@ -1,0 +1,18 @@
+{{# if this.thumbnail}}
+<div class="list-item-thumbnail">
+{{else}}
+<div class="list-item">
+{{/if}}
+
+	{{# if this.thumbnail}}
+		<a class="thumbnail" href="/{{this.path}}">
+			<img alt="{{this.title}}" src="/media/images/{{this.path}}/{{this.thumbnail}}">
+		</a>
+	{{/if}}
+
+	<h2><a href="/{{this.path}}">{{this.title}}</a></h2>
+
+	<div>
+		{{{this.summary}}}
+	</div>
+</div>

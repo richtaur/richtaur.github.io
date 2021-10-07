@@ -222,11 +222,14 @@ a:hover {
 
 .footer {
 	border-top: 1px solid rgb(20, 12, 28); /* black */
+	min-height: 40px;
+	margin-bottom: 4em;
 }
 
 .footer .date {
 	font-size: 75%;
 	font-weight: bold;
+	float: left;
 	text-transform: uppercase;
 }
 

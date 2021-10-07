@@ -9,7 +9,7 @@ image: richtaur.jpg
 thumbnail: thumb.jpg
 ---
 
-Once upon a time, some [cute drawings](https://twitter.com/infiniteammodev/status/967095216128880640) by [bitmOO][twitter] popped up in my twitter feed. The characters are appealing, cute, and looked easy to execute. With the simple color scheme and shapes it felt like a style I'd be able to do and would make for a fun study.
+Once upon a time, some [cute drawings](https://twitter.com/infiniteammodev/status/967095216128880640) by [bitmOO][twitter] popped up in my Twitter feed. The characters are appealing, cute, and looked easy to execute. With the simple color scheme and shapes it felt like a style I'd be able to do and would make for a fun study.
 
 <div>
   ![Character studies](/media/images/post/characters-bitmoo/bitmoo-comp.jpg)
