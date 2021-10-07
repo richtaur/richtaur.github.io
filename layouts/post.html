@@ -16,34 +16,16 @@
 		</ul>
 	</div>
 
-<h3>More here:</h3>
-<div class="list-items">
-	{{#if this.previous.path}}
-		{{> summary this.previous}}
-	{{/if}}
+	<h3>More here:</h3>
+	<div class="list-items">
+		{{#if this.previous.path}}
+			{{> summary this.previous}}
+		{{/if}}
 
-	{{#if this.next.path}}
-		{{> summary this.next}}
-	{{/if}}
-</div><!-- .list-items -->
-
-	<!--
-	<div id="nav">
 		{{#if this.next.path}}
-		<p class="prev">
-			<a href="../../{{this.next.path}}">&lt; {{this.next.title}}</a>
-		</p>
+			{{> summary this.next}}
 		{{/if}}
-
-		<p class="next">
-		{{#if this.previous.path }}
-			<a href="../../{{this.previous.path}}">{{this.previous.title}} &gt;</a>
-		{{else}}
-			<a href="/">Home</a>
-		{{/if}}
-		</p>
-	</div>
-	-->
+	</div><!-- .list-items -->
 
 </div><!-- .post -->
 

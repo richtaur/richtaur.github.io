@@ -276,36 +276,6 @@ a:hover {
 	background: url(images/share24.png) -24px -48px;
 }
 
-/* Post footer / navigation */
-
-#nav {
-	font-family: "Arial";
-	margin-top: 2em;
-	padding-top: 1.5em;
-	padding-bottom: 3em;
-}
-
-#nav a {
-	background: rgb(210, 125, 44); /* orange */
-	border-radius: 1em;
-	color: white;
-	font-size: 75%;
-	padding: 0.25em 1em;
-	text-decoration: none;
-}
-
-#nav a:hover {
-	background: rgb(89, 125, 206); /* blue */
-}
-
-#nav .prev {
-	float: left;
-}
-
-#nav .next {
-	float: right;
-}
-
 /* Footer */
 
 #footer {

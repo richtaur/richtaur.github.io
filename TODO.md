@@ -1,15 +1,12 @@
 # TODO
 
-+ fix previous / next formatting
-	+ make next a homepage widget to the post
-	+ make previous a homepage widget to the post
-	- cut nav
-	- fix Mattlevania summary layout on mobile
 - try big orange footer
 	- re-introduce external links
 	- re-introduce designs by year
 - clean up
 	- cut content width from yaml etc.
+
+- fix Mattlevania summary layout on mobile
 
 ---
 
