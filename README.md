@@ -1,5 +1,9 @@
 # richtaur.com
 
+- witchy doc
+- substack doc
+- aqua notes for pool -- water proof notebook?
+
 The personal website of [Matt Hackett](https://twitter.com/richtaur), a game developer in California.
 
 ![Matt Hackett](http://i.imgur.com/LZAGr6y.png)
