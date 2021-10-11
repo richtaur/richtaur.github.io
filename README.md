@@ -4,9 +4,13 @@
 - substack doc
 - aqua notes for pool -- water proof notebook?
 
+gg
+
+- update readme avatar
+
 The personal website of [Matt Hackett](https://twitter.com/richtaur), a game developer in California.
 
-![Matt Hackett](http://i.imgur.com/LZAGr6y.png)
+![Matt Hackett](https://i.imgur.com/LdPRkva.png)
 
 ## Run
 
