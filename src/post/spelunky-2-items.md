@@ -17,6 +17,7 @@ _(WARNING: Spelunky 2 spoilers ahead!)_
 Thanks to [my generous friend Joe](https://twitter.com/jhuckaby/status/1305683484002770944) I've been playing
 [Spelunky 2](https://www.mossmouth.com/spelunky2/) for about a year now. I won't pretend to be the definitive expert on Spelunky 2; hundreds of speedrunners could run circles around me all day. But I love the game, have a deep passion for it, and am a bit obsessive. I have every achievement but I haven't (yet) beaten the famed [Cosmic Ocean][cosmic_ocean] ...
 My current record is 7-56, which I think is pretty good, although 7-99 still feels far away ...
+**(update 12/14/2021: 7-99 achieved! boy was that hard)**
 
 Anyway after spending way too much time with this game, below are my Spelunky 2 item tiers.
 (The items are listed within the tiers in no particular order.)
@@ -27,7 +28,6 @@ Bomb Bag,
 Bomb Box,
 Royal Jelly,
 Cooked Turkey,
-Elixir,
 Four-leaf Clover,
 Udjat Eye,
 Hedjet,
@@ -79,6 +79,22 @@ A tricky item in Spelunky, the Climbing Gloves mechanics were perfected in Spelu
 The Pitcher's Mitt includes multiple upgrades. Firstly and most importantly, players can now throw anything in perfect horizontal lines. Torches, bombs, pets, you name it -- it's going straight as an arrow, turning you into a precise terminator or demolitionist. Not only that, but you can now also catch (some) projectiles if your hands aren't full. This can quite literally save your life, especially in the astroid-rich [Cosmic Ocean][cosmic_ocean].
 
 Once in a blue moon you might lament the loss of the natural arch of a normal throw, but its benefits more than make up for that.
+
+### Spike Shoes
+
+<div>
+  <a href="https://spelunky.fandom.com/wiki/Spike_Shoes">
+    ![Spelunky 2 ](/media/images/post/spelunky-2-items/Spikeshoes2.png)
+  </a>
+</div>
+
+**(update 12/14/2021: promoted to Tier 1)** Spike Shoes are a fantastic upgrade that increases the damage you deal by jumping on monsters to 3. There are also situations where your default jump isn't sufficient to actually deal damage, and in these cases the Spike Shoes get you back into the fight. They also protect you from walking on [Thorny Vines][thorny_vines].
+
+I used to place this item just a hair below Tier 1, but the the Spike Shoes are just absolutely critical in the late game.
+Without them, you can't jump to damage [Lamassu][lamassu], [Giant Fly][giant_fly], or [Hundun][hundun].
+As a result, I practically feel naked without these shoes.
+
+There are _rare_ occasions where you might want to jump on something without killing it (for example, if grinding a [Kali Altar][kali_altars]), but that's literally the only downside I can think of.
 
 ### Kapala
 
@@ -159,19 +175,6 @@ The Spectacles contain many upgrades. First off, they enable you to see hidden v
 
 Another item that wasn't quite right in Spelunky, the Spring Shoes were again perfected in Spelunky 2. Where previously it was easy to forget that you have these shoes with their heightened jump (and perhaps launch yourself into danger), Spelunky 2's Spring Shoes add a much-needed glow to your jump, constantly reminding you that you should adjust accordingly. These shoes also prevent [Thorny Vines][thorny_vines] from dealing damage to you from below. Tricky for beginners, but always good for advanced players.
 
-### Spike Shoes
-
-<div>
-  <a href="https://spelunky.fandom.com/wiki/Spike_Shoes">
-    ![Spelunky 2 ](/media/images/post/spelunky-2-items/Spikeshoes2.png)
-  </a>
-</div>
-
-Just a hair away from top tier, Spike Shoes are a fantastic upgrade that increases the damage you deal by jumping on monsters to 3. There are also situations where your default jump isn't sufficient to actually deal damage, and in these cases the Spike Shoes get you back into the fight. They also protect you from walking on [Thorny Vines][thorny_vines].
-
-There are rare occasions where you might want to jump on something without killing it (for example, if grinding a [Kali Altar][kali_altars]), but this is a great item I always get when I can.
-Having one type of boot or the other really is top tier because of the [Thorny Vines][thorny_vines] protection alone.
-
 ### Compass
 
 <div>
@@ -237,7 +240,7 @@ outside edge of a level. This would make the Moon Challenge easier to end and le
 
 ## Tier 3
 
-These items certainly have their uses, but can be dangerous or otherwise worthy of skipping.
+These items certainly have their uses, but can be dangerous or otherwise worthy of skipping (especially if they can't be found along your preferred path through the game).
 
 ### Parachute
 
@@ -351,6 +354,26 @@ The Scepter is deadly and should be treated cautiously. It shoots a projectile t
 
 The Metal Shield is cool, something I love to pick up when I'm on a casual run. It deflects all projectiles, smashes almost anything to smithereens, and is simply fun to play with because of its interesting physics. But be careful, because it's easy to accidentally squish quest items or NPCs that you'd rather not disturb.
 
+### Elixir
+
+<div>
+  <a href="https://spelunky.fandom.com/wiki/Elixir">
+    ![Spelunky 2 Elixir](/media/images/post/spelunky-2-items/Elixir2.png)
+  </a>
+</div>
+
+The Elixir is an interesting item because it comes with multiple features exclusive to it alone.
+First (and probably most importantly), it cures you from [poison and curse][debuffs] debuffs.
+Critically, this is the only way to be cured of a curse.
+That's already pretty cool, but the Elixir also heals you AND
+provides a purple-tinted buff that doubles all of your healing effects.
+That's quite a buff, especially when paired with the [Kapala][kapala].
+
+Not _only_ that, but if you were to be poisoned or cursed, the Elixir prevents it (one time).
+This can absolutely save a [Cosmic Ocean][cosmic_ocean] run!
+
+Its benefits are hard to deny. My main complaint about the Elixir is that, to get it, you have to skip the [Clone Gun][clone_gun] (a path I prefer).
+
 ## Tier 4
 
 These items are either completely useless or likely to kill you. If they were removed from the game I would personally not miss them.
@@ -425,6 +448,9 @@ Spike Shoes, Alien Compass, Kapala, Ankh, Jetpack or Vlad's Cape ... and a Matto
 Certainly not everyone will agree with all these choices.
 If you have thoughts I'm all ears on [Twitter](https://twitter.com/richtaur).
 
+Edits:
+* **(update 12/14/2021: Finally beat the Cosmic Ocean!! Feels good. Added Elixir and promoted Spike Shoes.)**
+
 [cosmic_ocean]: https://spelunky.fandom.com/wiki/Cosmic_Ocean
 [thorny_vines]: https://spelunky.fandom.com/wiki/Thorny_Vine
 [jungle]: https://spelunky.fandom.com/wiki/Jungle
@@ -433,3 +459,9 @@ If you have thoughts I'm all ears on [Twitter](https://twitter.com/richtaur).
 [neo_babylon]: https://spelunky.fandom.com/wiki/Neo_Babylon
 [corpse_bag]: https://spelunky.fandom.com/wiki/Corpse_Bag
 [kali_altars]: https://spelunky.fandom.com/wiki/Kali_Altar/2
+[debuffs]: https://spelunky.fandom.com/wiki/Debuffs
+[kapala]: https://spelunky.fandom.com/wiki/Kapala
+[clone_gun]: https://spelunky.fandom.com/wiki/Clone_Gun
+[lamassu]: https://spelunky.fandom.com/wiki/Lamassu
+[giant_fly]: https://spelunky.fandom.com/wiki/Giant_Fly
+[hundun]: https://spelunky.fandom.com/wiki/Hundun
