@@ -33,7 +33,6 @@ Udjat Eye,
 Hedjet,
 Crown,
 Eggplant Crown,
-The True Crown,
 Tablet of Destiny,
 Broken Sword,
 Hou Yi's Bow,
@@ -437,6 +436,34 @@ The Machete is a perfectly good melee weapon, but not much better than the whip.
 </div>
 
 It's like a discount Metal Shield that has confusing rules about when it will block something or get destroyed. It's kind of fun to play with but I recommend not depending upon it to save your life. Best to just skip it.
+
+## The True Crown
+
+<div>
+  <a href="https://spelunky.fandom.com/wiki/The_True_Crown">
+    ![Spelunky 2 The True Crown](/media/images/post/spelunky-2-items/The_True_Crown_S2.png)
+  </a>
+</div>
+
+This is an absolutely bonkers item that was dreamed up by a madman!
+As if teleporting intentionally weren't already dangerous enough, this item _automatically teleports you_ every 22 seconds!
+Yes, you read that correctly.
+
+There *is* an upside to this absolutely suicidal feature -- every time you teleport, you are given a whopping 22 bombs. What? That's nuts!
+
+Personally, I wouldn't last, uh, 22 seconds having this thing attached to my head.
+I think I've only ever had it once and I'm sure I died quickly because I barely remember it.
+So *I'll* continue to avoid it, but ...
+
+Apparently there's a small but significant in-game reward if you somehow manage to defy guaranteed death and conquer the [Cosmic Ocean][cosmic_ocean] using this insanely dangerous item. (That's just _evil_ Derek, absolutely evil.)
+I haven't looked it up yet, but that's a diabolical challenge that I'm sure some speedrunners are finding impossible to resist attempting (maybe they've already done it?).
+
+The endgame implications here are significant -- the intense difficulty of the timed auto-teleport, combined with an
+almost endless supply of bombs sort of create an entirely *new* (way harder!) mode for the hardcore players of the world.
+There's so much depth here, it's just amazing. You could spend your whole life mastering this game. Incredible!
+
+Oh, and just to mock you, this crown also makes shopkeepers refer to you as "your majesty" and doubles all of their prices.
+Heavy is the crown etc.
 
 ## Conclusion
 
