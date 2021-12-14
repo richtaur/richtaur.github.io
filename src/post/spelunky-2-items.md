@@ -476,7 +476,7 @@ Certainly not everyone will agree with all these choices.
 If you have thoughts I'm all ears on [Twitter](https://twitter.com/richtaur).
 
 Edits:
-* **(update 12/14/2021: Finally beat the Cosmic Ocean!! Feels good. Added Elixir and promoted Spike Shoes.)**
+* **(update 12/14/2021: Finally beat the Cosmic Ocean!! Feels good. Added Elixir and The True Crown; promoted Spike Shoes.)**
 
 [cosmic_ocean]: https://spelunky.fandom.com/wiki/Cosmic_Ocean
 [thorny_vines]: https://spelunky.fandom.com/wiki/Thorny_Vine
