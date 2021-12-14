@@ -13,7 +13,7 @@ post:
 serve:
 	http-server htdocs -p 8088
 
-deploy:
+publish:
 	aws s3 sync htdocs s3://www.richtaur.com \
 		--cache-control max-age=86400 \
 		--size-only \
@@ -22,7 +22,7 @@ deploy:
 		--profile richtaur \
 		--region us-west-2
 
-deploy-all:
+publish-all:
 	aws s3 sync htdocs s3://www.richtaur.com \
 		--cache-control max-age=86400 \
 		--acl public-read \
