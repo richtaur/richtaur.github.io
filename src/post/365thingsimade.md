@@ -30,6 +30,12 @@ I don't really believe in regret, so let's do this thing!
 
 If you're not on Twitter, good for you (seriously), and no worries: I'll post summaries here as well.
 
+*Edit 1/13/2022: I did not do that, and in fact struggled to get this done at all:*
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">362-365: more <a href="https://twitter.com/hashtag/pixelart?src=hash&amp;ref_src=twsrc%5Etfw">#pixelart</a> ahhh finally made it to the end. rough year, shouldn&#39;t have set myself up for this lol <a href="https://t.co/WxK0ySiEfc">pic.twitter.com/WxK0ySiEfc</a></p>&mdash; Matt Hackett (@richtaur) <a href="https://twitter.com/richtaur/status/1477072076066414594?ref_src=twsrc%5Etfw">January 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+*Guess I should have [followed my own advice][3]! It was still fun and some cool folks cheered me on.*
+
 [doodles]: /post/late-night-doodle-2/
 [prototypes]: /post/tavern-sim/
 [1]: https://twitter.com/hashtag/365ThingsIMade

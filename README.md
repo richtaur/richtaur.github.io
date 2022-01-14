@@ -16,4 +16,4 @@ The personal website of [Matt Hackett](https://twitter.com/richtaur), a game dev
 
 ## Add a new post
 
-* Create a new file, e.g. `./src/post/example-url.md`
+`make post title="example-title"`
