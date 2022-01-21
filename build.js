@@ -40,6 +40,10 @@ handlebars.registerHelper("link", function (path) {
 	return URL + path;
 });
 
+// Partial: cta
+var ctaContents = fs.readFileSync("layouts/cta.html", "utf8");
+handlebars.registerPartial("cta", ctaContents)
+
 // Partial: header
 var headerContents = fs.readFileSync("layouts/header.html", "utf8");
 handlebars.registerPartial("header", headerContents)
