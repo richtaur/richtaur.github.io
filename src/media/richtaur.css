@@ -326,3 +326,8 @@ a:hover {
 	float: right;
 	margin-left: 1em;
 }
+
+.cta {
+	display: block;
+	margin-bottom: 1em;
+}
