@@ -28,7 +28,7 @@ able to go outside for global health reasons ... well, that's awful, but also a 
 
 And since you're here reading an art and game development blog, that's you too! I wrote this book for _you_. Seriously.
 
-How about a <a href="/media/images/post/how-to-make-a-video-game-all-by-yourself/Banner_Grid_4x3.jpg">peak</a> inside?
+How about a <a href="/media/images/post/how-to-make-a-video-game-all-by-yourself/Banner_Grid_4x3.jpg">peek</a> inside?
 
 <div>
   <a href="/media/images/post/how-to-make-a-video-game-all-by-yourself/Banner_Grid_4x3.jpg">
