@@ -1,6 +1,6 @@
 ---
 title: How to Make a Video Game All By Yourself
-date: 2022-02-01
+date: 2022-02-15  
 layout: post.html
 summary: A book I wrote for <em>you</em>! What game would <em>you</em> make, all by yourself?
 tags: [article]
