@@ -14,7 +14,7 @@ thumbnail: _thumbnail.jpg
   </a>
 </div>
 
-Hey hello hi who expected <em>this</em>? Certainly not me, a game developer who already juggles too many projects and struggles to finish them. But here we are: _I wrote a book for solo game developers!_
+Hey hello hi who expected <em>this</em>? Certainly not me, a game developer who already juggles too many projects and struggles to finish them. But here we are: _I wrote a game development book!_
 
 It's called [How to Make a Video Game All By Yourself][htmavgaby].
 

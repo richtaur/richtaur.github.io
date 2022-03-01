@@ -6,7 +6,7 @@ The personal website of [Matt Hackett](https://twitter.com/richtaur), a game dev
 
 ## Run
 
-`npm install`
+`yarn`
 `make`
 `make serve`
 
