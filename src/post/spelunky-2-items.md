@@ -77,7 +77,7 @@ A tricky item in Spelunky, the Climbing Gloves mechanics were perfected in Spelu
 
 The Pitcher's Mitt includes multiple upgrades. Firstly and most importantly, players can now throw anything in perfect horizontal lines. Torches, bombs, pets, you name it -- it's going straight as an arrow, turning you into a precise terminator or demolitionist. Not only that, but you can now also catch (some) projectiles if your hands aren't full. This can quite literally save your life, especially in the astroid-rich [Cosmic Ocean][cosmic_ocean].
 
-Once in a blue moon you might lament the loss of the natural arch of a normal throw, but its benefits more than make up for that.
+Once in a blue moon you might lament the loss of the natural arc of a normal throw, but its benefits more than make up for that.
 
 ### Spike Shoes
 
