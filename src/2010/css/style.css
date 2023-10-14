@@ -65,7 +65,8 @@ html.sunset a:hover { color: #0000aa; /* darker blue */ }
 
 body {
 	font-size: 15px;
-	font-family: "Lucida Grand", Helvetica, Arial, Serif;
+	/* font-family: "Lucida Grand", Helvetica, Arial, Serif; */
+	font-family: var(--font-serif);
 	overflow-x: hidden; /* for #tooltip */
 }
 
@@ -334,7 +335,7 @@ strong { font-weight: bold; }
 
 #nav li a {
 	color: #b5b4ad;
-	font-family: Verdana, Arial, Sans-Serif;
+	/* font-family: Verdana, Arial, Sans-Serif; */
 	line-height: 48px;
 	margin-right: 10px;
 	position: relative;
