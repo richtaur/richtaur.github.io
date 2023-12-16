@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>richtaur</title>
+	<link href="http://www.richtaur.com/rss.xml" rel="self"/>
+	<link href="http://www.richtaur.com/"/>
+	<updated>2023-12-16T11:16:30-08:00</updated>
+	<id>http://www.richtaur.com/</id>
+	<author>
+		<name>Matt Hackett</name>
+		<email>richtaur@gmail.com</email>
+	</author>
+		<entry>
+			<title>Matt&#x27;s Canon EOS M50 Guide</title>
+			<link href="http://www.richtaur.com/post/canon-eos-m50-guide"/>
+			<updated>2023-10-14T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/canon-eos-m50-guide</id>
+			<content type="html">
+				Everything I (and you?) need to know about the Canon EOS M50 camera.
+				&lt;img alt="Matt&#x27;s Canon EOS M50 Guide" src="http://www.richtaur.com/media/images/post/canon-eos-m50-guide/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>How to Make a Video Game All By Yourself</title>
+			<link href="http://www.richtaur.com/post/how-to-make-a-video-game-all-by-yourself"/>
+			<updated>2022-02-14T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/how-to-make-a-video-game-all-by-yourself</id>
+			<content type="html">
+				A book I wrote for &lt;em&gt;you&lt;/em&gt;! What game would &lt;em&gt;you&lt;/em&gt; make, all by yourself?
+				&lt;img alt="How to Make a Video Game All By Yourself" src="http://www.richtaur.com/media/images/post/how-to-make-a-video-game-all-by-yourself/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>My Spelunky 2 Item Tiers</title>
+			<link href="http://www.richtaur.com/post/spelunky-2-items"/>
+			<updated>2021-10-28T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/spelunky-2-items</id>
+			<content type="html">
+				All Spelunky 2 items ranked by their usefulness.
+				&lt;img alt="My Spelunky 2 Item Tiers" src="http://www.richtaur.com/media/images/post/spelunky-2-items/_thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Project Tiny</title>
+			<link href="http://www.richtaur.com/post/project-tiny"/>
+			<updated>2021-10-10T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/project-tiny</id>
+			<content type="html">
+				Thoughts about a game concept inspired by the classic Super Nintendo game ActRaiser.
+				&lt;img alt="Project Tiny" src="http://www.richtaur.com/media/images/post/project-tiny/_thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>All 30 Shining Force Characters</title>
+			<link href="http://www.richtaur.com/post/all-30-shining-force-characters"/>
+			<updated>2021-03-01T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/all-30-shining-force-characters</id>
+			<content type="html">
+				Half a year later, here are the remaining 10.
+				&lt;img alt="All 30 Shining Force Characters" src="http://www.richtaur.com/media/images/post/all-30-shining-force-characters/thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>365 Things I Made</title>
+			<link href="http://www.richtaur.com/post/365thingsimade"/>
+			<updated>2020-12-30T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/365thingsimade</id>
+			<content type="html">
+				A full year of select drawings, screenshots, and videos.
+				&lt;img alt="365 Things I Made" src="http://www.richtaur.com/media/images/post/365thingsimade/_thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>20 Shining Force Chibis</title>
+			<link href="http://www.richtaur.com/post/20-shining-force-chibis"/>
+			<updated>2020-08-07T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/20-shining-force-chibis</id>
+			<content type="html">
+				How about 2/3rds of the characters from the original Shining Force game in chibi form?
+				&lt;img alt="20 Shining Force Chibis" src="http://www.richtaur.com/media/images/post/20-shining-force-chibis/thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Meeting Drawing</title>
+			<link href="http://www.richtaur.com/post/meeting-drawing"/>
+			<updated>2020-03-23T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/meeting-drawing</id>
+			<content type="html">
+				Finished up a doodle started in a meeting.
+				&lt;img alt="Meeting Drawing" src="http://www.richtaur.com/media/images/post/meeting-drawing/thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Late Night Doodle #2</title>
+			<link href="http://www.richtaur.com/post/late-night-doodle-2"/>
+			<updated>2020-03-18T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/late-night-doodle-2</id>
+			<content type="html">
+				More doodles when I couldn&#x27;t sleep.
+				&lt;img alt="Late Night Doodle #2" src="http://www.richtaur.com/media/images/post/late-night-doodle-2/thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>From Sketch to Line</title>
+			<link href="http://www.richtaur.com/post/from-sketch-to-line"/>
+			<updated>2019-12-16T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/from-sketch-to-line</id>
+			<content type="html">
+				Deciding which sketched lines to emphasize can make a huge difference on the final piece.
+				&lt;img alt="From Sketch to Line" src="http://www.richtaur.com/media/images/post/from-sketch-to-line/thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Low Fidelity</title>
+			<link href="http://www.richtaur.com/post/low-fidelity"/>
+			<updated>2019-06-30T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/low-fidelity</id>
+			<content type="html">
+				Game design principle: use a low fidelity that enables you to move quickly.
+				&lt;img alt="Low Fidelity" src="http://www.richtaur.com/media/images/post/low-fidelity/thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Integrated UI</title>
+			<link href="http://www.richtaur.com/post/integrated-ui"/>
+			<updated>2019-06-27T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/integrated-ui</id>
+			<content type="html">
+				Game design principle: try to integrate your user interface.
+				&lt;img alt="Integrated UI" src="http://www.richtaur.com/media/images/post/integrated-ui/thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Tavern Sim</title>
+			<link href="http://www.richtaur.com/post/tavern-sim"/>
+			<updated>2019-06-23T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/tavern-sim</id>
+			<content type="html">
+				An abandoned project about managing a medieval fantasy tavern.
+				&lt;img alt="Tavern Sim" src="http://www.richtaur.com/media/images/post/tavern-sim/_thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Make One Game at a Time</title>
+			<link href="http://www.richtaur.com/post/one-game-at-a-time"/>
+			<updated>2019-06-21T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/one-game-at-a-time</id>
+			<content type="html">
+				Game design principle: don&#x27;t kid yourself into building multiple games simultaneously.
+			</content>
+		</entry>
+		<entry>
+			<title>Lock Before Key</title>
+			<link href="http://www.richtaur.com/post/lock-before-key"/>
+			<updated>2019-06-17T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/lock-before-key</id>
+			<content type="html">
+				Game design principle: put the obstacle in front of the player before the tool to overcome it.
+			</content>
+		</entry>
+		<entry>
+			<title>Singular Capability</title>
+			<link href="http://www.richtaur.com/post/singular-capability"/>
+			<updated>2019-06-14T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/singular-capability</id>
+			<content type="html">
+				Game design principle: each entity should do just one thing.
+			</content>
+		</entry>
+		<entry>
+			<title>My Game Design Principles</title>
+			<link href="http://www.richtaur.com/post/game-design-principles"/>
+			<updated>2019-06-08T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/game-design-principles</id>
+			<content type="html">
+				The principles that guide my personal game design.
+			</content>
+		</entry>
+		<entry>
+			<title>Food Doodles</title>
+			<link href="http://www.richtaur.com/post/food-doodles"/>
+			<updated>2018-12-10T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/food-doodles</id>
+			<content type="html">
+				Starving while waiting for Andrea to get ready for lunch.
+				&lt;img alt="Food Doodles" src="http://www.richtaur.com/media/images/post/food-doodles/thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Crocodile Banner Study</title>
+			<link href="http://www.richtaur.com/post/crocodile-banner-study"/>
+			<updated>2018-12-03T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/crocodile-banner-study</id>
+			<content type="html">
+				A study of one of Justin Chan&#x27;s crocodile banners.
+				&lt;img alt="Crocodile Banner Study" src="http://www.richtaur.com/media/images/post/crocodile-banner-study/thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Mattlevania</title>
+			<link href="http://www.richtaur.com/post/mattlevania"/>
+			<updated>2018-11-23T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/mattlevania</id>
+			<content type="html">
+				Matt + Castlevania &#x3D; Mattlevania.
+				&lt;img alt="Mattlevania" src="http://www.richtaur.com/media/images/post/mattlevania/thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Cute Character Studies</title>
+			<link href="http://www.richtaur.com/post/characters-bitmoo"/>
+			<updated>2018-11-22T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/characters-bitmoo</id>
+			<content type="html">
+				Found adorable characters by a great artist and decided to give them a whirl.
+				&lt;img alt="Cute Character Studies" src="http://www.richtaur.com/media/images/post/characters-bitmoo/thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Don&#x27;t Commit to an Interval</title>
+			<link href="http://www.richtaur.com/post/no-interval"/>
+			<updated>2018-11-18T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/no-interval</id>
+			<content type="html">
+				Committing to an interval can lead to frustration for both the creators and their audience.
+			</content>
+		</entry>
+		<entry>
+			<title>12 Pages From Late 2017</title>
+			<link href="http://www.richtaur.com/post/drawings-2017"/>
+			<updated>2018-11-16T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/drawings-2017</id>
+			<content type="html">
+				I&#x27;ve been meaning to share these for about a year now.
+				&lt;img alt="12 Pages From Late 2017" src="http://www.richtaur.com/media/images/post/drawings-2017/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Late Night Doodle #1</title>
+			<link href="http://www.richtaur.com/post/late-night-doodle-1"/>
+			<updated>2018-11-13T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/late-night-doodle-1</id>
+			<content type="html">
+				Just a doodle from imagination.
+				&lt;img alt="Late Night Doodle #1" src="http://www.richtaur.com/media/images/post/late-night-doodle-1/thumb.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Giant Clown Process</title>
+			<link href="http://www.richtaur.com/post/giant-clown"/>
+			<updated>2018-11-10T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/giant-clown</id>
+			<content type="html">
+				Drawing is fun because you get to see what weird things are in your head.
+				&lt;img alt="Giant Clown Process" src="http://www.richtaur.com/media/images/post/giant-clown/thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Redesign 2018</title>
+			<link href="http://www.richtaur.com/post/redesign-2018"/>
+			<updated>2018-11-09T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/redesign-2018</id>
+			<content type="html">
+				richtaur.com has a new design.
+			</content>
+		</entry>
+		<entry>
+			<title>Indie Game Sim</title>
+			<link href="http://www.richtaur.com/post/indie-game-sim"/>
+			<updated>2018-03-24T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/indie-game-sim</id>
+			<content type="html">
+				A solo developer&#x27;s struggle with creativity.
+				&lt;img alt="Indie Game Sim" src="http://www.richtaur.com/media/images/post/indie-game-sim/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Demon Seed Pixel Art Process</title>
+			<link href="http://www.richtaur.com/post/demon-seed"/>
+			<updated>2017-12-03T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/demon-seed</id>
+			<content type="html">
+				Making the pixel art cover for Joshua Morse&#x27;s new single Demon Seed.
+				&lt;img alt="Demon Seed Pixel Art Process" src="http://www.richtaur.com/media/images/post/demon-seed/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>The Ongoing Struggle</title>
+			<link href="http://www.richtaur.com/post/the-ongoing-struggle"/>
+			<updated>2017-11-29T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/the-ongoing-struggle</id>
+			<content type="html">
+				A rough comic about the struggle between playing games VS making them.
+				&lt;img alt="The Ongoing Struggle" src="http://www.richtaur.com/media/images/post/the-ongoing-struggle/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Happy Surfaces</title>
+			<link href="http://www.richtaur.com/post/happy-surfaces"/>
+			<updated>2017-11-26T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/happy-surfaces</id>
+			<content type="html">
+				An art tip about using 3d surfaces to ease the drawing process.
+				&lt;img alt="Happy Surfaces" src="http://www.richtaur.com/media/images/post/happy-surfaces/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+		<entry>
+			<title>Hello World</title>
+			<link href="http://www.richtaur.com/post/hello-world"/>
+			<updated>2017-11-12T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/hello-world</id>
+			<content type="html">
+				Just a quick doodle of me waving to the planet. Hi!
+				&lt;img alt="Hello World" src="http://www.richtaur.com/media/images/post/hello-world/_thumbnail.jpg" width="256" height="144"&gt;
+			</content>
+		</entry>
+</feed>

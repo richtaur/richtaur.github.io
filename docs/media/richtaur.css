@@ -1,0 +1,333 @@
+/*50 Globals */
+
+@font-face {
+	font-family: "EB Garamond";
+	src: url("EBGaramond-VariableFont_wght.ttf");
+}
+
+@font-face {
+	font-family: "Marial";
+	src: url("Marial-Regular.ttf");
+}
+
+@media screen and (max-width:600px) {
+	img {
+		max-width: 90%;
+	}
+	.thumbnail {
+		max-width: 40%;
+	}
+}
+
+html, body {
+	font-family: "Arial";
+	font-size: 20px;
+}
+
+html, body, h1, h2, p, ol, ul {
+	color: rgb(20, 12, 28); /* black */
+	text-align: left;
+
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+/*
+h1, h2 {
+	font-family: "Merriweather", Sans-Serif;
+}
+*/
+
+h1 {
+	font-size: 200%;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h1 a {
+	display: block;
+	margin-left: 80px;
+	text-align: left;
+	text-decoration: none;
+}
+
+a {
+	color: rgb(210, 125, 44); /* orange */
+}
+
+a:hover {
+	color: rgb(89, 125, 206); /* blue */
+}
+
+/* Header */
+
+#header {
+	background: black;
+	color: white;
+	font-family: "Marial", "Arial";
+	font-size: 1.25em;
+
+	margin: auto;
+	margin-bottom: 1em;
+	padding: 1em 0;
+	text-align: center;
+}
+
+#header div {
+	background: black url(images/richtaur64.jpg) no-repeat left center;
+	margin: auto;
+	// margin-bottom: 1em;
+	width: 300px;
+}
+
+#header div p {
+	color: white;
+	margin-left: 80px;
+}
+
+#header ul {
+	background: rgb(133, 149, 161); /* silver */
+	display: block;
+	text-align: center;
+}
+
+#header ul li {
+	display: inline;
+}
+
+#header ul li a {
+	color: white;
+	margin-right: 1em;
+	text-decoration: none;
+}
+
+#header ul li:last-child a {
+	margin-right: 0;
+}
+
+#header ul li a:hover {
+	color: black;
+}
+
+/* Contents */
+
+#contents {
+	font-family: "EB Garamond", "Arial";
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+	margin: auto;
+}
+
+/* Home: list of posts */
+
+.list-items {
+	max-width: 600px;
+	/* display: flex; */
+
+	margin: 0 2em;
+	max-width: 600px;
+}
+
+.list-item {
+	margin-bottom: 2em;
+}
+
+.list-item h2, .list-item-thumbnail h2 {
+	margin-bottom: 0.5em;
+}
+
+.list-item div {
+	text-align: left;
+}
+
+.list-item-thumbnail {
+	margin-bottom: 2em;
+	min-height: 144px;
+}
+
+.list-item-thumbnail div {
+	text-align: left;
+}
+
+.thumbnail {
+	float: right;
+	margin-left: 0.5em;
+	width: 256px;
+	height: 144px;
+}
+
+.thumbnail {
+	-webkit-transition: -webkit-transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;
+}
+
+.thumbnail:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/*
+.contents .post { width: 600px; }
+.contents-640 .post { width: 640px; }
+.contents-800 .post { width: 800px; }
+.contents-1000 .post { width: 1000px; }
+*/
+
+/* Post */
+
+.post {
+	margin: 0 2em;
+	max-width: 600px;
+}
+
+.post h2 {
+	margin-bottom: 1em;
+}
+
+.post h3 {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.post p, .post ol, .post ul {
+	margin-bottom: 1em;
+}
+
+.post ol, .post ul {
+	margin-left: 2em;
+}
+
+.post ol li {
+	margin-bottom: 1em;
+}
+
+.post-contents {
+	margin-bottom: 2em;
+}
+
+.post-contents blockquote {
+	font-style: italic;
+}
+
+/* Post footer */
+
+.footer {
+	border-top: 1px solid rgb(20, 12, 28); /* black */
+	min-height: 40px;
+	margin-bottom: 4em;
+}
+
+.footer .date {
+	font-size: 75%;
+	font-weight: bold;
+	float: left;
+	text-transform: uppercase;
+}
+
+.share {
+	margin-top: 4px;
+	text-align: center;
+}
+
+.share li {
+	display: block;
+	float: right;
+	margin-left: 12px;
+}
+
+.share a {
+	display: inline-block;
+	margin: auto;
+	text-indent: -9999em;
+	width: 24px;
+	height: 24px;
+}
+
+.share a.tw {
+	background: url(images/share24.png);
+}
+
+.share a.tw:hover {
+	background-position: -24px 0;
+}
+
+.share a.fb {
+	background: url(images/share24.png) 0 -24px;
+}
+
+.share a.fb:hover {
+	background: url(images/share24.png) -24px -24px;
+}
+
+.share a.in {
+	background: url(images/share24.png) 0 -48px;
+}
+
+.share a.in:hover {
+	background: url(images/share24.png) -24px -48px;
+}
+
+/* Footer */
+
+#footer {
+	background: rgb(210, 125, 44); /* orange */
+	color: white;
+	font-family: "Marial", "Arial";
+	font-size: 1.25em;
+
+	margin: auto;
+	padding: 1em 0;
+	text-align: center;
+}
+
+#footer div {
+	margin: auto;
+	padding: 0em 2em;
+	width: 600px;
+}
+
+#footer div h2 {
+	color: white;
+}
+
+#footer div ul {
+	font-family: "EB Garamond", "Arial";
+	font-size: 0.75em;
+	margin-bottom: 2em;
+}
+
+#footer div ul li a {
+	color: black;
+}
+
+#footer div ul li a:hover {
+	color: white;
+}
+
+#footer p {
+	font-family: "EB Garamond", "Arial";
+	font-size: 0.75em;
+	margin: auto;
+	text-align: center;
+}
+
+/* misc */
+
+.post .side-note img {
+	float: right;
+	margin-left: 1em;
+}
+
+.cta {
+	display: block;
+	margin-bottom: 1em;
+}

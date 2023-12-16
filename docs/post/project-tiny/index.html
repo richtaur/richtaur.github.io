@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Matt Hackett">
+		<meta name="twitter:site" content="@richtaur">
+		<meta name="twitter:card" content="summary">
+		<meta property="og:type" content="website">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Project Tiny | richtaur</title>
+		<meta name="twitter:title" content="Project Tiny | richtaur">
+		<meta property="og:title" content="Project Tiny | richtaur">
+		<meta name="description" content="Thoughts about a game concept inspired by the classic Super Nintendo game ActRaiser.">
+		<meta name="twitter:description" content="Thoughts about a game concept inspired by the classic Super Nintendo game ActRaiser.">
+		<meta property="og:description" content="Thoughts about a game concept inspired by the classic Super Nintendo game ActRaiser.">
+
+		<meta name="twitter:image" content="http://www.richtaur.com/media/images/post/project-tiny/_title.png">
+		<meta property="og:image" content="http://www.richtaur.com/media/images/post/project-tiny/_title.png">
+
+		<link href="/media/richtaur.css?63" rel="stylesheet">
+		<link rel="alternate" type="application/rss+xml" title="RSS feed for richtaur" href="http://www.richtaur.com/rss.xml">
+		<link rel="icon" href="/favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700" rel="stylesheet">
+	</head>
+	<body>
+
+		<div id="header">
+			<div>
+				<h1><a href="/">Matt Hackett</a></h1>
+				<p id="subtitle">game developer</p>
+			</div>
+		</div>
+
+		<div id="contents" class="contents">
+
+<div class="post">
+	<h2>Project Tiny</h2>
+
+	<div class="post-contents">
+		<div>
+  <img src="/media/images/post/project-tiny/_title.png" alt="Project Tiny">
+</div>
+
+<p><a href="https://en.wikipedia.org/wiki/ActRaiser">ActRaiser</a> has been one of my favorite games for about as long as I can remember.
+Recently Square Enix surprised me with the release of a remake, <a href="https://square-enix-games.com/en_US/games/actraiser-renaissance">Actraiser Renaissance</a>, so now seemed like a good time to write about this old project.</p>
+<p>Every year or so I play through the original ActRaiser all the way to the end and enjoy every minute of it. Naturally, this means I want to make a game inspired by it. But ActRaiser is a complicated game, split into two distinct genres: side-scrolling platformer and town simulator. The platforming part is fine, but I&#39;ve always been more interested in the town simulator.</p>
+<div>
+  <img src="/media/images/post/project-tiny/actraiser.png" alt="ActRaiser">
+</div>
+
+<p>I find the actual game design of ActRaiser&#39;s town simulator nebulous, something I have a hard time describing in detail.
+I&#39;m not really interested in directly copying game mechanics anyway, so I figured a good place to start would be to just throw down some assets and see what happens.</p>
+<div>
+  <img src="/media/images/post/project-tiny/env.png" alt="Project Tiny">
+</div>
+
+<p>Thanks to fine resources like <a href="http://shrines.rpgclassics.com/snes/actraiser/">RPGClassics</a>, extracting the sprites was easy and straightforward.
+Then I imported them into Unity and started hacking.</p>
+<div>
+  <img src="/media/images/post/project-tiny/3d.png" alt="Project Tiny">
+</div>
+
+<p>The tiny little people that run around in ActRaiser are truly delightful, so I wanted to see them moving up and down my screen as soon as possible. This created the need for a pathfinding algorithm, my favorite being <a href="https://en.wikipedia.org/wiki/A*_search_algorithm">A*</a>.</p>
+<p>This was around 2017, when I barely knew how to use Unity. So even though I had a <a href="https://github.com/richtaur/astarjs">public A* implementation</a> of my own, I used a guide I found online to help me do it &quot;the Unity way&quot; which is where I struggled at the time.</p>
+<div>
+  <img src="/media/images/post/project-tiny/tiny-astar.gif" alt="Project Tiny">
+</div>
+
+<p>The implementation had some issues, but worked well enough. Next: what&#39;s the gameplay?
+Whenever I play ActRaiser I enjoy the simplicity of it, but I also crave just a little bit more. Some kind of resource-gathering mechanics would probably scratch that itch, so I hacked on that idea.</p>
+<div>
+  <img src="/media/images/post/project-tiny/tiny-harvest.gif" alt="Project Tiny">
+</div>
+
+<p>Within a few hours, the little peons could be commanded to gather resources from nearby trees. I didn&#39;t have any &quot;wood&quot; sprite from the assets so peons grab <em>dogs</em> from the trees (to represent wood). Bark!</p>
+<p>Peons could also be commanded to create houses and even windmills for some reason. None of these entities <em>did</em> anything yet, but it was fun to build a little bit and watch a tiny town (of sorts) grow over time.</p>
+<h2 id="summary">Summary</h2>
+<p>Project Tiny was a fun little project, something to help me learn Unity while getting to spend some intimate time with one of my favorite video games. I didn&#39;t stick with it for long, but I&#39;m pleased to say that it&#39;s led to another more successful project. Stay tuned!</p>
+
+	</div>
+
+	<div class="footer">
+		<span class="date">Oct 10, 2021</span>
+		<ul class="share">
+			<li><a class="in" href="http://www.linkedin.com/shareArticle?url=http://www.richtaur.com/post/project-tiny/&title=Project Tiny&source=http://www.richtaur.com/&mini=true">linkedin</a></li>
+			<li><a class="fb" href="http://www.facebook.com/sharer/sharer.php?u=http://www.richtaur.com/post/project-tiny/&title=Project Tiny">Facebook</a></li>
+			<li><a class="tw" href="http://twitter.com/intent/tweet?status=Project Tiny+http://www.richtaur.com/post/project-tiny/">Twitter</a></li>
+		</ul>
+	</div>
+
+	<h3>More here:</h3>
+	<div class="list-items">
+			<div class="list-item-thumbnail">
+			
+					<a class="thumbnail" href="/post/spelunky-2-items">
+						<img alt="My Spelunky 2 Item Tiers" src="/media/images/post/spelunky-2-items/_thumb.jpg">
+					</a>
+			
+				<h2><a href="/post/spelunky-2-items">My Spelunky 2 Item Tiers</a></h2>
+			
+				<div>
+					All Spelunky 2 items ranked by their usefulness.
+				</div>
+			</div>
+
+			<div class="list-item-thumbnail">
+			
+					<a class="thumbnail" href="/post/all-30-shining-force-characters">
+						<img alt="All 30 Shining Force Characters" src="/media/images/post/all-30-shining-force-characters/thumb.jpg">
+					</a>
+			
+				<h2><a href="/post/all-30-shining-force-characters">All 30 Shining Force Characters</a></h2>
+			
+				<div>
+					Half a year later, here are the remaining 10.
+				</div>
+			</div>
+	</div><!-- .list-items -->
+
+</div><!-- .post -->
+
+		</div><!-- #contents -->
+
+		<div id="footer">
+			<div>
+
+				<h2>Buy My Book</h2>
+				<a class="cta" href="https://www.valadria.com/how-to-make-a-video-game-all-by-yourself/"><img alt="How to Make a Video Game All By Yourself" src="/media/images/post/how-to-make-a-video-game-all-by-yourself/_title.png"></a>
+
+				<h2>More Matt</h2>
+				<ul>
+					<li><a href="https://www.valadria.com/make-the-game/">Podcast</a></li>
+					<li><a href="https://www.valadria.com/">Company</a></li>
+					<li><a href="https://www.gamedeveloper.com/author/matt-hackett">Game Developer articles</a></li>
+					<li><a href="https://github.com/richtaur">GitHub projects</a></li>
+					<li><a href="/demos/">Oldschool demos</a></li>
+					<li><a href="https://twitter.com/richtaur">@richtaur</a></li>
+					<li><a href="/rss.xml">RSS</a></li>
+				</ul>
+
+				<h2>Designs by Year</h2>
+				<ul>
+					<li><a href="/2018/">2018: Worse Blog</a></li>
+					<li><a href="/2017/">2017: Blog</a></li>
+					<li><a href="/2016/">2016: Hire Me</a></li>
+					<li><a href="/2013/">2013: Domain Squatter</a></li>
+					<li><a href="/2010/">2010: Retro Modules</a></li>
+				</ul>
+
+				<p>
+					v6.2.2 &copy; Matt Hackett 2022
+				</p>
+			</div>
+		</div><!-- /footer -->
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<!--
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-27284870-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-27284870-1');
+		</script>
+		-->
+
+		<script src="/richtaur.js"></script>
+	</body>
+</html>
