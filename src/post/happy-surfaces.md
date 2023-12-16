@@ -4,12 +4,12 @@ date: 2017-11-27
 layout: post.html
 summary: An art tip about using 3d surfaces to ease the drawing process.
 tags: [art, process]
-image: _title.png
-thumbnail: _thumbnail.jpg
+image: title.png
+thumbnail: thumbnail.jpg
 ---
 
 <div>
-	![Happy Surfaces](/media/images/post/happy-surfaces/_title.png)
+	![Happy Surfaces](/media/images/post/happy-surfaces/title.png)
 </div>
 
 Sometimes when I'm drawing I have a difficult time filling the space. A blank page (or canvas) can be intimidating and without something to guide me I often get lost or stumble along the way.

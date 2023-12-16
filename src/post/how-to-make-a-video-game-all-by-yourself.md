@@ -4,13 +4,13 @@ date: 2022-02-15
 layout: post.html
 summary: A book I wrote for <em>you</em>! What game would <em>you</em> make, all by yourself?
 tags: [article]
-image: _title.png
-thumbnail: _thumbnail.jpg
+image: title.png
+thumbnail: thumbnail.jpg
 ---
 
 <div>
   <a href="https://www.valadria.com/how-to-make-a-video-game-all-by-yourself/">
-    ![How to Make a Video Game All By Yourself](/media/images/post/how-to-make-a-video-game-all-by-yourself/_title.png)
+    ![How to Make a Video Game All By Yourself](/media/images/post/how-to-make-a-video-game-all-by-yourself/title.png)
   </a>
 </div>
 

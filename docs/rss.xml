@@ -3,7 +3,7 @@
 	<title>richtaur</title>
 	<link href="http://www.richtaur.com/rss.xml" rel="self"/>
 	<link href="http://www.richtaur.com/"/>
-	<updated>2023-12-16T11:30:13-08:00</updated>
+	<updated>2023-12-16T11:42:58-08:00</updated>
 	<id>http://www.richtaur.com/</id>
 	<author>
 		<name>Matt Hackett</name>
@@ -26,7 +26,7 @@
 			<id>http://www.richtaur.com/post/how-to-make-a-video-game-all-by-yourself</id>
 			<content type="html">
 				A book I wrote for &lt;em&gt;you&lt;/em&gt;! What game would &lt;em&gt;you&lt;/em&gt; make, all by yourself?
-				&lt;img alt="How to Make a Video Game All By Yourself" src="http://www.richtaur.com/media/images/post/how-to-make-a-video-game-all-by-yourself/_thumbnail.jpg" width="256" height="144"&gt;
+				&lt;img alt="How to Make a Video Game All By Yourself" src="http://www.richtaur.com/media/images/post/how-to-make-a-video-game-all-by-yourself/thumbnail.jpg" width="256" height="144"&gt;
 			</content>
 		</entry>
 		<entry>
@@ -36,7 +36,7 @@
 			<id>http://www.richtaur.com/post/spelunky-2-items</id>
 			<content type="html">
 				All Spelunky 2 items ranked by their usefulness.
-				&lt;img alt="My Spelunky 2 Item Tiers" src="http://www.richtaur.com/media/images/post/spelunky-2-items/_thumb.jpg" width="256" height="144"&gt;
+				&lt;img alt="My Spelunky 2 Item Tiers" src="http://www.richtaur.com/media/images/post/spelunky-2-items/thumb.jpg" width="256" height="144"&gt;
 			</content>
 		</entry>
 		<entry>
@@ -46,7 +46,7 @@
 			<id>http://www.richtaur.com/post/project-tiny</id>
 			<content type="html">
 				Thoughts about a game concept inspired by the classic Super Nintendo game ActRaiser.
-				&lt;img alt="Project Tiny" src="http://www.richtaur.com/media/images/post/project-tiny/_thumb.jpg" width="256" height="144"&gt;
+				&lt;img alt="Project Tiny" src="http://www.richtaur.com/media/images/post/project-tiny/thumb.jpg" width="256" height="144"&gt;
 			</content>
 		</entry>
 		<entry>
@@ -66,7 +66,7 @@
 			<id>http://www.richtaur.com/post/365thingsimade</id>
 			<content type="html">
 				A full year of select drawings, screenshots, and videos.
-				&lt;img alt="365 Things I Made" src="http://www.richtaur.com/media/images/post/365thingsimade/_thumb.jpg" width="256" height="144"&gt;
+				&lt;img alt="365 Things I Made" src="http://www.richtaur.com/media/images/post/365thingsimade/thumb.jpg" width="256" height="144"&gt;
 			</content>
 		</entry>
 		<entry>
@@ -136,7 +136,7 @@
 			<id>http://www.richtaur.com/post/tavern-sim</id>
 			<content type="html">
 				An abandoned project about managing a medieval fantasy tavern.
-				&lt;img alt="Tavern Sim" src="http://www.richtaur.com/media/images/post/tavern-sim/_thumb.jpg" width="256" height="144"&gt;
+				&lt;img alt="Tavern Sim" src="http://www.richtaur.com/media/images/post/tavern-sim/thumb.jpg" width="256" height="144"&gt;
 			</content>
 		</entry>
 		<entry>
@@ -231,7 +231,7 @@
 			<id>http://www.richtaur.com/post/drawings-2017</id>
 			<content type="html">
 				I&#x27;ve been meaning to share these for about a year now.
-				&lt;img alt="12 Pages From Late 2017" src="http://www.richtaur.com/media/images/post/drawings-2017/_thumbnail.jpg" width="256" height="144"&gt;
+				&lt;img alt="12 Pages From Late 2017" src="http://www.richtaur.com/media/images/post/drawings-2017/thumbnail.jpg" width="256" height="144"&gt;
 			</content>
 		</entry>
 		<entry>
@@ -270,7 +270,7 @@
 			<id>http://www.richtaur.com/post/indie-game-sim</id>
 			<content type="html">
 				A solo developer&#x27;s struggle with creativity.
-				&lt;img alt="Indie Game Sim" src="http://www.richtaur.com/media/images/post/indie-game-sim/_thumbnail.jpg" width="256" height="144"&gt;
+				&lt;img alt="Indie Game Sim" src="http://www.richtaur.com/media/images/post/indie-game-sim/thumbnail.jpg" width="256" height="144"&gt;
 			</content>
 		</entry>
 		<entry>
@@ -280,7 +280,7 @@
 			<id>http://www.richtaur.com/post/demon-seed</id>
 			<content type="html">
 				Making the pixel art cover for Joshua Morse&#x27;s new single Demon Seed.
-				&lt;img alt="Demon Seed Pixel Art Process" src="http://www.richtaur.com/media/images/post/demon-seed/_thumbnail.jpg" width="256" height="144"&gt;
+				&lt;img alt="Demon Seed Pixel Art Process" src="http://www.richtaur.com/media/images/post/demon-seed/thumbnail.jpg" width="256" height="144"&gt;
 			</content>
 		</entry>
 		<entry>
@@ -290,7 +290,7 @@
 			<id>http://www.richtaur.com/post/the-ongoing-struggle</id>
 			<content type="html">
 				A rough comic about the struggle between playing games VS making them.
-				&lt;img alt="The Ongoing Struggle" src="http://www.richtaur.com/media/images/post/the-ongoing-struggle/_thumbnail.jpg" width="256" height="144"&gt;
+				&lt;img alt="The Ongoing Struggle" src="http://www.richtaur.com/media/images/post/the-ongoing-struggle/thumbnail.jpg" width="256" height="144"&gt;
 			</content>
 		</entry>
 		<entry>
@@ -300,7 +300,7 @@
 			<id>http://www.richtaur.com/post/happy-surfaces</id>
 			<content type="html">
 				An art tip about using 3d surfaces to ease the drawing process.
-				&lt;img alt="Happy Surfaces" src="http://www.richtaur.com/media/images/post/happy-surfaces/_thumbnail.jpg" width="256" height="144"&gt;
+				&lt;img alt="Happy Surfaces" src="http://www.richtaur.com/media/images/post/happy-surfaces/thumbnail.jpg" width="256" height="144"&gt;
 			</content>
 		</entry>
 		<entry>
@@ -310,7 +310,7 @@
 			<id>http://www.richtaur.com/post/hello-world</id>
 			<content type="html">
 				Just a quick doodle of me waving to the planet. Hi!
-				&lt;img alt="Hello World" src="http://www.richtaur.com/media/images/post/hello-world/_thumbnail.jpg" width="256" height="144"&gt;
+				&lt;img alt="Hello World" src="http://www.richtaur.com/media/images/post/hello-world/thumbnail.jpg" width="256" height="144"&gt;
 			</content>
 		</entry>
 </feed>

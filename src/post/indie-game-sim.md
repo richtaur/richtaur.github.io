@@ -4,12 +4,12 @@ date: 2018-03-25
 layout: post.html
 summary: A solo developer's struggle with creativity.
 tags: [postmortem]
-image: _title.png
-thumbnail: _thumbnail.jpg
+image: title.png
+thumbnail: thumbnail.jpg
 ---
 
 <div>
-  ![Indie Game Sim](/media/images/post/indie-game-sim/_title.png)
+  ![Indie Game Sim](/media/images/post/indie-game-sim/title.png)
 </div>
 
 Everyone who makes games has their own unique perspective on the process, but we can generally all agree that it’s nebulous and fraught with peril. Sometimes even the question of “which game concept should I work on?” seems impossible to answer. Fortunately, there are some guiding lights.

@@ -4,10 +4,10 @@ date: 2017-11-13
 layout: post.html
 summary: Just a quick doodle of me waving to the planet. Hi!
 tags: [art]
-image: _title.png
-thumbnail: _thumbnail.jpg
+image: title.png
+thumbnail: thumbnail.jpg
 ---
 
 <div>
-	![Hello World](/media/images/post/hello-world/_title.png)
+	![Hello World](/media/images/post/hello-world/title.png)
 </div>

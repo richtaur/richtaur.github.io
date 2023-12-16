@@ -4,13 +4,13 @@ date: 2020-12-31
 layout: post.html
 summary: A full year of select drawings, screenshots, and videos.
 tags: [article]
-image: _title.png
-thumbnail: _thumb.jpg
+image: title.png
+thumbnail: thumb.jpg
 ---
 
 <div>
   <a href="https://twitter.com/richtaur">
-    ![4/365 things I made](/media/images/post/365thingsimade/_title.png)
+    ![4/365 things I made](/media/images/post/365thingsimade/title.png)
   </a>
 </div>
 

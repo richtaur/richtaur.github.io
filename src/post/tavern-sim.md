@@ -4,12 +4,12 @@ date: 2019-06-24
 layout: post.html
 summary: An abandoned project about managing a medieval fantasy tavern.
 tags: [article]
-image: _title.png
-thumbnail: _thumb.jpg
+image: title.png
+thumbnail: thumb.jpg
 ---
 
 <div>
-  ![Tavern Sim](/media/images/post/tavern-sim/_title.png)
+  ![Tavern Sim](/media/images/post/tavern-sim/title.png)
 </div>
 
 A few years ago I really wanted to make some kind of realtime tavern simulator. The high level concept was: **Build and manage your own tavern**.

@@ -4,12 +4,12 @@ date: 2021-10-11
 layout: post.html
 summary: Thoughts about a game concept inspired by the classic Super Nintendo game ActRaiser.
 tags: [article]
-image: _title.png
-thumbnail: _thumb.jpg
+image: title.png
+thumbnail: thumb.jpg
 ---
 
 <div>
-  ![Project Tiny](/media/images/post/project-tiny/_title.png)
+  ![Project Tiny](/media/images/post/project-tiny/title.png)
 </div>
 
 [ActRaiser][ActRaiser] has been one of my favorite games for about as long as I can remember.

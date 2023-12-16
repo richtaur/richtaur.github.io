@@ -4,12 +4,12 @@ date: 2021-10-29
 layout: post.html
 summary: All Spelunky 2 items ranked by their usefulness.
 tags: [article]
-image: _title.png
-thumbnail: _thumb.jpg
+image: title.png
+thumbnail: thumb.jpg
 ---
 
 <div>
-	![Spelunky 2](/media/images/post/spelunky-2-items/_title.png)
+	![Spelunky 2](/media/images/post/spelunky-2-items/title.png)
 </div>
 
 _(WARNING: Spelunky 2 spoilers ahead!)_

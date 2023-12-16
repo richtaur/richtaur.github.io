@@ -5,7 +5,7 @@ layout: post.html
 summary: I've been meaning to share these for about a year now.
 tags: [art]
 image: game-boy.png
-thumbnail: _thumbnail.jpg
+thumbnail: thumbnail.jpg
 ---
 
 These are a combination of studies, [Etherington Brothers](http://theetheringtonbrothers.blogspot.com/) tutorials, and doodles from imagination.
