@@ -1,5 +1,5 @@
 default: node_modules
-	rm -rf htdocs
+	rm -rf docs
 	node build.js
 
 # make post title="from-sketch-to-line"
@@ -11,10 +11,10 @@ post:
 	cp src/media/images/post/indie-game-sim/_thumbnail.jpg src/media/images/post/$(title)/
 
 serve:
-	http-server htdocs -p 8088
+	http-server docs -p 8088
 
 publish:
-	aws s3 sync htdocs s3://www.richtaur.com \
+	aws s3 sync docs s3://www.richtaur.com \
 		--cache-control max-age=86400 \
 		--size-only \
 		--acl public-read \
@@ -23,7 +23,7 @@ publish:
 		--region us-west-2
 
 publish-all:
-	aws s3 sync htdocs s3://www.richtaur.com \
+	aws s3 sync docs s3://www.richtaur.com \
 		--cache-control max-age=86400 \
 		--acl public-read \
 		--delete \
