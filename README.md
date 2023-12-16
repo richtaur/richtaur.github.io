@@ -6,9 +6,9 @@ The personal website of [Matt Hackett](https://twitter.com/richtaur), a game dev
 
 ## Run
 
-`yarn`
-`make`
-`make serve`
+* `yarn`
+* `make`
+* `make serve`
 
 ## Publish
 
