@@ -13,7 +13,3 @@ The personal website of [Matt Hackett](https://twitter.com/richtaur), a game dev
 ## Publish
 
 `make publish`
-
-## Add a new post
-
-`make post title="example-title"`
