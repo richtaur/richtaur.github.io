@@ -4,11 +4,11 @@ date: 2023-10-15
 layout: post.html
 summary: Everything I (and you?) need to know about the Canon EOS M50 camera.
 tags: [article]
-image: _title.png
-thumbnail: _thumbnail.jpg
+image: title.png
+thumbnail: thumbnail.jpg
 ---
 <div>
-  ![Canon EOS M50](/media/images/post/canon-eos-m50-guide/_title.png)
+  ![Canon EOS M50](/media/images/post/canon-eos-m50-guide/title.png)
 </div>
 
 This is my "quick reference" guide for the [Canon EOS M50][canon_eos_m50] DSLR camera.
