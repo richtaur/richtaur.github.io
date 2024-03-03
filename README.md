@@ -12,4 +12,4 @@ The personal website of [Matt Hackett](https://twitter.com/richtaur), a game dev
 
 ## Publish
 
-`make publish`
+Push to the `main` branch, which will trigger GitHub Actions to push to `richtaur.com`.
