@@ -5,8 +5,7 @@ const subtitles = [
 	"the galaxy is at peace",
 	"words about games",
 	"richtaur.com",
-	"rik tor",
-	"prior podcaster",
+	'"rick tore"',
 ];
 const choice = subtitles[Math.floor(Math.random() * subtitles.length)];
 
