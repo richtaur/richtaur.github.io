@@ -1,0 +1,20 @@
+.figure-grid {
+	display: flex; /* initial: block */
+	justify-content: space-around; /* the main axis */
+	align-content: center; /* the cross axis */
+
+	/* identical to flex-flow: row wrap */
+	flex-direction: row; /* initial */
+	flex-wrap: wrap; /* initial: nowrap */
+}
+
+.figure-grid figure {
+	background: rgb(200, 200, 200);
+	border-radius: 1em;
+
+	margin: 0 0 2em 0;
+	padding: 1em;
+
+	/* shorthand for flex-grow: 0, flex-shrink: 1, flex-basis: 0% */
+	flex: 0; /* initial: auto */
+}
