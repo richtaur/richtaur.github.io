@@ -9,6 +9,14 @@ body {
 	font-family: Merriweather, Open Sans;
 }
 
+a {
+	color: rgb(210, 125, 44); /* orange */
+}
+
+a:hover {
+	color: rgb(89, 125, 206); /* blue */
+}
+
 /* Float-right approach */
 /*
 .bio {
@@ -55,7 +63,8 @@ body {
 }
 
 .figure-grid figure {
-	background: rgb(200, 200, 200);
+	background: rgb(0, 0, 0);
+	color: white;
 	border-radius: 1em;
 
 	margin: 0 0 2em 0;
@@ -63,4 +72,13 @@ body {
 
 	/* shorthand for flex-grow: 0, flex-shrink: 1, flex-basis: 0% */
 	flex: 0; /* initial: auto */
+
+	transition:
+		transform 0.4s ease-in-out,
+		scale 0.4s ease-in-out;
+}
+
+.figure-grid figure:hover {
+	transform: rotate(-2.5deg);
+	scale: 105%;
 }
