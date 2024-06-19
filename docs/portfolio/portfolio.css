@@ -1,3 +1,49 @@
+/*
+@font-face {
+	font-family: "EB Garamond";
+	src: url("EBGaramond-VariableFont_wght.ttf");
+}
+*/
+
+body {
+	font-family: Merriweather, Open Sans;
+}
+
+/* Float-right approach */
+/*
+.bio {
+	display: flow-root;
+}
+
+.bio img {
+	float: right;
+	margin-left: 2em;
+	max-height: 10em;
+}
+*/
+
+.bio {
+	display: flex;
+
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.bio > * {
+	flex: 1;
+}
+
+.bio p {
+	margin-right: 2em;
+}
+
+.bio img {
+	max-width: 10em;
+	height: auto;
+	flex-shrink: 0;
+	flex-grow: 0;
+}
+
 .figure-grid {
 	display: flex; /* initial: block */
 	justify-content: space-around; /* the main axis */
