@@ -2,13 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="author" content="Matt Hackett">
-		<meta name="twitter:site" content="@richtaur">
-		<meta name="twitter:card" content="summary">
-		<meta property="og:type" content="website">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Matt Hackett's Portfolio</title>
 
-		<title>richtaur</title>
+		<meta name="author" content="Matt Hackett">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="twitter:title" content="richtaur">
 		<meta property="og:title" content="richtaur">
 		<meta name="description" content="Articles and drawings by Matt Hackett, a game developer in California.">
@@ -18,31 +15,98 @@
 		<meta name="twitter:image" content="https://i.imgur.com/KbQ8x7A.png">
 		<meta property="og:image" content="https://i.imgur.com/KbQ8x7A.png">
 
-		<!-- <link href="/media/richtaur.css?63" rel="stylesheet"> -->
+		<!-- <link href="portfolio.css" rel="stylesheet"> -->
 		<link rel="icon" href="/favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Matt Hackett's Portfolio</h1>
+		<header>
+			<h1>Matt Hackett's Portfolio</h1>
+			<p>
+				I specialize in 2D games made in JavaScript or TypeScript.
+			</p>
+		</header>
 
-		<div>
-			<h2>Indie game development</h2>
-			<ul>
-				<li>Pixel Washer</li>
-				<li>Witchmore</li>
-				<li>A Wizard's Lizard</li>
-				<li>Indie Game Sim</li>
-			</ul>
+		<main>
+			<h2 id="indie-game-dev">Indie Game Development</h2>
+			<div class="figure-grid">
+				<figure>
+					<img src="../media/images/portfolio/pw.jpg" alt="TEMP image">
+					<figcaption>
+						<h3>Pixel Washer</h3>
+						<p>
+							Made in hand-written JavaScript in a homegrown ECS (entity component system) architecture.
+						</p>
+					</figcaption>
+				</figure>
 
-			<h2>Mobile game development</h2>
-			<ul>
-				<li>Match Monsters</li>
-				<li>Dungeon Tales</li>
-				<li>Werewolf</li>
-				<li>Archery</li>
-				<li>Draw Together</li>
-			</ul>
-		</div>
+				<figure>
+					<img src="../media/images/portfolio/igs.jpg" alt="TEMP image">
+					<figcaption>
+						<h3>Indie Game Sim</h3>
+						<p>
+							Made in hand-written JavaScript using a custom scene-based game engine.
+						</p>
+					</figcaption>
+				</figure>
 
+				<figure>
+					<img src="../media/images/portfolio/awl.jpg" alt="TEMP image">
+					<figcaption>
+						<h3>A Wizard's Lizard</h3>
+						<p>
+							Made in a custom scene-based game engine.
+							Including drawing all of the art, also I programmed most of the UI and much of the gameplay.
+						</p>
+					</figcaption>
+				</figure>
+			</div>
+
+			<h2 id="mobile-game-dev">Mobile Game Development</h2>
+			<p>
+				The following games were all made for the online multiplayer Plato platform.
+				I wrote every line of code to create these games (except Dungeon Tales, which had two developers).
+			</p>
+			<div class="figure-grid">
+				<figure>
+					<img src="../media/images/portfolio/match_monsters.jpg" alt="TEMP image">
+					<figcaption>
+						<h3>Match Monsters</h3>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<img src="../media/images/portfolio/dungeon_tales.jpg" alt="TEMP image">
+					<figcaption>
+						<h3>Dungeon Tales</h3>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<img src="../media/images/portfolio/werewolf.jpg" alt="TEMP image">
+					<figcaption>
+						<h3>Werewolf</h3>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<img src="../media/images/portfolio/archery.jpg" alt="TEMP image">
+					<figcaption>
+						<h3>Archery</h3>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<img src="../media/images/portfolio/draw_together.jpg" alt="TEMP image">
+					<figcaption>
+						<h3>Draw Together</h3>
+					</figcaption>
+				</figure>
+			</div>
+		</main>
+
+		<footer>
+			<p>Updated June 2024. Find me online: <a href="https://twitter.com/richtaur">@richtaur</a>, <a href="https://www.valadria.com/">valadria.com</a></p>
+		</footer>
 	</body>
 </html>
