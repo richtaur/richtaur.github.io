@@ -2,7 +2,7 @@
 	"name": "richtaur.com",
 	"version": "7.1.0",
 	"author": "Matt Hackett",
-	"description": "Have a relaxing time power washing beautiful pixels as Pigxel the pig.",
+	"description": "The personal website of Matt Hackett, author of How to Make a Video Game All By Yourself.",
 	"dependencies": {
 		"handlebars": "^4.7.7",
 		"metalsmith": "^2.1.0",
