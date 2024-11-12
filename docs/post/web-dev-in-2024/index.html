@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Matt Hackett">
+		<meta name="twitter:site" content="@richtaur">
+		<meta name="twitter:card" content="summary">
+		<meta property="og:type" content="website">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>How has web dev changed in the last decade? | richtaur</title>
+		<meta name="twitter:title" content="How has web dev changed in the last decade? | richtaur">
+		<meta property="og:title" content="How has web dev changed in the last decade? | richtaur">
+		<meta name="description" content="Let&#x27;s discuss what&#x27;s new in the web dev world since the 2010s.">
+		<meta name="twitter:description" content="Let&#x27;s discuss what&#x27;s new in the web dev world since the 2010s.">
+		<meta property="og:description" content="Let&#x27;s discuss what&#x27;s new in the web dev world since the 2010s.">
+
+		<meta name="twitter:image" content="https://i.imgur.com/KbQ8x7A.png">
+		<meta property="og:image" content="https://i.imgur.com/KbQ8x7A.png">
+
+		<link href="/media/richtaur.css?63" rel="stylesheet">
+		<link rel="alternate" type="application/rss+xml" title="RSS feed for richtaur" href="http://www.richtaur.com/rss.xml">
+		<link rel="icon" href="/favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700" rel="stylesheet">
+	</head>
+	<body>
+
+		<div id="header">
+			<div>
+				<h1><a href="/">Matt Hackett</a></h1>
+				<p id="subtitle">game developer</p>
+			</div>
+		</div>
+
+		<div id="contents" class="contents">
+
+<div class="post">
+	<h2>How has web dev changed in the last decade?</h2>
+
+	<div class="post-contents">
+		<p>Web development has changed a lot, especially in the last <strong>14 years</strong> since I was working directly in the field.</p>
+<p>These days I&#39;m making <em>games</em>, but still using <em>web dev tech</em>. For example, my upcoming game <a href="https://store.steampowered.com/app/2572060/Pixel_Washer/">Pixel Washer</a> is 100% <a href="https://valadria.itch.io/pixel-washer">hand-written JavaScript</a>!</p>
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_tClgq84l2U?si=aVYm2gwadlfY4uxL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+
+<p>Recently I&#39;ve been researching what&#39;s new in the field since I left to pursue games.</p>
+<p>I like to write documentation for myself as I learn new stuff. Taking the extra step to publish it helps me improve its quality <em>and</em> has the potential to help fellow devs who are investigating similar topics.</p>
+<p>So let&#39;s do it! Naturally there are more new web dev developments than I&#39;ve covered here. The topics I was most interested in include:</p>
+<ul>
+<li>TypeScript</li>
+<li>JavaScript Advancements</li>
+<li>Web Components</li>
+<li>JavaScript Frameworks</li>
+<li>CSS Advancements</li>
+<li>User Interface Optimization</li>
+<li>Containerization</li>
+<li>Continuous Integration/Development</li>
+<li>Test Driven Development</li>
+<li>Databases and Deployment</li>
+</ul>
+<p>I&#39;m gonna walk through each of these new developments, giving you my thoughts along the way.</p>
+<h2 id="1-typescript">1) TypeScript</h2>
+<p><a href="https://www.typescriptlang.org/">TypeScript</a> is, in a nutshell, strongly typed <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>.</p>
+<p>It&#39;s recently skyrocketed in popularity because many developers dislike that JavaScript is loosely typed (I am not among them). TypeScript is also developed by Microsoft, one of the biggest tech companies out there, which has given it deep reach.</p>
+<p>As you&#39;d expect, TypeScript transpiles to JavaScript. It provides comfortable ways to structure your code, including <a href="https://www.typescriptlang.org/docs/handbook/enums.html">enums</a> and <a href="https://www.typescriptlang.org/docs/handbook/classes.html">classes</a> (the latter of which JavaScript itself now supports, more on that below).</p>
+<p>I&#39;ve actually used TypeScript to ship a few games (see my <a href="/portfolio/">portfolio</a>) and I like it just fine.
+For my personal projects I still prefer vanilla JavaScript, but for teams I recommend TypeScript for the structure it provides.</p>
+<h2 id="2-javascript-advancements">2) JavaScript Advancements</h2>
+<p>Back in my day (this makes me sound older than I am), every variable was declared with <code>var</code> and that was it.
+Today <code>var</code> is still supported, but we also have the option of using <code>let</code> and <code>const</code>.</p>
+<p>The former allows us to reassign the variable, while the latter doesn&#39;t. For example:</p>
+<pre><code class="lang-js">// This works fine
+let foo = &quot;foo&quot;;
+foo = &quot;bar&quot;; 
+</code></pre>
+<pre><code class="lang-js">// This also works fine
+const foo = {};
+foo.bar = &quot;bar&quot;;
+</code></pre>
+<pre><code class="lang-js">// Uncaught TypeError: Assignment to constant variable.
+const foo = &quot;foo&quot;;
+foo = &quot;bar&#39;; 
+</code></pre>
+<p>This is a slightly different implementation of <code>const</code> than in most C-syntax languages I&#39;ve used, but once I got past that weirdness I began to really enjoy the expressiveness that <code>let</code> and <code>const</code> gave to my code. To me it&#39;s easier to read than a sea of <code>var</code> declarations.</p>
+<p>As we mentioned, JavaScript now has <em>baked-in</em> classical inheritance, including support for
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends">extends</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor">constructor</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties">private</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static">static</a> fields.</p>
+<p>Personally I find the use of <code>#</code> to denote private members an odd choice. I&#39;m not sure why; maybe it looks like a comment to my eyes?</p>
+<pre><code class="lang-js">class Dog extends Animal {
+    #privateField;
+    #privateFieldWithInitializer = 42;
+}
+</code></pre>
+<p>I&#39;m also just not big on classical inheritance. It&#39;s super readable, which I like, but not as <em>portable</em> as I want.
+Personally I prefer functional approaches; my JavaScript code ends up only making use of <code>new</code> when required by the language (e.g. <code>AudioContext</code>, <code>Promise</code>, <code>RegExp</code>, etc.).</p>
+<p>Other JavaScript advancements include <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">array filters</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*">generator functions</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map">Map</a>, which is pretty cool.</p>
+<p>If I had to choose, my favorite &quot;new&quot; JavaScript advancement would be the ability to write asynchronous code (via <code>async</code> and <code>await</code>) that&#39;s easy to read and write:</p>
+<pre><code class="lang-js">function delay (duration) {
+    return new Promise(resolve =&gt; setTimeout(resolve, duration));
+}
+
+async function myAsyncCode (durationBetweenCommands) {
+    console.log(&quot;Running ...&quot;);
+    await delay(durationBetweenCommands);
+
+    console.log(&quot;Almost there..!&quot;);
+    await delay(durationBetweenCommands);
+
+    console.log(&quot;DONE!&quot;);
+}
+
+myAsyncCode(1000);
+</code></pre>
+<h2 id="3-web-components">3) Web Components</h2>
+<p>Web Components are a collection of features including <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements">custom elements</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM">shadow DOM</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement">HTML templates</a>.</p>
+<p>First up are <strong>custom elements</strong>, which allow developers to create their own unique nodes.
+This will certainly help prevent &quot;div soup&quot; which is when developers just use <code>&lt;div&gt;</code> elements for everything.</p>
+<p>Custom elements also help encapsulate the code that we&#39;ll inevitablly want to attach to our nodes. Creating your own element looks something like this:</p>
+<pre><code class="lang-js">// Define a chess board class
+export default class ChessBoard extends HTMLElement {
+    constructor () {
+        super();
+    }
+}
+
+// Register our custom element
+customElements.define(&quot;chess-board&quot;, ChessBoard);
+</code></pre>
+<p>Then you can define your new element in your markup:</p>
+<pre><code class="lang-html">&lt;chess-board&gt;Text? In MY chess board?!&lt;/chess-board&gt;
+</code></pre>
+<p>Conveniently, a custom element comes with 4 built-in lifecycle callbacks:</p>
+<ul>
+<li><code>connectedCallback()</code> is called when an element is added to the document.</li>
+<li><code>disconnectedCallback()</code> is called when an element is removed from the document.</li>
+<li><code>adoptedCallback()</code> is called when an element is moved to a new document.</li>
+<li><code>attributeChangedCallback()</code> is called when an attribute is changed (although it requires some extra code, see below).</li>
+</ul>
+<p>For a class member to change and trigger <code>attributeChangedCallback()</code>, it must be included in the class&#39;s <code>observedAttributes</code> array:</p>
+<pre><code class="lang-js">export default class ChessBoard extends HTMLElement {
+    // Member names in this array trigger the event
+    static observedAttributes = [&quot;color&quot;, &quot;size&quot;];
+
+    constructor () {
+        super();
+    }
+
+    attributeChangedCallback (name, oldValue, newValue) {
+        console.log(`Attribute ${name} changed!`);
+        console.log(`Old/new: ${oldValue} =&gt; ${newValue}`);
+    }
+}
+</code></pre>
+<p>Custom elements pair nicely with the <strong>cool</strong> and <strong>mysterious</strong> sounding <em>shadow DOM</em>.
+What&#39;s next, <strong>dragon DOM</strong>?? (Sounds awesome actually!)</p>
+<pre><code class="lang-js">// Define a chess board class
+export default class ChessBoard extends HTMLElement {
+    constructor () {
+        super();
+    }
+
+    connectedCallback () {
+        console.log(&quot;ChessBoard.connectedCallback()&quot;);
+
+        // Create the shadow root
+        const shadowRoot = this.attachShadow({mode: &quot;open&quot;});
+
+        // Create a div container
+        const divNode = document.createElement(&quot;div&quot;);
+
+        // Attach nodes
+        shadowRoot.appendChild(divNode);
+    }
+}
+
+// Register our custom element
+customElements.define(&quot;chess-board&quot;, ChessBoard);
+</code></pre>
+<p>Lastly, <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement">HTML templates</a> provide a new way to reuse markup structures:</p>
+<pre><code class="lang-html">&lt;template id=&quot;my-template&quot;&gt;
+    &lt;p&gt;Example&lt;/p&gt;
+&lt;/template&gt;
+</code></pre>
+<p>This markup won&#39;t appear in your document by default. To use the template, reference the template then append it to the DOM, like so:</p>
+<pre><code class="lang-js">const templateNode = document.getElementById(&quot;my-template&quot;);
+const templateContent = templateNode.content;
+document.body.appendChild(templateContent);
+</code></pre>
+<p>There are also <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_templates_and_slots">slots</a> for even more capability.
+They seem a little fiddly to me, but I bet they&#39;re handy in certain situations.</p>
+<h2 id="4-javascript-frameworks">4) JavaScript Frameworks</h2>
+<p>It&#39;s pretty clear that <a href="https://react.dev/">React</a> has become an industry standard web framework.
+Like TypeScript, it&#39;s powered by a tech titan (this time Facebook/Meta).</p>
+<p>It&#39;s kind of nice when there&#39;s an industry standard framework because it can make your skills more transferable between gigs.
+You&#39;ll always have to learn what an individual company&#39;s architecture is like and how all the systems work together, but
+having one framework to learn can be helpful, especially if the framework&#39;s opinions have informed other parts of the software.</p>
+<p>There&#39;s also <a href="https://reactnative.dev/">React Native</a> which allows developers to create mobile applications.
+<em>Back in my day</em> (again with this) we had to figure this out on our own!
+You created your own Android app from scratch and embedded your HTML5 game manually.</p>
+<p>(Anyone remember <a href="https://github.com/ludei">Ludei</a>??
+For creating fast HTML5 mobile apps, they were the only shop in town for quite a while. Great product.)</p>
+<p>I&#39;ve used many frameworks in the same vein (especially when I was at <a href="https://www.yahoo.com/">Yahoo</a>), but haven&#39;t tried React yet.
+The documentation looks pretty straightforward and I&#39;m sure it would be easy to get ramped up quickly.</p>
+<p>Something that doesn&#39;t sit well with me is that <a href="https://react.dev/learn/start-a-new-react-project">React strongly recommends</a> using another framework to build apps with it.</p>
+<blockquote>
+<p>If you want to build a new app or a new website fully with React, we recommend picking one of the React-powered frameworks popular in the community.</p>
+</blockquote>
+<p>You <em>can</em> use &quot;vanilla&quot; React, but the devs say:</p>
+<blockquote>
+<p>You can use React without a framework, however we’ve found that most apps and sites eventually build solutions to common problems such as code-splitting, routing, data fetching, and generating HTML.</p>
+</blockquote>
+<p>Their suggestions include <a href="https://nextjs.org/">NextJS</a>, <a href="https://remix.run/">Remix</a> (cool name), <a href="https://www.gatsbyjs.com/">Gatsby</a> and <a href="https://expo.dev/">Expo</a> (for native apps).
+Again I haven&#39;t used React so I&#39;m not privvy to the specifics, but a framework requiring another framework feels incomplete to me.</p>
+<p>Web dev has kind of always felt like building upon a teetering stack of tech, so I guess it&#39;s just par for the course.</p>
+<h2 id="5-css-advancements">5) CSS Advancements</h2>
+<p>Cascading stylesheets have come a long way!
+I started making websites at the <em>beginning of time</em>, that is to say, the 1990s, when the web was first created.</p>
+<p>&quot;Good&quot; HTML used to be mostly tabular and looked something like this:</p>
+<pre><code class="lang-html">&lt;HTML&gt;
+    &lt;HEAD&gt;
+        &lt;TITLE&gt;GEOCITIES FANSITE 1996 ZOMG&lt;/TITLE&gt;
+    &lt;/HEAD&gt;
+    &lt;TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0&gt;
+        &lt;TR&gt;
+            &lt;TD&gt;You get the idea.&lt;/TD&gt;
+        &lt;/TR&gt;
+    &lt;/TABLE&gt;
+&lt;/HTML&gt;
+</code></pre>
+<p>And when I was developing websites for a living, we still needed to use floating <code>div</code> elements with <a href="https://css-tricks.com/snippets/css/clear-fix/">&quot;the clearfix&quot;</a> everywhere to make flexible, accessible layouts.</p>
+<p>Today we&#39;re lucky to have some cool new advancements including:</p>
+<ul>
+<li><a href="https://web.dev/learn/css/grid">Grid</a>: a powerful way to represent markup in a matrix pattern (to learn this by playing a game, see <a href="https://cssgridgarden.com/">Grid Garden</a>).</li>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flex-box</a>: an amazingly thorough way to make semantic, accessible layouts (to learn <em>this</em> by playing a game, see <a href="https://flexboxfroggy.com/">Flexbox Froggy</a>).</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation">Animations</a>: lovely tools for transitioning between CSS values.</li>
+</ul>
+<p>There are also CSS frameworks gaining popularity. There were only a couple I used at various jobs, one of them being <a href="https://lesscss.org/">Less</a>. Today I honestly don&#39;t think I&#39;d need a framework at all, thanks to how mature the <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model">CSS Object Model</a> has become.
+I mean look at all these powerful new features:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">CSS variables</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types">CSS data types</a></li>
+<li><a href="https://web.dev/learn/css/sizing">Sizing units</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions">Value functions</a></li>
+</ul>
+<p>Were I embarking on an exciting new CSS project, I&#39;d probably explore all these hot new features before even considering a CSS framework. Still, I do enjoy a good <a href="https://piccalil.li/blog/a-more-modern-css-reset/">reset</a> before attemping to implement my own design.</p>
+<h2 id="6-ui-optimization">6) UI Optimization</h2>
+<p>User interface optimizations have had a lot more scrutiny in recent years.
+Performance was always a big issue at Yahoo especially, as we&#39;d <em>obsess</em> over page load times and file sizes.
+At Yahoo they always liked to say:</p>
+<blockquote>
+<p>The fastest page you can possibly load is about:blank</p>
+</blockquote>
+<p>We&#39;ve got to deliver bytes to our users, but the fewer bytes, the better the performance.
+There are of course tried-and-true ways to compress our data, including some of my favorites like <a href="https://webpack.js.org/">Webpack</a> and <a href="https://tinypng.com/">TinyPNG</a>.</p>
+<p>Here are some additional things to consider when optimizing UI:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Flash_of_unstyled_content">Flash of unstyled content</a></li>
+<li><a href="https://gist.github.com/gopal1996/de0b218253fcf8c9634bd8029d14eaf4">What is Reflow and Repaint in Simple terms</a></li>
+<li><a href="https://gist.github.com/paulirish/5d52fb081b3570c81e3a">What forces layout / reflow</a></li>
+<li><a href="https://web.dev/articles/critical-rendering-path/render-tree-construction">Render-tree Construction, Layout, and Paint</a></li>
+<li><a href="https://web.dev/articles/inp">Interaction to Next Paint (INP)</a></li>
+</ul>
+<p>Probably the main thing to consider is to avoid <a href="https://web.dev/articles/avoid-large-complex-layouts-and-layout-thrashing">&quot;layout thrashing&quot;</a>.
+Some common optimization best practices include leveraging shadow DOM, batching changes to the DOM, and focusing on properties that don&#39;t trigger reflows.</p>
+<h2 id="7-containerization">7) Containerization</h2>
+<p>I was making TypeScript games fulltime when containerization first became common.</p>
+<p>We used to have loads of dependencies and environment variables to manage, which often broke and created desyncs between developers and their systems. Then we started using <a href="https://www.docker.com/">Docker</a> and most of those problems melted away.</p>
+<p>Honestly it felt like a welcome improvement. Stuff &quot;just worked&quot; more often, and updating was isolated to just the container instead of multiple dependencies with their own configurations. The only downside was the large memory footprint it took up, but we all had beefy machines, so it was fine.</p>
+<p>I&#39;m pretty sure there&#39;s a financial cost to using something like Docker as an enterprise solution (which I don&#39;t love), but
+there&#39;s also <a href="https://kubernetes.io/">Kubernetes</a> which has similar features and is open-source.</p>
+<p>Usually when I&#39;m spinning up personal projects, containerization feels unnecessary (and out of scope) so I haven&#39;t messed with it much on my own. If I did want to explore it, I&#39;d start with Kubernetes.</p>
+<h2 id="8-ci-cd">8) CI/CD</h2>
+<p>When I was looking into new web tech, <a href="https://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> and <a href="https://en.wikipedia.org/wiki/Continuous_deployment">continuous deployment</a> (or <a href="https://en.wikipedia.org/wiki/CI/CD">CI/CD</a>) were brought up ... continuously!</p>
+<p><strong>CI</strong> continuously integrates the work of fellow engineers together to limit conflicts and other issues.</p>
+<p><strong>CD</strong> continously deploys the software regularly to help spot bugs and other issues quickly.</p>
+<p>These are both strategies that were lightly practiced at web shops where I worked, but we didn&#39;t have the benefit of the experience and new terminology to build best practices around.</p>
+<p>As a solo developer, <strong>CI</strong> isn&#39;t as relevant to me.
+My work schedule is too variable to automate deployment, but I have implemented <a href="https://github.com/features/actions">GitHub Actions</a> for <a href="https://store.steampowered.com/app/2572060/Pixel_Washer/">Pixel Washer</a>.
+For example, all I have to do is push to the <code>main</code> branch and my game deploys automatically to <a href="https://valadria.itch.io/pixel-washer">Itch</a>.
+Pretty cool! (Shout out to <a href="https://www.geoffblair.com/">Geoff Blair</a> for showing me that GitHub can do that.)</p>
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vQ7G_N6Z4Gk?si=b42hrGY6s-d1cMfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+
+<h2 id="9-tdd">9) TDD</h2>
+<p><a href="https://en.wikipedia.org/wiki/Test-driven_development">Test-driven development</a> (TDD) involves automated unit tests that let you know if your code is working propertly (or not).</p>
+<ul>
+<li>✅ Your code is working</li>
+<li>⛔️ Your code sucks</li>
+</ul>
+<p>It creates a situation where even if your <em>changes</em> aren&#39;t more stable, you are more aware of the stability of your software. That&#39;s a good thing!</p>
+<p>Of course, there are trade-offs.</p>
+<p>Preparing for unit tests can create an extra step, where your code needs to be separated into a consumable API for the tests.
+Sometimes this is easy (or even free), if the architecture is setup for it.
+Or maybe the developer(s) just like working that way.</p>
+<p>Other times it&#39;s a slog, requiring messy refactors.
+I read somewhere that described TDD as &quot;simple but not easy&quot; and I think that&#39;s accurate.</p>
+<p>Some of the teams I worked with at Yahoo required unit tests, others didn&#39;t.
+Most startups I worked with didn&#39;t even consider TDD.
+I think the focus was on speed and ability to pivot, rather than stability.</p>
+<p>There are some developers who swear by TDD, and can&#39;t believe when others don&#39;t practice it.
+&quot;You must write such unstable code!&quot; they must think (and are often correct).</p>
+<p>TDD is definitely something that large software companies will want to explore (or integrate), but for solo game developers (like me) it might be out of scope. Either way it&#39;s nice that we have a way to make our code more stable.</p>
+<h2 id="10-databases-and-deployment">10) Databases and Deployment</h2>
+<p>I&#39;ll just shove these two topics together because they both start with &quot;D&quot; and I&#39;m nearing the end of what I studied (and for the <a href="https://en.wikipedia.org/wiki/Dungeons_%26_Dragons">D&amp;D</a> reference).</p>
+<p>In my search for latest/greatest web tech, databases naturally came up a lot.
+&quot;Back in my day&quot; (this is the last time I promise) we used <a href="https://www.mysql.com/">MySQL</a> for most projects.
+The most common tech stack I&#39;d use was nicknamed <a href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP</a> (Linux, Apache, MySQL, and PHP), since they all worked together so nicely.</p>
+<p>Today there&#39;s no shortage of database options.
+I haven&#39;t yet tried it out, but the database that caught my eye the most was definitely <a href="https://www.postgresql.org/">PostgreSQL</a>.
+It&#39;s open source and its users are vocal about how much they love it.
+Someday I&#39;ll think of an excuse to use it for a project.</p>
+<p>(<a href="https://www.mongodb.com/">MongoDB</a> also received lots of praise but from what I&#39;ve seen &quot;source available&quot; is always less appealing than &quot;open source&quot;.)</p>
+<p>Lastly, <strong>cloud deployment</strong> is much more of a thing than when I was deep in web dev land.
+We used to come up with our own server infrastructure, load balancing, content distribution, etc. but these days it&#39;s more common to use a cloud platform.</p>
+<p>There&#39;s no shortage of platforms, but far and away the most popular one I saw was <a href="https://aws.amazon.com/">Amazon Web Services</a> (AWS).
+Fortunately for me, I have experience deploying websites via AWS.
+For example, the <a href="http://www.lostdecadegames.com/">Lost Decade Games</a> website still runs on AWS!</p>
+<p>However my websites are mostly serving static files (including <a href="https://github.com/richtaur/richtaur.github.io">this one</a>!).
+To get my AWS skills up to par, I should deploy a server with a database and all that jazz.
+Maybe someday! I&#39;ve been thinking about designing a project that would use all this tech I talk about here.</p>
+<h2 id="thanks-for-reading">Thanks For Reading</h2>
+<p>A project that uses all this cool new tech would be fun to design and cool to implement.
+If I do end up hacking on something new and cool, you can be sure I&#39;ll write about it here.
+<a href="/rss.xml">Subscribing</a> is still a thing, via the power of RSS!</p>
+<p>In the meantime check out <a href="https://www.valadria.com/make-the-game/">my podcast</a> and I&#39;m trying to be more active on <a href="https://bsky.app/profile/richtaur.bsky.social">Bluesky</a>.
+Hope this was interesting and/or entertaining.
+See you around!</p>
+
+	</div>
+
+	<div class="footer">
+		<span class="date">Nov 11, 2024</span>
+		<ul class="share">
+			<li><a class="in" href="http://www.linkedin.com/shareArticle?url=http://www.richtaur.com/post/web-dev-in-2024/&title=How has web dev changed in the last decade?&source=http://www.richtaur.com/&mini=true">linkedin</a></li>
+			<li><a class="fb" href="http://www.facebook.com/sharer/sharer.php?u=http://www.richtaur.com/post/web-dev-in-2024/&title=How has web dev changed in the last decade?">Facebook</a></li>
+			<li><a class="tw" href="http://twitter.com/intent/tweet?status=How has web dev changed in the last decade?+http://www.richtaur.com/post/web-dev-in-2024/">Twitter</a></li>
+		</ul>
+	</div>
+
+	<h3>More here:</h3>
+	<div class="list-items">
+
+			<div class="list-item-thumbnail">
+			
+					<a class="thumbnail" href="/post/canon-eos-m50-guide">
+						<img alt="Matt&#x27;s Canon EOS M50 Guide" src="/media/images/post/canon-eos-m50-guide/thumbnail.jpg">
+					</a>
+			
+				<h2><a href="/post/canon-eos-m50-guide">Matt&#x27;s Canon EOS M50 Guide</a></h2>
+			
+				<div>
+					Everything I (and you?) need to know about the Canon EOS M50 camera.
+				</div>
+			</div>
+	</div><!-- .list-items -->
+
+</div><!-- .post -->
+
+		</div><!-- #contents -->
+
+		<div id="footer">
+			<div>
+
+				<h2>Buy My Book</h2>
+				<a class="cta" href="https://www.valadria.com/how-to-make-a-video-game-all-by-yourself/"><img alt="How to Make a Video Game All By Yourself" src="/media/images/post/how-to-make-a-video-game-all-by-yourself/title.png"></a>
+
+				<h2>More Matt</h2>
+				<ul>
+					<li><a href="/portfolio/">Portfolio</a></li>
+					<li><a href="https://www.valadria.com/make-the-game/">Podcast</a></li>
+					<li><a href="https://www.valadria.com/">Company</a></li>
+					<li><a href="https://www.gamedeveloper.com/author/matt-hackett">Game Developer articles</a></li>
+					<li><a href="https://github.com/richtaur">GitHub projects</a></li>
+					<li>Oldschool demos: <a href="/demos/bats">bats</a>, <a href="/demos/QBASIC">QBASIC</a>, <a href="/demos/spacius">Spacius!</a></li>
+					<li><a href="https://twitter.com/richtaur">@richtaur</a></li>
+					<li><a href="/rss.xml">RSS</a></li>
+				</ul>
+
+				<h2>Designs by Year</h2>
+				<ul>
+					<li><a href="/2018/">2018: Worse Blog</a></li>
+					<li><a href="/2017/">2017: Blog</a></li>
+					<li><a href="/2016/">2016: Hire Me</a></li>
+					<li><a href="/2013/">2013: Domain Squatter</a></li>
+					<li><a href="/2010/">2010: Retro Modules</a></li>
+				</ul>
+
+				<p>
+					v7.1.0 &copy; Matt Hackett 2024
+				</p>
+			</div>
+		</div><!-- /footer -->
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<!--
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-27284870-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-27284870-1');
+		</script>
+		-->
+
+		<script src="/richtaur.js"></script>
+	</body>
+</html>

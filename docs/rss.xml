@@ -3,12 +3,21 @@
 	<title>richtaur</title>
 	<link href="http://www.richtaur.com/rss.xml" rel="self"/>
 	<link href="http://www.richtaur.com/"/>
-	<updated>2024-06-19T13:40:13-07:00</updated>
+	<updated>2024-11-12T10:09:27-08:00</updated>
 	<id>http://www.richtaur.com/</id>
 	<author>
 		<name>Matt Hackett</name>
 		<email>richtaur@gmail.com</email>
 	</author>
+		<entry>
+			<title>How has web dev changed in the last decade?</title>
+			<link href="http://www.richtaur.com/post/web-dev-in-2024"/>
+			<updated>2024-11-11T16:00:00-08:00</updated>
+			<id>http://www.richtaur.com/post/web-dev-in-2024</id>
+			<content type="html">
+				Let&#x27;s discuss what&#x27;s new in the web dev world since the 2010s.
+			</content>
+		</entry>
 		<entry>
 			<title>Matt&#x27;s Canon EOS M50 Guide</title>
 			<link href="http://www.richtaur.com/post/canon-eos-m50-guide"/>
