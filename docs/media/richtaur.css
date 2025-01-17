@@ -130,9 +130,6 @@ a:hover {
 /* Home: list of posts */
 
 .list-items {
-	max-width: 600px;
-	/* display: flex; */
-
 	margin: 0 2em;
 	max-width: 600px;
 }
@@ -208,6 +205,11 @@ a:hover {
 
 .post ol li {
 	margin-bottom: 1em;
+}
+
+.post iframe {
+	width: 100%;
+	aspect-ratio: 560 / 315;
 }
 
 .post-contents {
@@ -295,7 +297,7 @@ a:hover {
 #footer div {
 	margin: auto;
 	padding: 0em 2em;
-	width: 600px;
+	max-width: 600px;
 }
 
 #footer div h2 {
@@ -335,15 +337,27 @@ a:hover {
 	margin-bottom: 1em;
 }
 
+/* All source code, whether inline or within a block */
 code {
 	font-family: "Courier", "Sans-Serif";
 	font-size: 16px;
-	overflow: scroll;
+}
+
+pre {
+	max-width: 600px;
+	overflow-wrap: break-word;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	word-break: break-word;
 }
 
 pre code {
-	display: block;
 	background: #eee;
-	text-align: left;
+	display: block;
+	max-width: 100%;
+	overflow-wrap: break-word;
 	padding: 1em;
+	text-align: left;
+	white-space: pre-wrap;
+	word-break: break-word;
 }
