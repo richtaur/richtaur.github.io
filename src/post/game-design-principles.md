@@ -48,7 +48,7 @@ Click/tap only. Avoid supporting an exhausting number of keyboards/gamepads (see
 
 ## Webby content
 
-In a webby design, adding a new thing is beneficial to all. Think adding a new item to the mix in **Spelunky**. Avoids content crunch. (Article on "webby" designs coming soon, watch this space.)
+In a [webby design][webbiness], adding a new thing is beneficial to all. Think adding a new item to the mix in **Spelunky**. Avoids content crunch.
 
 ## Turn-based
 
@@ -123,3 +123,4 @@ Love/hate these principles? Questions about ‘em? Got your own? Let me know on 
 
 [awl]: https://store.steampowered.com/app/280040/A_Wizards_Lizard/
 [sid]: https://www.gamasutra.com/view/news/114402/Analysis_Sid_Meiers_Key_Design_Lessons.php
+[webbiness]: https://www.valadria.com/webbiness-and-refactoring/
