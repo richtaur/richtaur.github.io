@@ -1,6 +1,6 @@
 # richtaur.com
 
-The personal website of [Matt Hackett](https://twitter.com/richtaur), a game developer in California.
+The personal website of [Matt Hackett](https://bsky.app/profile/richtaur.bsky.social), a game developer in California.
 
 ![Matt Hackett](https://i.imgur.com/LdPRkva.png)
 
