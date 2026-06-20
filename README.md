@@ -12,6 +12,7 @@ The personal website of [Matt Hackett](https://bsky.app/profile/richtaur.bsky.so
 
 ## Development
 
+Powered by [Metalsmith](https://metalsmith.io/).
 The site content comes from the `src` folder.
 The `docs` folder is generated from `src`.
 
