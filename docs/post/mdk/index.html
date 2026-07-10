@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Matt Hackett">
+		<meta name="twitter:site" content="@richtaur">
+		<meta name="twitter:card" content="summary">
+		<meta property="og:type" content="website">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Matt&#x27;s Development Kit (mdk) | richtaur</title>
+		<meta name="twitter:title" content="Matt&#x27;s Development Kit (mdk) | richtaur">
+		<meta property="og:title" content="Matt&#x27;s Development Kit (mdk) | richtaur">
+		<meta name="description" content="Let me tell you about my development kit, because it&#x27;s super useful.">
+		<meta name="twitter:description" content="Let me tell you about my development kit, because it&#x27;s super useful.">
+		<meta property="og:description" content="Let me tell you about my development kit, because it&#x27;s super useful.">
+
+		<meta name="twitter:image" content="https://i.imgur.com/KbQ8x7A.png">
+		<meta property="og:image" content="https://i.imgur.com/KbQ8x7A.png">
+
+		<link href="/media/richtaur.css?65" rel="stylesheet">
+		<link rel="alternate" type="application/rss+xml" title="RSS feed for richtaur" href="http://www.richtaur.com/rss.xml">
+		<link rel="icon" href="/favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700" rel="stylesheet">
+	</head>
+	<body>
+
+		<div id="header">
+			<div>
+				<h1><a href="/">Matt Hackett</a></h1>
+				<p id="subtitle">game developer</p>
+			</div>
+		</div>
+
+		<div id="contents" class="contents">
+
+<div class="post">
+	<h2>Matt&#x27;s Development Kit (mdk)</h2>
+
+	<div class="post-contents">
+		<p>This is <strong>Matt&#39;s Development Kit</strong> (<a href="https://github.com/richtaur/mdk">mdk</a>). Is that a great name? Nope!</p>
+<p>Is it a useful tool? Oh yeah! I use it almost every day.</p>
+<p>It&#39;s a command-line utility that can perform all sorts of tasks on all sorts of files.</p>
+<p>Here&#39;s some of the cool stuff it can do:</p>
+<h2 id="convert-all-webp-files-to-jpg">Convert all webp files to jpg</h2>
+<p>I have one question for the creator(s) of <code>webp</code>: Why?</p>
+<pre><code class="lang-sh">mdk image convert jpg *.webp
+</code></pre>
+<p>This summons <code>mdk</code>, tells it we&#39;re working with one or more <code>image</code> files, that we&#39;re going to <code>convert</code> them to <code>jpg</code>, and that we&#39;re operating on all files in this folder that end with <code>webp</code>. Easy!</p>
+<h2 id="convert-a-movie-file">Convert a movie file</h2>
+<p>I capture a lot of video (especially while working on <a href="https://store.steampowered.com/app/2572060/Pixel_Washer/">my game</a>).
+Since I have been cursed to prefer Mac computers, my files are saved as <code>mov</code> which is not my preference.</p>
+<p>&quot;Just use <a href="https://obsproject.com/">OBS</a>&quot; you say, because it can save in any format? I <em>do</em> (for some things), but I prefer <code>mkv</code> when using OBS, because that way the video can be preserved if OBS crashes. It&#39;s a whole thing.</p>
+<p>Anyway using <code>mdk</code> it&#39;s easy to convert between video file types.
+Here&#39;s how to convert a video file from <code>mov</code> to <code>mp4</code>:</p>
+<pre><code class="lang-sh">mdk video convert mp4 My_Video.mov
+</code></pre>
+<h2 id="convert-all-wav-files-to-mp3">Convert all wav files to mp3</h2>
+<p>If you and I have talked game dev shop before, then I&#39;ve probably brought up the amazing <a href="https://sonniss.com/gameaudiogdc/">Royalty Free Sound Effects Archive: GameAudioGDC</a>.</p>
+<p>Go get those SFX!!</p>
+<p>Anyway, audio asset packs often provide sound files in formats I don&#39;t want to use for various reasons:</p>
+<ul>
+<li><code>ogg</code> isn&#39;t preview-able in OS X (total dealbreaker for me)</li>
+<li><code>wav</code> files are often gigantic in file size</li>
+</ul>
+<p>So I use this one a lot. Here&#39;s how to convert a whole folder of <code>wav</code> files to <code>mp3</code>:</p>
+<pre><code class="lang-sh">mdk audio convert mp3 *.wav
+</code></pre>
+<p>Of course, converting all <code>ogg</code> to <code>mp3</code> would look like this (I&#39;ve included the deletion of the <code>wav</code> files; use with caution!):</p>
+<pre><code class="lang-sh">mdk audio convert mp3 *.ogg &amp;&amp; rm *.ogg
+</code></pre>
+<h2 id="all-commands">All Commands</h2>
+<p>With <code>mdk</code> installed, you can get a list of all commands by simply running <code>mdk</code>:</p>
+<pre><code class="lang-sh">➜  mdk git:(main) ✗ mdk
+&gt; Welcome to MDK v0.13.1
+- Commands:
+  mdk audio compress $path
+  mdk audio convert $format $path
+  mdk audio normalize $path
+  mdk audio reverse $path
+  mdk audio volume $volume $path
+  mdk image compress $path
+  mdk image convert $format $path
+  mdk image resize $size $path
+  mdk image resize-pixels $size $path
+  mdk video compress $path
+  mdk video convert $type $path
+  mdk video gifify $path
+  mdk video resize $size $path
+  mdk video resize-pixels $size $path
+&gt; MDK exiting
+</code></pre>
+<p>You can also see the commands for individual media types like video with <code>mdk video</code>:</p>
+<pre><code class="lang-sh">➜  mdk git:(main) ✗ mdk video
+&gt; Welcome to MDK v0.13.1
+  mdk video compress $path
+  mdk video convert $type $path
+  mdk video gifify $path
+  mdk video resize $size $path
+  mdk video resize-pixels $size $path
+- Video DONE
+&gt; MDK exiting
+</code></pre>
+<p>If you want to try it out, get the code on <a href="https://github.com/richtaur/mdk">GitHub</a>. It&#39;s not <em>great</em> code, but it is <em>my</em> code and I&#39;m fine with it.</p>
+<p>Fun fact: I talked about <a href="https://github.com/richtaur/mdk">mdk</a> briefly in <a href="https://gdcvault.com/play/1035074/Independent-Games-Summit-Content-Ready">my GDC talk</a>!</p>
+<p><div>
+  <a href="https://gdcvault.com/play/1035074/Independent-Games-Summit-Content-Ready">
+    <img src="/media/images/post/mdk/Content-Ready Game Development - mdk_600w.jpg" alt="Content-Ready Game Development slide from GDC 2025">
+    <em>Content-Ready Game Development</em>
+  </a>
+</div>
+<br></p>
+<h2 id="what-s-next-">What&#39;s Next?</h2>
+<p>This is a software project, so naturally there&#39;s a never-ending pile of <strong>TODO</strong> items. This includes:</p>
+<ul>
+<li><strong>Image cropping</strong>: I want to crop images from the command-line but I need to think about the API a bit. I&#39;ve managed to keep things extremely simple so far and I don&#39;t want to mess that up.</li>
+<li><strong>Video merging</strong>: It would be cool to be able to shove video files together. I&#39;m picturing something like <code>mdk video combine my_new_video.mp4 *.mp4</code> but I need to think about it some more. (I&#39;ve also only needed this feature like one time ever so it&#39;s low priority.)</li>
+<li><strong>Fewer depencies</strong>: I don&#39;t love the dependencies like <a href="https://yarnpkg.com/">Yarn</a>. Also now it&#39;s actually <a href="https://github.com/nodejs/corepack">corepack</a> (?) which is a whole ball of wax I just haven&#39;t have the time or patience to figure out yet. I dunno man, I want to understand my dependencies again, but not today. I just hope I don&#39;t write my own package manager.</li>
+<li><strong>More dependencies</strong>: OK so I recently realized that <code>mdk</code> assumes you have (the absolutely amazing) <a href="https://www.ffmpeg.org/">ffmpeg</a> and <a href="https://imagemagick.org/mogrify/">mogrify</a> installed, because: everyone does, right? I mean why wouldn&#39;t you?! But no, that is not true. I should explicitly include that software as dependencies.</li>
+<li><strong>Polish</strong>: I might spruce up the output with some colors and fancy emojis or whatever. We&#39;ll see.</li>
+</ul>
+<p>So yeah there&#39;s a handful of stuff I&#39;ve been meaning to do. With more on the way, I&#39;m sure.
+But! I&#39;m trying to get better about &quot;finishing&quot; things (or at least getting them &quot;out there&quot;) so here we are.
+It&#39;s ready, it&#39;s fine, it&#39;s good. Ship it.</p>
+<p>That&#39;s it! Here&#39;s <a href="https://github.com/richtaur/mdk">mdk on GitHub</a>. If you want to be able to use its features, check out the <a href="https://github.com/richtaur/mdk/blob/main/README.md">README.md</a> file to get started.</p>
+<p>I even fixed it on Windows! (oops)</p>
+
+	</div>
+
+	<div class="footer">
+		<span class="date">Jul 9, 2026</span>
+		<ul class="share">
+			<li><a class="in" href="http://www.linkedin.com/shareArticle?url=http://www.richtaur.com/post/mdk/&title=Matt&#x27;s Development Kit (mdk)&source=http://www.richtaur.com/&mini=true">linkedin</a></li>
+			<li><a class="fb" href="http://www.facebook.com/sharer/sharer.php?u=http://www.richtaur.com/post/mdk/&title=Matt&#x27;s Development Kit (mdk)">Facebook</a></li>
+			<li><a class="tw" href="http://twitter.com/intent/tweet?status=Matt&#x27;s Development Kit (mdk)+http://www.richtaur.com/post/mdk/">Twitter</a></li>
+		</ul>
+	</div>
+
+	<h3>More here:</h3>
+	<div class="list-items">
+
+			<div class="list-item">
+			
+			
+				<h2><a href="/post/web-dev-in-2024">How has web dev changed in the last decade?</a></h2>
+			
+				<div>
+					Let's discuss what's new in the web dev world since the 2010s.
+				</div>
+			</div>
+	</div><!-- .list-items -->
+
+</div><!-- .post -->
+
+		</div><!-- #contents -->
+
+		<div id="footer">
+			<div>
+
+				<h2>Buy My Book</h2>
+				<a class="cta" href="https://www.valadria.com/how-to-make-a-video-game-all-by-yourself/"><img alt="How to Make a Video Game All By Yourself" src="/media/images/post/how-to-make-a-video-game-all-by-yourself/title.png"></a>
+
+				<h2>More Matt</h2>
+				<ul>
+					<li><a href="/portfolio/">Portfolio</a></li>
+					<li><a href="https://www.valadria.com/make-the-game/">Podcast</a></li>
+					<li><a href="https://www.valadria.com/">Company</a></li>
+					<li><a href="https://www.gamedeveloper.com/author/matt-hackett">Game Developer articles</a></li>
+					<li><a href="https://github.com/richtaur">GitHub projects</a></li>
+					<li>Oldschool demos: <a href="/demos/bats">bats</a>, <a href="/demos/QBASIC">QBASIC</a>, <a href="/demos/spacius">Spacius!</a></li>
+					<li><a href="https://twitter.com/richtaur">@richtaur</a></li>
+					<li><a href="/rss.xml">RSS</a></li>
+				</ul>
+
+				<h2>Designs by Year</h2>
+				<ul>
+					<li><a href="/2018/">2018: Worse Blog</a></li>
+					<li><a href="/2017/">2017: Blog</a></li>
+					<li><a href="/2016/">2016: Hire Me</a></li>
+					<li><a href="/2013/">2013: Domain Squatter</a></li>
+					<li><a href="/2010/">2010: Retro Modules</a></li>
+				</ul>
+
+				<p>
+					v7.2.0 &copy; Matt Hackett 2026
+				</p>
+			</div>
+		</div><!-- /footer -->
+
+		<script src="/richtaur.js"></script>
+	</body>
+</html>

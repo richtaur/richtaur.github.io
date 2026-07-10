@@ -3,12 +3,21 @@
 	<title>richtaur</title>
 	<link href="http://www.richtaur.com/rss.xml" rel="self"/>
 	<link href="http://www.richtaur.com/"/>
-	<updated>2025-11-14T22:27:19-08:00</updated>
+	<updated>2026-07-10T09:39:21-07:00</updated>
 	<id>http://www.richtaur.com/</id>
 	<author>
 		<name>Matt Hackett</name>
 		<email>richtaur@gmail.com</email>
 	</author>
+		<entry>
+			<title>Matt&#x27;s Development Kit (mdk)</title>
+			<link href="http://www.richtaur.com/post/mdk"/>
+			<updated>2026-07-09T17:00:00-07:00</updated>
+			<id>http://www.richtaur.com/post/mdk</id>
+			<content type="html">
+				Let me tell you about my development kit, because it&#x27;s super useful.
+			</content>
+		</entry>
 		<entry>
 			<title>How has web dev changed in the last decade?</title>
 			<link href="http://www.richtaur.com/post/web-dev-in-2024"/>
